@@ -194,6 +194,7 @@
   transform: rotate(45deg);
   -webkit-animation: 3s arrow infinite ease;
   animation: 3s arrow infinite ease; }
+
 @-webkit-keyframes arrow {
   0%, 100% {
     top: 50px; }

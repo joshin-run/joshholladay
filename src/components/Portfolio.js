@@ -12,73 +12,73 @@ class Portfolio extends Component {
           <div class="box-container">
             <img className="box" src={box} alt="box" />
             <div className="overlay">
-              <div className="text">Hello World</div>
+              <div className="text">Project Details</div>
             </div>
           </div>
           <div class="box-container">
             <img className="box" src={box} alt="box" />
             <div className="overlay">
-              <div className="text">Hello World</div>
+              <div className="text">Project Details</div>
             </div>
           </div>
           <div class="box-container">
             <img className="box" src={box} alt="box" />
             <div className="overlay">
-              <div className="text">Hello World</div>
+              <div className="text">Project Details</div>
             </div>
           </div>
           <div class="box-container">
             <img className="box" src={box} alt="box" />
             <div className="overlay">
-              <div className="text">Hello World</div>
+              <div className="text">Project Details</div>
             </div>
           </div>
           <div class="box-container">
             <img className="box" src={box} alt="box" />
             <div className="overlay">
-              <div className="text">Hello World</div>
+              <div className="text">Project Details</div>
             </div>
           </div>
           <div class="box-container">
             <img className="box" src={box} alt="box" />
             <div className="overlay">
-              <div className="text">Hello World</div>
+              <div className="text">Project Details</div>
             </div>
           </div>
           <div class="box-container">
             <img className="box" src={box} alt="box" />
             <div className="overlay">
-              <div className="text">Hello World</div>
+              <div className="text">Project Details</div>
             </div>
           </div>
           <div class="box-container">
             <img className="box" src={box} alt="box" />
             <div className="overlay">
-              <div className="text">Hello World</div>
+              <div className="text">Project Details</div>
             </div>
           </div>
           <div class="box-container">
             <img className="box" src={box} alt="box" />
             <div className="overlay">
-              <div className="text">Hello World</div>
+              <div className="text">Project Details</div>
             </div>
           </div>
           <div class="box-container">
             <img className="box" src={box} alt="box" />
             <div className="overlay">
-              <div className="text">Hello World</div>
+              <div className="text">Project Details</div>
             </div>
           </div>
           <div class="box-container">
             <img className="box" src={box} alt="box" />
             <div className="overlay">
-              <div className="text">Hello World</div>
+              <div className="text">Project Details</div>
             </div>
           </div>
           <div class="box-container">
             <img className="box" src={box} alt="box" />
             <div className="overlay">
-              <div className="text">Hello World</div>
+              <div className="text">Project Details</div>
             </div>
           </div>
         </div>

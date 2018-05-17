@@ -8,17 +8,11 @@ class Footer extends Component {
     return (
       <div id="contact-us" className="footer-wrapper">
         <div className="footer-container">
-          <div className="logo-container">
-            <a href="#home"><img className="footer-logo"  src="http://res.cloudinary.com/jahmsc/image/upload/v1519680052/tri-j-logo-onWhite_gajmuc.png" alt="jh-logo" /></a>
-          </div>
+
           <div className="media-links">
             <ul>
               <li className="media-menu">
                 <p className="copy">Handcrafted with &#10084; in Utah.</p>
-              </li>
-              <li className="media-menu dot">•</li>
-              <li className="media-menu">
-                <p className="copy">J Create It, LLC.</p>
               </li>
               <li className="media-menu dot">•</li>
               <li className="media-menu">

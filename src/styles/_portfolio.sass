@@ -1,0 +1,71 @@
+.portfolio-wrapper
+  display: flex
+  flex-flow: column wrap
+  justify-content: center
+  align-items: center
+  // min-height: 100vh
+  height: 100%
+  width: 100vw
+  background: #fff
+  padding: 0 10px
+  padding-bottom: 107px
+  // line-height: 0
+
+.section-title
+  margin: 30px 10px
+  font-family: 'Kaushan Script Regular', sans-serif
+  font-size: 2em
+  color: #0000ff
+
+.portfolio-container
+  display: flex
+  flex-flow: row wrap
+  justify-content: center
+  align-items: center
+
+.box
+  height: 300px
+  width: auto
+  padding: 0
+  margin: 0
+  // display: block
+
+.overlay
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  height: 100%
+  width: 100%
+  opacity: 0
+  transition: .2s ease
+  background-color: black
+
+.box-container
+  position: relative
+  // width: 50%
+  height: 300px
+  width: 300px
+
+.box-container:hover .overlay
+  opacity: .7
+
+
+.text
+  color: white
+  font-size: 20px
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+  text-align: center
+
+@media only screen and (min-width: 768px)
+
+  .portfolio-wrapper
+    padding-bottom: 192px
+  .section-title
+    margin: 50px 10px
+    font-size: 4em

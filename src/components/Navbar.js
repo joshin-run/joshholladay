@@ -9,6 +9,7 @@ class Navbar extends Component {
             <li id="resume-link" className="nav-menu">
             <a href="https://drive.google.com/open?id=1vBKVvH1Lz7LWh3XlOVjFm0bcjGxhVRlS" target="_blank">RESUME</a>
           </li>
+          <li className="nav-menu"><a href="mailto:me@joshholladay.com" target="_top">CONTACT</a></li>
         </ul>
       </div>
     );

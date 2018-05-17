@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.7608ffed.css",
-  "main.css.map": "static/css/main.7608ffed.css.map",
-  "main.js": "static/js/main.7556e6d7.js",
-  "main.js.map": "static/js/main.7556e6d7.js.map",
+  "main.css": "static/css/main.6873d34a.css",
+  "main.css.map": "static/css/main.6873d34a.css.map",
+  "main.js": "static/js/main.9362f999.js",
+  "main.js.map": "static/js/main.9362f999.js.map",
   "static/media/Agent_Mac.ttf": "static/media/Agent_Mac.195be07c.ttf",
   "static/media/Azedo-Bold.otf": "static/media/Azedo-Bold.0980a328.otf",
   "static/media/Azedo-Light.otf": "static/media/Azedo-Light.99e9f3ed.otf",
@@ -41,5 +41,13 @@
   "static/media/PollerOne.ttf": "static/media/PollerOne.8ea669f0.ttf",
   "static/media/SueEllenFrancisco.ttf": "static/media/SueEllenFrancisco.44987934.ttf",
   "static/media/banner.png": "static/media/banner.4710be5a.png",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "static/media/behance-bl.svg": "static/media/behance-bl.6be1f3b5.svg",
+  "static/media/box.png": "static/media/box.c2e9d1eb.png",
+  "static/media/dribbble-bl.svg": "static/media/dribbble-bl.10214582.svg",
+  "static/media/email-bl.svg": "static/media/email-bl.e2b88dc3.svg",
+  "static/media/github-bl.svg": "static/media/github-bl.478d3d81.svg",
+  "static/media/linkedin-bl.svg": "static/media/linkedin-bl.cb5653ac.svg",
+  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg",
+  "static/media/twitter-bl.svg": "static/media/twitter-bl.9b2bfec0.svg",
+  "static/media/wordpress-bl.svg": "static/media/wordpress-bl.247668e9.svg"
 }

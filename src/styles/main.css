@@ -1,0 +1,35 @@
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.row {
+  flex-direction: row; }
+
+.column {
+  flex-direction: column; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #fff; }
+
+.App {
+  text-align: center; }
+
+.App-header {
+  background-color: #0000ff;
+  height: 100vh;
+  width: 100vw;
+  color: #fff; }
+
+.App-title {
+  font-size: 3.5em;
+  padding: 0;
+  margin: 0; }
+
+.App-intro {
+  font-size: 1.5em; }
+
+/*# sourceMappingURL=main.css.map */

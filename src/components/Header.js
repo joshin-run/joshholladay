@@ -16,7 +16,9 @@ class Header extends Component {
             <p className="intro">
               I code too.
             </p>
-            <div className="arrow-down"></div>
+            <div className="arrow-container">
+              <div className="arrow-down"></div>
+            </div>
           </div>
         </header>
       </div>

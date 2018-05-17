@@ -160,19 +160,14 @@
   background: none;
   height: 100%; }
 
-@media only screen and (min-width: 768px) {
-  .title {
-    font-size: 6em;
-    padding: 0;
-    margin: 10px 0; }
+.arrow-container {
+  content: "";
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap; }
 
-  .title span {
-    font-family: "Kaushan Script Regular", sans-serif; }
-
-  .intro {
-    font-size: 2.5em;
-    line-height: 1.5;
-    font-family: Oswald Light, sans-serif; } }
 .arrow-down {
   width: 100%;
   margin: 0 auto;
@@ -188,8 +183,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-right: 4px solid #fff;
-  border-bottom: 4px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   -webkit-animation: 3s arrow infinite ease;
@@ -205,6 +200,19 @@
     top: 50px; }
   50% {
     top: 80px; } }
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 6em;
+    padding: 0;
+    margin: 10px 0; }
+
+  .title span {
+    font-family: "Kaushan Script Regular", sans-serif; }
+
+  .intro {
+    font-size: 2.5em;
+    line-height: 1.5;
+    font-family: Oswald Light, sans-serif; } }
 .navbar {
   height: 30px;
   width: 100vw;

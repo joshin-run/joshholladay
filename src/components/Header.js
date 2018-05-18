@@ -4,7 +4,7 @@ import Navbar from './Navbar.js';
 class Header extends Component {
   render() {
     return (
-      <div className="header-wrapper">
+      <div id="home" className="header-wrapper">
         <header className="header column">
           <Navbar />
           <div className="banner">

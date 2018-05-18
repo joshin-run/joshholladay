@@ -12,7 +12,7 @@ import crypto from '../assets/images/portfolio/cryptoelevation.png'
 class Portfolio extends Component {
   render() {
     return (
-      <div className="portfolio-wrapper">
+      <div id="portfolio" className="portfolio-wrapper">
         <p className="section-title">
           Portfolio of My Work
         </p>

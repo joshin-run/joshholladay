@@ -353,7 +353,11 @@ body {
   align-items: flex-start;
   margin: 18px 30px;
   color: #fff;
-  position: absolute; }
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
 
 .overlay-title {
   font-family: Open Sans, sans-serif;
@@ -386,6 +390,16 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1; }
+
+.overlay-description + a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end; }
 
 .line {
   margin: 16px 0 16px 0;

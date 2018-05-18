@@ -93,7 +93,101 @@ class Portfolio extends Component {
               </div>
             </div>
           </div>
-
+          <div class="box-container">
+            <img className="box" src={crypto} alt="box" />
+            <div className="overlay">
+              <div className="overlay-text-container">
+                <p className="overlay-title">
+                  Crypto Elevation
+                </p>
+                <div className="line"></div>
+                <p className="overlay-description">
+                  Principle front-end development and design for a cryptocurrency startup. Also completed a dashboard for their member base.
+                </p>
+                <a href="https://www.behance.net/gallery/62567607/Crypto-Elevation">
+                  <p className="overlay-next">
+                    VIEW PROJECT<span> ➔</span>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="box-container">
+            <img className="box" src={lowder} alt="box" />
+            <div className="overlay">
+              <div className="overlay-text-container">
+                <p className="overlay-title">
+                  Lowder Music
+                </p>
+                <div className="line"></div>
+                <p className="overlay-description">
+                  Isaac Lowder teaches all things music in Utah. He came to me seeking a logo and a business card. This is what I served up.
+                </p>
+                <a href="https://www.behance.net/gallery/64279585/Lowder-Music-Isaac-Lowder-Designs">
+                  <p className="overlay-next">
+                    VIEW PROJECT<span> ➔</span>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="box-container">
+            <img className="box" src={coinless} alt="box" />
+            <div className="overlay">
+              <div className="overlay-text-container">
+                <p className="overlay-title">
+                  Coinless Payments
+                </p>
+                <div className="line"></div>
+                <p className="overlay-description">
+                  A WordPress site for those self-serve carwash owners who want to offer a
+                </p>
+                <a href="https://www.behance.net/gallery/64286079/Coinless-LandingPage-WordPress">
+                  <p className="overlay-next">
+                    VIEW PROJECT<span> ➔</span>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="box-container">
+            <img className="box" src={upss} alt="box" />
+            <div className="overlay">
+              <div className="overlay-text-container">
+                <p className="overlay-title">
+                  UPSS
+                </p>
+                <div className="line"></div>
+                <p className="overlay-description">
+                  Utah Plastic Surgery Society needed a site refresh and ReactJS was the answer. I came up with the logo and the entire UI concept.
+                </p>
+                <a href="https://www.behance.net/gallery/62594949/Utah-Plastic-Surgery-Society">
+                  <p className="overlay-next">
+                    VIEW PROJECT<span> ➔</span>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="box-container">
+            <img className="box" src={emergent} alt="box" />
+            <div className="overlay">
+              <div className="overlay-text-container">
+                <p className="overlay-title">
+                  Emergent Solutions
+                </p>
+                <div className="line"></div>
+                <p className="overlay-description">
+                  Reza was scheduled to speak at the Silicon Slopes back in April 2018. He asked me to create the digital signage for him.
+                </p>
+                <a  href="https://www.behance.net/gallery/64276721/Emergent-Solutions-Presentation-Graphic">
+                  <p className="overlay-next">
+                    VIEW PROJECT<span> ➔</span>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );

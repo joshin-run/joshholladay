@@ -40,8 +40,8 @@
   height: 100%
   width: 100%
   opacity: 0
-  transition: .2s ease
-  background-color: black
+  transition: all .2s ease
+  background-color: transparent
 
 .box-container
   // margin: 10px
@@ -52,8 +52,25 @@
   // box-shadow: 0px 0px 15px rgba(0,0,0,0.2)
 
 .box-container:hover .overlay
-  opacity: .7
+  opacity: 1
+  z-index: 1
 
+.box-container .overlay:after
+  opacity: 0
+  transition: opacity .2s ease
+  webkit-transition: opacity .2s ease
+
+.box-container:hover .overlay:after
+  opacity: 1
+  content: ""
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  background-color: rgba(0,0,0,.75)
+  z-index: -1
+  // background-blend-mode: multiply
 
 .text
   color: white

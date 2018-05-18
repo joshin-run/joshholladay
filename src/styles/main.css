@@ -131,7 +131,7 @@
   font-family: "Sue Ellen Francisco";
   src: url(../assets/fonts/SueEllenFrancisco.ttf); }
 .header {
-  background: url(../assets/images/banner.png);
+  background: url(../assets/images/banner-min.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -330,11 +330,15 @@ body {
 
 @media only screen and (min-width: 768px) {
   .portfolio-wrapper {
-    padding-bottom: 192px; }
+    padding-bottom: 170px;
+    padding-top: 100px; }
 
   .section-title {
     margin: 50px 10px;
-    font-size: 4em; } }
+    font-size: 3em; } }
+.media-wrapper {
+  margin: 20px 0 0 0; }
+
 .media-container {
   display: flex;
   flex-direction: row;
@@ -344,8 +348,7 @@ body {
 
 .media-menu {
   display: inline-block;
-  font-family: "Montserrat";
-  margin: 0px 4px;
+  font-family: Oswald Light, sans-serif;
   /*border: 3px solid #fff */
   transition: all 0.2s ease 0s;
   cursor: pointer; }
@@ -393,7 +396,8 @@ ul {
   margin: 0 12px; }
 
 .footer-wrapper {
-  background-color: #ecf5ff; }
+  background-color: #ecf5ff;
+  padding: 40px 0; }
 
 .footer-container {
   display: flex;
@@ -403,21 +407,31 @@ ul {
   /*padding: 5em 5em */
   height: auto;
   color: #4C4FFF;
-  margin: 0px;
-  padding: 77px 70px 70px 70px;
-  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4); }
+  margin: 0px; }
+
+ul.media-menu-text {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
 
 .footer-logo {
   height: 50px;
   width: auto;
   margin-bottom: 20px; }
 
+p.copy {
+  margin: 0; }
+
 .copy {
-  font-family: "Montserrat Light";
-  color: #4A77FF;
+  font-family: "Kaushan Script Regular", sans-serif;
+  color: #47A7FF;
   text-align: center;
-  margin-bottom: 25px;
-  font-size: 0.65em; }
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5; }
 
 .logo-container {
   padding: 0;
@@ -428,15 +442,28 @@ ul {
   width: 100vw;
   background-image: linear-gradient(to right, rgba(23, 181, 255, 0.8), rgba(0, 0, 255, 0.7)); }
 
-@media only screen and (min-width: 768px) {
-  .copy {
-    font-size: 0.75em; }
+.copy-second {
+  display: none; }
 
-  .media-links ul li .dot {
-    display: block; } }
-@media only screen and (max-width: 787px) {
-  .dot {
-    color: #ecf5ff; } }
+@media only screen and (min-width: 768px) {
+  ul.media-menu-text {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+
+  .copy {
+    font-size: 1em; }
+
+  .love {
+    margin: 0 20px; }
+
+  .copy-first {
+    display: none; }
+
+  .copy-second {
+    display: flex; } }
 .contact-wrapper {
   background: linear-gradient(to right, rgba(23, 181, 255, 0.8), rgba(0, 0, 255, 0.7));
   display: flex;

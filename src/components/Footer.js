@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 // import logo from '../images/tri-j-logo-mid2j.png'
 import Media from './Media'
-import BottomBorder from './BottomBorder'
 
 class Footer extends Component {
   render() {
@@ -10,20 +9,20 @@ class Footer extends Component {
         <div className="footer-container">
 
           <div className="media-links">
-            <ul>
+            <ul className="media-menu-text">
               <li className="media-menu">
-                <p className="copy">Handcrafted with &#10084; in Utah.</p>
+                <p className="copy copy-first">Copyright 2018. All rights reserved.</p>
               </li>
-              <li className="media-menu dot">•</li>
               <li className="media-menu">
-                <p className="copy">Copyright 2018. All rights reserved.</p>
+                <p className="copy copy-first">Handcrafted with &#10084; in Utah.</p>
               </li>
-
+              <li className="media-menu">
+                <p className="copy copy-second">Handcrafted with &#10084; in Utah. All rights reserved.</p>
+              </li>
             </ul>
           </div>
           <Media />
         </div>
-        <BottomBorder />
       </div>
     );
   }

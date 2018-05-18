@@ -612,8 +612,8 @@ p.copy {
   display: inline-block;
   text-align: center;
   border-radius: 50px;
-  color: #0000ff;
-  font-family: Oswald Light, sans-serif;
+  color: #47a7ff;
+  font-family: Oswald, sans-serif;
   font-weight: 500;
   font-size: 1em;
   letter-spacing: 1px;
@@ -641,7 +641,7 @@ p.copy {
   text-align: center;
   border-radius: 50px;
   color: #fff;
-  font-family: Oswald Light, sans-serif;
+  font-family: Oswald, sans-serif;
   font-weight: 500;
   font-size: 1em;
   letter-spacing: 1px;

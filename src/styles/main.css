@@ -150,7 +150,8 @@
 .intro {
   font-size: 1.75em;
   line-height: 1.5;
-  font-family: Oswald Light, sans-serif; }
+  font-family: Oswald Light, sans-serif;
+  color: #fff; }
 
 .banner {
   display: flex;
@@ -311,6 +312,7 @@ body {
   background-color: black; }
 
 .box-container {
+  margin: 10px;
   position: relative;
   height: 300px;
   width: 300px; }
@@ -335,7 +337,10 @@ body {
 
   .section-title {
     margin: 50px 10px;
-    font-size: 3em; } }
+    font-size: 3em; }
+
+  .portfolio-container {
+    max-width: 1000px; } }
 .media-wrapper {
   margin: 20px 0 0 0; }
 

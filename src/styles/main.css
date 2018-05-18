@@ -395,6 +395,9 @@ ul {
   width: auto;
   margin: 0 12px; }
 
+@media only screen and (min-width: 768px) {
+  .media-wrapper {
+    margin: 10px 0 10px 10px; } }
 .footer-wrapper {
   background-color: #ecf5ff;
   padding: 40px 0; }
@@ -431,7 +434,7 @@ p.copy {
   font-size: 1em;
   margin: 0;
   padding: 0;
-  line-height: 1.5; }
+  line-height: 1.5ds; }
 
 .logo-container {
   padding: 0;
@@ -456,14 +459,21 @@ p.copy {
   .copy {
     font-size: 1em; }
 
-  .love {
-    margin: 0 20px; }
-
   .copy-first {
     display: none; }
 
   .copy-second {
-    display: flex; } }
+    display: flex; }
+
+  .footer-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 20px; }
+
+  .footer-wrapper {
+    padding: 0; } }
 .contact-wrapper {
   background: linear-gradient(to right, rgba(23, 181, 255, 0.8), rgba(0, 0, 255, 0.7));
   display: flex;
@@ -484,26 +494,28 @@ p.copy {
   align-items: center; }
 
 .contact_header {
-  font-size: 2.25em;
-  font-family: "Montserrat Bold", sans-serif;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 10px;
-  color: #fff; }
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Kaushan Script Regular", sans-serif;
+  font-size: 2em; }
 
 .contact_header-sub {
   text-align: center;
-  font-family: "Montserrat Light", sans-serif;
-  font-size: 1.45em;
   margin-bottom: 30px;
-  color: #fff; }
+  color: #fff;
+  font-size: 1.65em;
+  line-height: 1;
+  font-family: Oswald Light, sans-serif; }
 
 .contact_content {
   text-align: center;
-  font-family: "Montserrat Light", sans-serif;
-  font-size: 0.9em;
-  margin-bottom: 5px;
-  color: #E3ECF6; }
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 1.25em;
+  line-height: 1;
+  font-family: Oswald Light, sans-serif; }
 
 .button {
   width: 175px;
@@ -530,14 +542,14 @@ p.copy {
 .button-email {
   width: 175px;
   height: 44px;
-  background: #ffae19;
+  background: white;
   display: inline-block;
   text-align: center;
   border-radius: 50px;
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
+  color: #0000ff;
+  font-family: Oswald Light, sans-serif;
   font-weight: 500;
-  font-size: 0.7em;
+  font-size: 1em;
   letter-spacing: 1px;
   margin: 30px 7px 7px 7px;
   transition: all 0.2s ease-in-out;
@@ -546,7 +558,7 @@ p.copy {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2); }
 
 .button-email:hover {
-  background: #ffa500; }
+  background: #E3ECF6; }
 
 .buttons-container-contact {
   display: flex;
@@ -563,9 +575,9 @@ p.copy {
   text-align: center;
   border-radius: 50px;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: Oswald Light, sans-serif;
   font-weight: 500;
-  font-size: 0.7em;
+  font-size: 1em;
   letter-spacing: 1px;
   margin: 7px;
   transition: all 0.2s ease-in-out;
@@ -584,5 +596,11 @@ p.copy {
 @media only screen and (min-width: 414px) {
   .contact-wrapper {
     padding: 100px 70px; } }
+@media only screen and (min-width: 414px) {
+  .contact_header {
+    font-size: 3em; }
+
+  .contact_header-sub {
+    font-size: 1.65em; } }
 
 /*# sourceMappingURL=main.css.map */

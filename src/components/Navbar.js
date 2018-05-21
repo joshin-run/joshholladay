@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import dotLogoWhite from '../assets/images/dot-spin-logos/dot-spin-j-logo-white.png'
 
 class Navbar extends Component {
   render() {
@@ -12,6 +13,7 @@ class Navbar extends Component {
           </li>
           <li className="nav-menu"><a href="#contact">CONTACT</a></li>
         </ul>
+        <img className="dotLogo" src={dotLogoWhite} alt="logo" />
       </div>
     );
   }

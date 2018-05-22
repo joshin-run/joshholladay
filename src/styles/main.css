@@ -1,20 +1,36 @@
-.content-wrapper {
-  min-height: 50vh;
-  width: 100vw; }
-
-.content-header {
+.content-banner {
   height: 400px;
   width: 100vw;
   background-image: url(../assets/images/banners/about-banner.png); }
 
 .content-wrapper {
-  max-width: 1000px;
+  min-height: 50vh;
+  width: 100vw;
   margin: 0 auto;
-  padding: 40px;
-  font-size: 1em;
-  font-family: Open Sans, sans-serif;
-  color: #5c5353; }
+  padding: 60px 40px; }
 
+.content-header {
+  color: #0000ff;
+  font-family: "Kaushan Script Regular", sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 20px; }
+
+.content {
+  font-size: 1.5em;
+  font-family: Quicksand Light, sans-serif;
+  color: #828286;
+  line-height: 1.8; }
+
+@media only screen and (min-width: 768px) {
+  .content-wrapper {
+    max-width: 550px; }
+
+  .content-header {
+    font-size: 3em; } }
+@media only screen and (min-width: 1280px) {
+  .content-wrapper {
+    max-width: 1000px;
+    padding: 100px 40px; } }
 .flex {
   display: flex; }
 
@@ -35,6 +51,18 @@
 .all-caps {
   text-transform: capitalize; }
 
+@font-face {
+  font-family: "Quicksand Light";
+  src: url(../assets/fonts/Quicksand/Quicksand-Light.ttf); }
+@font-face {
+  font-family: "Quicksand";
+  src: url(../assets/fonts/Quicksand/Quicksand-Regular.ttf); }
+@font-face {
+  font-family: "Quicksand Medium";
+  src: url(../assets/fonts/Quicksand/Quicksand-Medium.ttf); }
+@font-face {
+  font-family: "Quicksand Bold";
+  src: url(../assets/fonts/Quicksand/Quicksand-Bold.ttf); }
 @font-face {
   font-family: "Oswald Extra Light";
   src: url(../assets/fonts/Oswald-ExtraLight.ttf); }
@@ -117,8 +145,20 @@
   font-family: "Julius Sans One";
   src: url(../assets/fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf); }
 @font-face {
+  font-family: "Open Sans Light";
+  src: url(../assets/fonts/Open_Sans/OpenSans-Light.ttf); }
+@font-face {
   font-family: "Open Sans";
   src: url(../assets/fonts/Open_Sans/OpenSans-Regular.ttf); }
+@font-face {
+  font-family: "Open Sans Semi Bold";
+  src: url(../assets/fonts/Open_Sans/OpenSans-SemiBold.ttf); }
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url(../assets/fonts/Open_Sans/OpenSans-Bold.ttf); }
+@font-face {
+  font-family: "Open Sans Extra Bold";
+  src: url(../assets/fonts/Open_Sans/OpenSans-ExtraBold.ttf); }
 @font-face {
   font-family: "Josefin Sans";
   src: url(../assets/fonts/Josefin_Sans/JosefinSans-Regular.ttf); }
@@ -165,9 +205,9 @@
   font-family: "Kaushan Script Regular", sans-serif; }
 
 .intro {
-  font-size: 1.75em;
+  font-size: 1.25em;
   line-height: 1.5;
-  font-family: Open Sans, sans-serif;
+  font-family: Quicksand Light, sans-serif;
   color: #fff; }
 
 .banner {
@@ -229,8 +269,7 @@
 
   .intro {
     font-size: 2.5em;
-    line-height: 1.5;
-    font-family: Oswald Light, sans-serif; } }
+    line-height: 1.5; } }
 .navbar {
   display: flex;
   flex-flow: row nowrap;
@@ -246,8 +285,7 @@
   flex-flow: row nowrap;
   justify-content: flex-end;
   align-items: center;
-  font-size: 0.75em;
-  font-family: Open Sans, sans-serif; }
+  font-size: 0.75em; }
 
 .dotLogo {
   height: 50px;
@@ -259,8 +297,8 @@
 
 .nav-menu {
   position: relative;
-  font-size: 0.95em;
-  font-family: Oswald, sans-serif;
+  font-size: 0.85em;
+  font-family: Quicksand Bold, sans-serif;
   padding: 0 12px;
   /*border: 3px solid #fff */
   transition: all 0.2s ease 0s;
@@ -320,7 +358,7 @@ body {
 .section-title {
   margin: 30px 10px;
   font-family: "Kaushan Script Regular", sans-serif;
-  font-size: 2em;
+  font-size: 2.5em;
   color: #0000ff; }
 
 .portfolio-container {
@@ -369,7 +407,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.85);
   z-index: -1; }
 
 .text {
@@ -396,17 +434,17 @@ body {
   left: 0; }
 
 .overlay-title {
-  font-family: Open Sans, sans-serif;
+  font-family: Quicksand, sans-serif;
   font-size: 1.5em; }
 
 .overlay-description {
-  font-family: Open Sans, sans-serif;
+  font-family: Quicksand Light, sans-serif;
   font-size: 1em;
   margin-bottom: 10px;
   color: lightblue; }
 
 .overlay-next {
-  font-family: Open Sans, sans-serif;
+  font-family: Quicksand Light, sans-serif;
   font-size: 1em;
   color: white; }
 
@@ -623,14 +661,14 @@ p.copy {
   color: #fff;
   font-size: 1.65em;
   line-height: 1;
-  font-family: Oswald Light, sans-serif; }
+  font-family: Quicksand, sans-serif; }
 
 .contact_content {
   text-align: center;
   color: #fff;
   font-size: 1.25em;
   line-height: 1.2;
-  font-family: Oswald Light, sans-serif; }
+  font-family: Quicksand Light, sans-serif; }
 
 .button {
   width: 175px;
@@ -641,7 +679,7 @@ p.copy {
   text-align: center;
   border-radius: 50px;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: Quicksand Light, sans-serif;
   font-weight: 500;
   font-size: 0.7em;
   letter-spacing: 1px;
@@ -662,7 +700,7 @@ p.copy {
   text-align: center;
   border-radius: 50px;
   color: #47a7ff;
-  font-family: Oswald, sans-serif;
+  font-family: Quicksand Medium, sans-serif;
   font-weight: 500;
   font-size: 1em;
   letter-spacing: 1px;
@@ -690,7 +728,7 @@ p.copy {
   text-align: center;
   border-radius: 50px;
   color: #fff;
-  font-family: Oswald, sans-serif;
+  font-family: Quicksand Medium, sans-serif;
   font-weight: 500;
   font-size: 1em;
   letter-spacing: 1px;

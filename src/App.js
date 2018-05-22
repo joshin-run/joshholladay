@@ -5,6 +5,8 @@ import Header from './components/Header.js';
 import Portfolio from './components/Portfolio.js';
 import Contact from './components/Contact.js';
 import Footer from './components/Footer.js';
+import { Switch, Route } from 'react-router-dom';
+import About from './components/About';
 
 class App extends Component {
   render() {
@@ -21,3 +23,7 @@ class App extends Component {
 
 export default App;
 // <img src={logo} className="App-logo" alt="logo" />
+
+// <Switch>
+// <Route path="/about" component={About} />
+// </Switch>

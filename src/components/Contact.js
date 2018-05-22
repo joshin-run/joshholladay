@@ -1,19 +1,23 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
 import Navbar from './Navbar'
-import contactBanner from '../assets/images/banners/contact-banner2.png'
+// import contactBanner from '../assets/images/banners/contact-banner2.png'
 
 const Contact = (props) => (
 
     <Router>
       <div id="contact">
         <Navbar />
-        <img src={contactBanner} alt="Contact Banner" />
+        <div className="contactBanner">
+          <p className="banner-header">
+            Connect with Me
+          </p>
+        </div>
 
         <div className="content-wrapper">
-          <div className="content-header">Contact</div>
+
           <div className="content">
-            <p className="">Tell me about your next big thing.</p>
+            <p id="big-thing">Tell me about your next big thing.</p>
             <p className="">I'm currently accepting new projects and would love to hear all about yours. </p>
             <p className="">Send me an email or take a look at more of my creative work.</p>
             <div className="buttons-container-contact">

@@ -14,6 +14,12 @@
   font-size: 2.5em;
   margin-bottom: 20px; }
 
+.banner-header {
+  color: #fff;
+  font-family: "Kaushan Script Regular", sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 20px; }
+
 .content {
   font-size: 1.5em;
   font-family: Quicksand Light, sans-serif;
@@ -304,7 +310,7 @@
   color: #0000ff; }
 
 .nav-menu:hover {
-  color: #4e4eff; }
+  color: #47a7ff; }
 
 .mobile-menu-icon {
   height: 36px;
@@ -351,8 +357,7 @@ body {
   height: 100%;
   width: 100vw;
   background: #fff;
-  padding: 0 10px;
-  padding-bottom: 107px; }
+  padding: 107px 10px; }
 
 .section-title {
   margin: 30px 10px;
@@ -365,6 +370,13 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center; }
+
+.portfolio-container2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0; }
 
 .box {
   height: 300px;
@@ -638,6 +650,10 @@ p.copy {
   width: 100vw;
   padding: 70px; }
 
+.content #big-thing {
+  font-family: Quicksand Medium, sans-serif;
+  margin-bottom: 20px; }
+
 .contact_header_container {
   width: auto;
   height: auto;
@@ -754,5 +770,31 @@ p.copy {
 
   .contact_header-sub {
     font-size: 1.65em; } }
+.contactBanner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/images/banners/contact-banner-dark.png);
+  height: 400px;
+  width: 100vw; }
+
+.portfolioBanner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/images/banners/portfolio-banner.png);
+  height: 400px;
+  width: 100vw; }
+
+.aboutBanner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/images/banners/about-banner-dark.png);
+  height: 400px;
+  width: 100vw; }
 
 /*# sourceMappingURL=main.css.map */

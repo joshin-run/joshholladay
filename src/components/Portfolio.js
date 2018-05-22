@@ -14,7 +14,7 @@ class Portfolio extends Component {
     return (
       <div id="portfolio" className="portfolio-wrapper">
         <p className="section-title">
-          Portfolio of My Work
+          Portfolio
         </p>
         <div className="portfolio-container">
           <div class="box-container">

@@ -6,6 +6,7 @@ import { HashRouter, Route } from 'react-router-dom';
 import About from './components/About';
 import Home from './components/Home';
 import Contact from './components/Contact';
+import PortfolioPage from './components/PortfolioPage';
 
 class App extends Component {
   render() {
@@ -15,8 +16,9 @@ class App extends Component {
         <div>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
+          <Route path="/portfolio" component={PortfolioPage} />
           <Route path="/contact" component={Contact} />
-        </div>  
+        </div>
       </HashRouter>
       <Footer />
       </div>

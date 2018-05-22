@@ -8,10 +8,10 @@ class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
-      <a href="/"><img className="dotLogo" src={dotLogoBlue} alt="logo" /></a>
+      <Link to="/"><img className="dotLogo" src={dotLogoBlue} alt="logo" /></Link>
         <ul className="menu nav-style">
           <li className="nav-menu"><Link to="/about">ABOUT</Link></li>
-          <li className="nav-menu"><Link to="/">PORTFOLIO</Link></li>
+          <li className="nav-menu"><Link to="/portfolio">PORTFOLIO</Link></li>
           <li id="resume-link" className="nav-menu">
             <a href="https://drive.google.com/open?id=1tZn_CTOQy6C7IVsvJYUoTpGm2UA67TUc" target="_blank">RESUME</a>
           </li>

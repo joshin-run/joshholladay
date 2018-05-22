@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
 import Navbar from './Navbar'
-import aboutBanner from '../assets/images/banners/about-banner.png'
+
 
 
 
@@ -13,9 +13,13 @@ const About = (props) => (
     <Router>
       <div id="about">
         <Navbar />
-        <img src={aboutBanner} alt="Contact Banner" />
+        <div className="aboutBanner">
+          <p className="banner-header">
+            A Little About Me
+          </p>
+        </div>
         <div className="content-wrapper">
-          <div className="content-header">A Little About Me</div>
+
           <div className="content">
             <p>Growing up, my grandpa owned a computer repair business. There was always a computer to toy around with around the house. Taking things apart, playing around in the BIOS. I loved typing classes and was 'King of MS Paint.' Ever since I could remember I would format word documents to death, manipulate screenshot images and spend hours deep in pixels. I would create with whatever tools were available. Doodling, drawing, and art classes were all a part of what I loved and I translated that interest into the digital world.</p><br />
 

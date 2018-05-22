@@ -1,7 +1,6 @@
 .content-banner {
   height: 400px;
-  width: 100vw;
-  background-image: url(../assets/images/banners/about-banner.png); }
+  width: 100vw; }
 
 .content-wrapper {
   min-height: 50vh;
@@ -275,7 +274,7 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  height: 56px;
+  height: 66px;
   width: 100vw;
   background: white;
   padding: 3px 10px; }

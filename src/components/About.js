@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { HashRouter as Router, Route, Link } from 'react-router-dom'
 import Navbar from './Navbar'
+import aboutBanner from '../assets/images/banners/about-banner.png'
+
+
+
+
 
 const About = (props) => (
 
@@ -8,7 +13,7 @@ const About = (props) => (
     <Router>
       <div id="about">
         <Navbar />
-        <div className="content-banner"></div>
+        <img src={aboutBanner} alt="Contact Banner" />
         <div className="content-wrapper">
           <div className="content-header">A Little About Me</div>
           <div className="content">

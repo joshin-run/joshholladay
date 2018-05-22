@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 // import { Switch, Route } from 'react-router-dom';
 // import About from './About';
-import dotLogoWhite from '../assets/images/dot-spin-logos/dot-spin-j-logo-white.png'
+import dotLogoBlue from '../assets/images/dot-spin-logos/dot-spin-j-logo-blue2.png'
 import { Link } from 'react-router-dom'
 
 class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
-      <a href="/"><img className="dotLogo" src={dotLogoWhite} alt="logo" /></a>
+      <a href="/"><img className="dotLogo" src={dotLogoBlue} alt="logo" /></a>
         <ul className="menu nav-style">
         <li className="nav-menu"><Link to="/about">ABOUT</Link></li>
 

@@ -1,7 +1,19 @@
-.about-wrapper {
-  background: blue;
-  height: 100vh;
+.content-wrapper {
+  min-height: 50vh;
   width: 100vw; }
+
+.content-header {
+  height: 400px;
+  width: 100vw;
+  background-image: url(../assets/images/banners/about-banner.png); }
+
+.content-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  font-size: 1em;
+  font-family: Open Sans, sans-serif;
+  color: #5c5353; }
 
 .flex {
   display: flex; }
@@ -224,10 +236,9 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 56px;
   width: 100vw;
-  color: #fff;
-  background: rgba(0, 0, 72, 0.9);
+  background: rgba(255, 255, 255, 0.93);
   padding: 3px 10px; }
 
 .menu {
@@ -239,7 +250,7 @@
   font-family: Open Sans, sans-serif; }
 
 .dotLogo {
-  height: 60px;
+  height: 50px;
   width: auto;
   padding: 2px 10px 0 10px; }
 
@@ -249,10 +260,11 @@
 .nav-menu {
   position: relative;
   font-size: 0.95em;
-  font-family: Oswald Bold, sans-serif;
+  font-family: Oswald, sans-serif;
   padding: 0 12px;
   /*border: 3px solid #fff */
-  transition: all 0.2s ease 0s; }
+  transition: all 0.2s ease 0s;
+  color: #0000ff; }
 
 .nav-menu:hover {
   color: #4e4eff; }
@@ -275,12 +287,12 @@ ul {
     font-size: 1em; }
 
   .dotLogo {
-    height: 80px;
+    height: 64px;
     width: auto;
     padding-right: 25px; }
 
   .navbar {
-    height: 90px;
+    height: 76px;
     padding: 3px 20px; }
 
   .nav-menu {
@@ -505,7 +517,7 @@ ul {
     margin: 10px 0 10px 10px; } }
 .footer-wrapper {
   background-color: #ecf5ff;
-  padding: 40px 0; }
+  height: auto; }
 
 .footer-container {
   display: flex;
@@ -513,9 +525,9 @@ ul {
   justify-content: center;
   align-items: center;
   /*padding: 5em 5em */
-  height: auto;
-  color: #4C4FFF;
-  margin: 0px; }
+  margin: 0px;
+  padding: 40px;
+  background-color: #0000ff; }
 
 ul.media-menu-text {
   display: flex;
@@ -534,7 +546,7 @@ p.copy {
 
 .copy {
   font-family: "Kaushan Script Regular", sans-serif;
-  color: #47A7FF;
+  color: #fff;
   text-align: center;
   font-size: 1em;
   margin: 0;
@@ -547,8 +559,7 @@ p.copy {
 
 .bottom-border {
   height: 25px;
-  width: 100vw;
-  background-image: linear-gradient(to right, rgba(23, 181, 255, 0.8), rgba(0, 0, 255, 0.7)); }
+  width: 100vw; }
 
 .copy-second {
   display: none; }

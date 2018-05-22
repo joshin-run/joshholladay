@@ -64,7 +64,7 @@ class Portfolio extends Component {
                 </p>
                 <div className="line"></div>
                 <p className="overlay-description">
-                  I was tasked to create illustrations to demonstrate initual product hookup. Deliverables also included landing page designs.
+                  I was tasked to create illustrations to demonstrate initial product hookup. Deliverables also included landing page designs.
                 </p>
                 <a href="https://www.behance.net/gallery/64284677/PPLfamily-Landing-Page-and-Illustrations?">
                   <p className="overlay-next">
@@ -140,7 +140,7 @@ class Portfolio extends Component {
                 </p>
                 <div className="line"></div>
                 <p className="overlay-description">
-                  A WordPress site for those self-serve carwash owners who want to offer a
+                  A WordPress site for those self-serve carwash owners who want to offer a mobile payment solution. I created custom icons and used my coding skills to manage the responsive design.
                 </p>
                 <a href="https://www.behance.net/gallery/64286079/Coinless-LandingPage-WordPress">
                   <p className="overlay-next">

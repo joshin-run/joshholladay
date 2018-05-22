@@ -8,7 +8,7 @@ class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
-      <a href="/"><img className="dotLogo" src={dotLogoBlue} alt="logo" /></a>
+      <Link to="/"><img className="dotLogo" src={dotLogoBlue} alt="logo" /></Link>
         <ul className="menu nav-style">
         <li className="nav-menu"><Link to="/about">ABOUT</Link></li>
 

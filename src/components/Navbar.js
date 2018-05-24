@@ -13,7 +13,7 @@ class Navbar extends Component {
           <li className="nav-menu"><Link to="/about">ABOUT</Link></li>
           <li className="nav-menu"><Link to="/portfolio">PORTFOLIO</Link></li>
           <li id="resume-link" className="nav-menu">
-            <a href="https://drive.google.com/open?id=1tZn_CTOQy6C7IVsvJYUoTpGm2UA67TUc" target="_blank">RESUME</a>
+            <a href="https://drive.google.com/open?id=1ksrC81MVA4FTyFxuSODkxKTUqFMcMrk5" target="_blank">RESUME</a>
           </li>
           <li className="nav-menu"><Link to="/contact">CONTACT</Link></li>
         </ul>

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 // import { Switch, Route } from 'react-router-dom';
 // import About from './About';
-import dotLogoBlue from '../assets/images/dot-spin-logos/dot-spin-j-logo-blue2.png'
+import siteLogo from '../assets/images/logos/circleBarlineLogo.png'
 import { Link } from 'react-router-dom'
 
 class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
-      <a href="https://joshin-run.github.io/joshholladay"><img className="dotLogo" src={dotLogoBlue} alt="logo" /></a>
+      <a href="https://joshin-run.github.io/joshholladay"><img className="dotLogo" src={siteLogo} alt="logo" /></a>
         <ul className="menu nav-style">
           <li className="nav-menu"><Link to="/about">ABOUT</Link></li>
           <li className="nav-menu"><Link to="/portfolio">PORTFOLIO</Link></li>

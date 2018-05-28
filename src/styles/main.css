@@ -26,6 +26,22 @@
   color: #828286;
   line-height: 1.8; }
 
+/********** Case Studies ********* */
+.section-container {
+  margin: 0;
+  padding: 0; }
+
+.sect-head {
+  font-size: 1.75em;
+  font-family: Quicksand Medium, sans-serif;
+  color: #0000ff; }
+
+.section-content {
+  font-size: 1.5em;
+  font-family: Quicksand Light, sans-serif;
+  color: #828286;
+  line-height: 1.8; }
+
 @media only screen and (min-width: 768px) {
   .content-wrapper {
     max-width: 550px; }
@@ -803,7 +819,11 @@ p.copy {
   justify-content: center;
   align-items: center;
   background-image: url(../assets/images/banners/boilerPlate-banner.jpg);
-  height: 400px;
+  height: 600px;
   width: 100vw; }
+
+.initial-sketches {
+  height: auto;
+  width: 900px; }
 
 /*# sourceMappingURL=main.css.map */

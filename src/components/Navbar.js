@@ -3,12 +3,17 @@ import React, { Component } from 'react';
 // import About from './About';
 import siteLogo from '../assets/images/logos/circleBarlineLogo.png'
 import { Link } from 'react-router-dom'
+import hamburger from '../assets/images/hamburger-icon-thin2.svg'
 
 class Navbar extends Component {
   render() {
+    function menuOpen() {
+      alert('hello');
+    }
     return (
       <div className="navbar">
-      <a href="https://joshin-run.github.io/joshholladay"><img className="dotLogo" src={siteLogo} alt="logo" /></a>
+        <a href="https://joshin-run.github.io/joshholladay"><img className="dotLogo" src={siteLogo} alt="logo" /></a>
+        <img className="hamburger" src={hamburger} onclick="menuOpen()"/>
         <ul className="menu nav-style">
           <li className="nav-menu"><Link to="/about">ABOUT</Link></li>
           <li className="nav-menu"><Link to="/portfolio">PORTFOLIO</Link></li>

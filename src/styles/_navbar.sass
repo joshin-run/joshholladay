@@ -1,6 +1,6 @@
 .navbar
   display: flex
-  flex-flow: row nowrap
+  flex-flow: row wrap
   justify-content: space-between
   align-items: center
   height: 66px
@@ -9,14 +9,23 @@
   // background: rgba(0,0,0,.75)
   // background: rgba(0,0,72,.9)
   // background: rgba(255,255,255,1)
-  padding: 3px 10px
+  padding: 0 30px
   // background: rgba(0,0,0,.6)
   // background: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,.5),)
   // background: rgba(255,255,255,.05)
   // padding: 0 10px
+.navbar a
+  margin: 0
+  padding: 0
+  height: 50px
+
+.hamburger
+  display: block
+  height: 18px
+  width: auto
 
 .menu
-  display: flex
+  display: none
   flex-flow: row nowrap
   justify-content: flex-end
   align-items: center
@@ -28,7 +37,7 @@
 .dotLogo
   height: 50px
   width: auto
-  padding: 2px 10px 0 10px
+  // padding: 8px 0 0 0
 
 .nav-style
   color: white
@@ -83,13 +92,17 @@ ul
 
 
 @media only screen and (min-width: 768px)
+  .hamburger
+    display: none
+
   .menu
+    display: flex
     font-size: 1em
 
   .dotLogo
-    height: 64px
+    height: 54px
     width: auto
-    padding-right: 25px
+    // padding-right: 25px
     // margin: 10px 20px
 
   .navbar

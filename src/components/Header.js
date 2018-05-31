@@ -11,7 +11,7 @@ class Header extends Component {
             <h1 className="intro">Hello. I'm</h1>
             <h1 className="title"><span>Josh Holladay</span></h1>
             <p className="intro">
-              UX Designer. Vocalist. Father of seven.
+              UI/UX Designer. Vocalist. Father of seven.
             </p>
             <div className="arrow-container">
               <div className="arrow-down"></div>

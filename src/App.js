@@ -8,6 +8,8 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import PortfolioPage from './components/PortfolioPage';
 import BoilerPlate from './components/CaseStudies/00-BoilerPlate';
+import ClearRTBMarketing from './components/CaseStudies/ClearRTB-marketing';
+import CaseStudies from './components/CaseStudies';
 
 class App extends Component {
   render() {
@@ -16,10 +18,12 @@ class App extends Component {
       <HashRouter>
         <div>
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/portfolio" component={PortfolioPage} />
-          <Route path="/contact" component={Contact} />
           <Route path="/boilerplate" component={BoilerPlate} />
+          <Route path="/portfolio" component={PortfolioPage} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/clearrtb-marketing" component={ClearRTBMarketing} />
+          <Route path="/case-studies" component={CaseStudies} />
         </div>
       </HashRouter>
       <Footer />

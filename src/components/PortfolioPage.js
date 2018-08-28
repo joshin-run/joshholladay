@@ -10,13 +10,13 @@ import jcreateit from '../assets/images/portfolio/jcreateit.png'
 import crypto from '../assets/images/portfolio/cryptoelevation.png'
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
 import Navbar from './Navbar'
-import Portfolio from './Portfolio'
+
 // import contactBanner from '../assets/images/banners/contact-banner2.png'
 
 const PortfolioPage = (props) => (
 
     <Router>
-      <div id="contact">
+      <div id="portfoliopage">
         <Navbar />
         <div className="portfolioBanner">
           <p className="banner-header">

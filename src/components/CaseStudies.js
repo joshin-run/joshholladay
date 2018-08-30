@@ -11,9 +11,9 @@ const CaseStudies = (props) => (
     <Router>
       <div id="contact">
         <Navbar />
-        <div className="portfolioBanner">
+        <div className="caseStudies-banner">
           <p className="banner-header">
-            Portfolio
+            Case Studies
           </p>
         </div>
         <div className="content-wrapper">
@@ -21,7 +21,7 @@ const CaseStudies = (props) => (
           <div className="portfolio-container2">
 
             <div>
-              <Link to="/clearrtb-marketing"><img className="box" src={ClearRTBMarketingImg} alt="box" /></Link>
+              <Link to="/clearrtb-marketing"><img className="box shadow" src={ClearRTBMarketingImg} alt="box" /></Link>
             </div>
 
           </div>

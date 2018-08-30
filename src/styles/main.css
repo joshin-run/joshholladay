@@ -16,9 +16,8 @@
 
 .banner-header {
   color: #fff;
-  font-family: "Kaushan Script Regular", sans-serif;
-  font-size: 2.5em;
-  margin-bottom: 20px; }
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 3em; }
 
 .content {
   font-size: 1.5em;
@@ -796,8 +795,8 @@ p.copy {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  background-image: url(../assets/images/banners/contact-banner-dark.png);
-  height: 400px;
+  background-color: #567f93;
+  height: 250px;
   width: 100vw; }
 
 .portfolioBanner {
@@ -805,8 +804,8 @@ p.copy {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  background-image: url(../assets/images/banners/portfolio-banner.png);
-  height: 400px;
+  background-color: navy;
+  height: 250px;
   width: 100vw; }
 
 .aboutBanner {
@@ -839,6 +838,15 @@ p.copy {
 .study-banner {
   width: 100vw;
   height: auto; }
+
+.caseStudies-banner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  height: 250px;
+  width: 100vw; }
 
 /********** Case Studies ********* */
 .case-study-content-wrapper {

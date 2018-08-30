@@ -368,7 +368,7 @@ body {
   background: #fff; }
 
 .shadow {
-  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3); }
 
 .portfolio-wrapper {
   display: flex;
@@ -827,6 +827,19 @@ p.copy {
   height: 600px;
   width: 100vw; }
 
+.CRTB-Marketing-Banner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/images/CaseStudies/ClearRTB-Marketing/CRTB-Marketing-Banner.png);
+  height: 600px;
+  width: 100vw; }
+
+.study-banner {
+  width: 100vw;
+  height: auto; }
+
 /********** Case Studies ********* */
 .case-study-content-wrapper {
   min-height: 50vh;
@@ -840,22 +853,22 @@ p.copy {
 
 .sect-head {
   font-size: 3.25em;
-  font-family: Quicksand Medium, sans-serif;
-  color: #0014a0;
+  font-family: "Montserrat-Bold";
+  color: #000;
   margin-bottom: -5px;
   padding: 0; }
 
 .sub-head {
   font-size: 2em;
-  font-family: Quicksand Medium, sans-serif;
-  color: #0014a0;
+  font-family: "Montserrat-Regular";
+  color: #000;
   margin-bottom: 20px; }
 
 .section-content {
-  font-size: 1.35em;
-  font-family: Quicksand Light, sans-serif;
+  font-size: 1.5em;
+  font-family: "Montserrat-ExtraLight";
   color: #828286;
-  line-height: 1.5; }
+  line-height: 1.85; }
 
 .initial-sketches {
   height: auto;

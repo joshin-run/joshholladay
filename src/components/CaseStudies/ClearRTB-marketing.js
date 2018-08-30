@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
 import Navbar from '../Navbar'
 import wall1 from '../../assets/images/portfolio/Case Studies/ppl/PPL-initialSketches.png'
+
+import CRTBMarketingBanner from '../../assets/images/CaseStudies/ClearRTB-Marketing/CRTB-Marketing-Banner.png'
 import ClearRTBMarketingImg from '../../assets/images/CaseStudies/ClearRTB-Marketing/ClearRTB-Marketing-ProjectImage.png'
+
 import RealPicture1 from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/RealPicture-1.png'
 import RealPicture2 from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/RealPicture-2.png'
 
@@ -20,6 +23,19 @@ import Moon3 from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/D
 import MeetMike from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/MeetMike-Gray.png'
 import Meet3 from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/Meet3.png'
 
+import encOriginal from '../../assets/images/CaseStudies/ClearRTB-Marketing/ENC/ENC-original.png'
+import encIdeation from '../../assets/images/CaseStudies/ClearRTB-Marketing/ENC/ENC-Ideation5.jpg'
+
+import bigBlackBox from '../../assets/images/CaseStudies/ClearRTB-Marketing/BlackBox/BigBlackBox.jpg'
+import blackBoxIdeations from '../../assets/images/CaseStudies/ClearRTB-Marketing/BlackBox/BlackBox-Ideations.jpg'
+
+import home from '../../assets/images/CaseStudies/ClearRTB-Marketing/home-subFinal.jpg'
+import sketchView from '../../assets/images/CaseStudies/ClearRTB-Marketing/sketch-view.jpg'
+
+import invision from '../../assets/images/CaseStudies/ClearRTB-Marketing/InVision.png'
+
+import comments from '../../assets/images/CaseStudies/ClearRTB-Marketing/BlackBox/CRTB-comments.png'
+
 const ClearRTBMarketing = (props) => (
 
     <Router>
@@ -30,8 +46,8 @@ const ClearRTBMarketing = (props) => (
             ClearRTB Marketing Website
           </p>
         </div>
-        <img className="initial-sketches" src={ClearRTBMarketingImg} />
         <div className="case-study-content-wrapper">
+        <img className="initial-sketches proj-main" src={ClearRTBMarketingImg} />
           <div className="section-container">
             <p className="sect-head">Company Bio: Why. What. How.</p><br />
             <p className="section-content">Text</p>
@@ -122,6 +138,69 @@ const ClearRTBMarketing = (props) => (
 
           </div>
 
+
+          <div className="section-container">
+            <p className="sect-head">The Emperor's New Clothes</p><br />
+            <p className="section-content">Though the ideas were noted, the owner had another idea of his own which we spent several weeks iterating on.</p>
+
+            <div>
+              <p className="sub-head">The Inspiration</p>
+              <img src={encOriginal} alt="box" />
+              <p className="section-content">I found this picture of a king galivanting around which reflected the ideas of the company.</p><br />
+            </div>
+
+            <div>
+              <p className="sub-head">ENC Ideation</p>
+              <img className="shadow" src={encIdeation} alt="box" />
+              <p className="section-content">I found this picture of a king galivanting around which reflected the ideas of the company.</p><br />
+            </div>
+
+          </div>
+
+
+          <div className="section-container">
+            <p className="sect-head">The Black Box</p><br />
+            <p className="section-content">The final idea that stuck was, a concept that continued to be consistent with the company's goals. The Black Box, to demonstrate the shady unknowns that the industry is serving to customers.</p>
+            <img className="shadow" src={bigBlackBox} alt="box" />
+
+            <div>
+              <p className="sub-head">Ideation</p>
+              <img className="shadow" src={blackBoxIdeations} alt="box" />
+              <p className="section-content">I found this picture of a king galivanting around which reflected the ideas of the company.</p><br />
+            </div>
+
+          </div>
+
+          <div className="section-container">
+            <p className="sect-head">Black Box: User Testing</p><br />
+            <p className="section-content">We went with the Black Box theme</p>
+            <img className="shadow" src={home} alt="box" />
+
+            <div>
+              <p className="sub-head">Completed Screens</p>
+              <img className="shadow" src={sketchView} alt="box" />
+              <p className="section-content">I found this picture of a king galivanting around which reflected the ideas of the company.</p><br />
+            </div>
+            <div>
+              <p className="sub-head">InVision: Prototype and User Testing</p>
+              <img className="shadow" src={invision} alt="box" />
+              <p className="section-content">We used InVision for the prototyping and user testing phase.</p><br />
+            </div>
+            <div>
+              <p className="sub-head">Key Takeaways</p>
+              <ol className="numbered-list">
+                <li className="section-content ordered-item">The black box was confusing.</li>
+                <li className="section-content ordered-item">People seemed to...</li>
+              </ol>
+            </div>
+
+            <div>
+              <p className="sub-head">User Comments</p>
+              <img className="shadow" src={comments} alt="box" />
+              <p className="section-content">We used InVision for the prototyping and user testing phase.</p><br />
+            </div>
+
+          </div>
 
 
         </div>

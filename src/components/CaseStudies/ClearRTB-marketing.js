@@ -7,9 +7,12 @@ import CRTBMarketingBanner from '../../assets/images/CaseStudies/ClearRTB-Market
 import ClearRTBMarketingImg from '../../assets/images/CaseStudies/ClearRTB-Marketing/ClearRTB-Marketing-ProjectImage.png'
 import briefMtg from '../../assets/images/CaseStudies/ClearRTB-Marketing/BriefMtg-notes.png'
 
+import theRealPicture from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/TheRealPicture.png'
 import RealPicture1 from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/RealPicture-1.png'
 import RealPicture2 from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/RealPicture-2.png'
 
+
+import BlurToClear from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/Blur-to-Clear.png'
 import BlurToClear1 from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/Blur-to-Clear1.png'
 import BlurToClear2 from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/Blur-to-Clear2.png'
 import BlurToClear3 from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/Blur-to-Clear3.png'
@@ -17,6 +20,7 @@ import BlurToClear4 from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ide
 
 import BlueBlur from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/BlueBlur.png'
 
+import Moon from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/DarkSide-Moon.png'
 import Moon1 from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/DarkSide-Moon-1.png'
 import Moon2 from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/DarkSide-Moon-2.png'
 import Moon3 from '../../assets/images/CaseStudies/ClearRTB-Marketing/Ideation/DarkSide-Moon-3.png'
@@ -57,9 +61,11 @@ const ClearRTBMarketing = (props) => (
           <div className="section-container">
             <p className="bold-content">Problems To Solve</p>
             <ol className="numbered-list">
-            <li className="section-content ordered-item">A recent brand refresh necessitated a new look and feel to their website.</li>
+              <li className="section-content ordered-item">A recent brand refresh necessitated a new look and feel to their website.</li>
               <li className="section-content ordered-item">The company's website did not tell a story of truth about the current industry trends where fraud and dishonesty are running rampant, a cause they champion.</li>
             </ol>
+          </div>
+          <div className="section-container">
             <p className="bold-content">Objectives</p>
             <ol className="numbered-list">
               <li className="section-content ordered-item">Define business outcomes for the project as well as company operations as a whole.</li>
@@ -76,7 +82,7 @@ const ClearRTBMarketing = (props) => (
           </div>
           <img className="shadow study-image" src={briefMtg} alt="box" />
           <div className="section-container">
-            <p className="image-label">My first strategy meeting with company's CEO</p>
+            <p className="image-label">My first strategy meeting with the company's CEO</p>
           </div>
           <div className="section-container">
             <p className="bold-content">Purpose for the Site: High Level</p>
@@ -89,7 +95,7 @@ const ClearRTBMarketing = (props) => (
           </div>
           <div className="section-container">
             <p className="bold-content">Key Performance Indicators</p>
-            <p className="section-content">What was important to the company was a few measurable results that would be generated from the website funcionality and design:</p>
+            <p className="section-content">What was important to the company was a few measurable results that would be generated from the website funcionality and design:</p><br />
             <ol className="numbered-list">
               <li className="section-content ordered-item">The users are scheduling appointments.</li>
               <li className="section-content ordered-item">The users are visiting the other sites after the homepage.</li>
@@ -97,7 +103,7 @@ const ClearRTBMarketing = (props) => (
           </div>
           <div className="section-container">
             <p className="bold-content">Target Users</p>
-            <p className="section-content">The three target users that the company was focusing to service were:</p>
+            <p className="section-content">The three target users that the company was focusing to service were:</p><br />
             <ol className="numbered-list">
               <li className="section-content ordered-item">Advertisers</li>
               <li className="section-content ordered-item">Publishers</li>
@@ -106,7 +112,7 @@ const ClearRTBMarketing = (props) => (
           </div>
           <div className="section-container">
             <p className="bold-content">Needs of the Users</p>
-            <p className="section-content">This is where the passion for truth and transparency which is championed by the company is truly evident. User needs included:</p>
+            <p className="section-content">This is where the passion for truth and transparency which is championed by the company is truly evident. User needs included:</p><br />
             <ol className="numbered-list">
               <li className="section-content ordered-item">Gain knowledge and understanding regarding the current dishonest and fraudulant state of industry players.</li>
               <li className="section-content ordered-item">Make financial decisions based on truth which will cause significant savings and increase revenue and productivity.</li>
@@ -114,7 +120,7 @@ const ClearRTBMarketing = (props) => (
           </div>
           <div className="section-container">
             <p className="bold-content">Design</p>
-            <p className="section-content">The CEO already had a lot of ideas of what he wanted for the site. So he outlined the following:</p>
+            <p className="section-content">The CEO already had a lot of ideas of what he wanted for the site. So he outlined the following:</p><br />
             <ol className="numbered-list">
               <li className="section-content ordered-item">Website wireframes.</li>
               <li className="section-content ordered-item">Necessary pages or sitemap.</li>
@@ -124,49 +130,55 @@ const ClearRTBMarketing = (props) => (
           </div>
           <div className="section-container">
             <p className="bold-content">Summary & Action Plan</p>
-            <p className="section-content">By the end of the meeting I felt like I understood the direction that the CEO was wanting to go. I asked several questions such as who the target users are, the purpose of the site, what the needs are for both the user and the business, scope of project, and priorities.</p>
-            <p className="section-content">The next step was to take the wireframe concepts and draft up lo-fi designs for review...and that's exactly what I did.</p>
+            <p className="section-content">By the end of the meeting I felt like I understood the direction that the CEO was wanting to go. I asked several questions such as who the target users are, the purpose of the site, what the needs are for both the user and the business, scope of project, and priorities. The next step was to take the wireframe concepts and draft up lo-fi designs for review...and that's exactly what I did.</p>
           </div>
+
           <div className="section-container">
             <p className="sub-head">8+ Hours of Ideation Madness</p><br />
-            <p className="section-content">The following day was spent drumming up ideas based on the information gathered during the brief. It was fun. I used my creative super powers to let almost any idea take form. The purpose was to create a palette of concepts and directions to present to the stake holders for further exploration in our next meeting. It was an exercise to see the breadth of what I could create in around 8 hours. <strong>Spoiler: The next time we met, he was pleasantly surprised.</strong></p>
+            <p className="section-content">The following day was spent drumming up ideas based on the information gathered during the brief. It was fun. I used my creative super powers to let almost any idea take shape. The purpose was to create a palette of concepts and ideas then present to the stakeholders for further exploration in our next meeting. It was an exercise to see the breadth of what I could create in around 8 hours. The following are a few examples worthy of honorable mention.<strong> Spoiler Alert: The next time we met, confetti rained from the heavens.</strong></p>
           </div>
           <div className="section-container">
+            <p className="bold-content">These First Four</p>
+            <p className="section-content">My first hours of ideation were spent endeavoring to encapsulate the central concept that I gathered during our meeting and in other conversations about the product.</p><br />
+            <ol className="numbered-list">
+              <li className="section-content ordered-item">Educate the user about the truths concerning the digital ad and programmatic advertising industry.</li>
+            </ol>
+            <p className="section-content">The result was a set of ideas where the state of the visual presentation in the beginning represented less understanding, and by the end, the visuals were clear, ordered, and perceivable. A bit hard to explain. Take a look below.</p><br />
+          </div>
+
+          <div className="section-container">
             <p className="bold-content">The Real Picture</p>
-            <img className="shadow" src={RealPicture1} alt="box" />
-            <p className="section-content">(Content coming soon!)</p><br />
-            <img className="shadow" src={RealPicture2} alt="box" />
-            <p className="section-content">(Content coming soon!)</p><br />
+            <img className="shadow study-image" src={theRealPicture} alt="box" />
+            <div className="section-container">
+              <p className="image-label">From misaligned and translucent to straight and brilliant white.</p>
+            </div>
+            <p className="section-content">Using the existing color of blue, the goal here was to take the user through a journey of knowledge acquasition. The misaligned frames and faded color would gradually morph into a perfectly placed box, representing a journey from confusion to order. A journey from not knowing where your campaign spend was going and </p><br />
           </div>
 
           <div className="section-container">
             <p className="sub-head">Blur to Clear</p>
-            <img className="shadow" src={BlurToClear1} alt="box" />
-            <p className="section-content">(Content coming soon!)</p><br />
-            <img className="shadow" src={BlurToClear2} alt="box" />
-            <p className="section-content">(Content coming soon!)</p><br />
-            <img className="shadow" src={BlurToClear3} alt="box" />
-            <p className="section-content">(Content coming soon!)</p><br />
-            <img className="shadow" src={BlurToClear4} alt="box" />
+            <img className="shadow study-image" src={BlurToClear} alt="box" />
+            <div className="section-container">
+              <p className="image-label">label text</p>
+            </div>
             <p className="section-content">(Content coming soon!)</p><br />
           </div>
 
-          <div className="section-container">
-            <p className="sub-head">Blue Blur</p>
-            <img className="shadow" src={BlueBlur} alt="box" />
-            <p className="section-content">(Content coming soon!)</p><br />
-          </div>
           <div className="section-container">
             <div>
               <p className="sub-head">Dark Side of the Moon</p>
-              <img className="shadow" src={Moon1} alt="box" />
-              <p className="section-content">(Content coming soon!)</p><br />
-              <img className="shadow" src={Moon2} alt="box" />
-              <p className="section-content">(Content coming soon!)</p><br />
-              <img className="shadow" src={Moon3} alt="box" />
+              <img className="shadow study-image" src={Moon} alt="box" />
+              <div className="section-container">
+                <p className="image-label">label text</p>
+              </div>
               <p className="section-content">(Content coming soon!)</p><br />
             </div>
 
+            <div className="section-container">
+            <p className="sub-head">Blue Blur</p>
+            <img className="shadow" src={BlueBlur} alt="box" />
+            <p className="section-content">(Content coming soon!)</p><br />
+            </div>
             <div>
               <p className="sub-head">Dark Side of the Moon</p>
               <img className="shadow" src={MeetMike} alt="box" />

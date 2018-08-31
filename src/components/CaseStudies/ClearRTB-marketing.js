@@ -232,27 +232,36 @@ const ClearRTBMarketing = (props) => (
               <li className="section-content ordered-item">One of the main initiatives was to make a clean and simple site. So I took that approach in several instances. I wasn't given any content to begin with, so the lesser the content in the banner, the less crowded it appeared.</li>
               <li className="section-content ordered-item">I drew a scene depicting the Emperor walking from the nearby village on his way to the castle. This was supposed to appeal to the story book side of the concept.</li>
               <li className="section-content ordered-item">The large and partially hiden version of the Emporer was really another design variation where the Emperor would be more of an accent, yet retaining focus.</li>
-              <li className="section-content ordered-item">There were a few ideas that utilized the current color palette of the company's site. I thought it was a good color so I meshed the two to see what would stick.</li>
-              <li className="section-content ordered-item">The Emperor appears on a laptop. It was an interesting combination. I added a graph to represent the visualization of campiagn data that might be put out by a user tool.</li>
-              <li className="section-content ordered-item">Another Page</li>
-              <li className="section-content ordered-item">The final design that was used for a while.</li>
+              <li className="section-content ordered-item">There were a few ideas that utilized the current color palette of the company's site. I thought it was a good color so I combined the two to see what might stick.</li>
+              <li className="section-content ordered-item">The Emperor appears on a laptop. It was an interesting combination. I added a graph to represent the visualization of campiagn data that might be displayed by a user tool.</li>
+              <li className="section-content ordered-item">I designed what the publisher page could look like with a diagonal design indicating a new section with new information.</li>
+              <li className="section-content ordered-item">The final design that appears in the example represents the design used that inspired the final version. The background uses squares of varying sizes that are transparent, matching the company's differentiator, to be transparent with data and how they spend client funds. I used a blue background, much like the original blue color of their current site, but brightened it drasticly with even more blue. I added a circular gradient. Gradients are trending right now in web design. The emperor spans two sections of content as a white 'giant' with a drop shadow to introduce depth.</li>
             </ol>
+            <div className="section-container">
+              <p className="bold-content">Summary</p>
+              <p className="section-content">In the end, and after developing several pages with this theme, the CEO came to me during the design process with an idea about a black box and instructed me to scrap the Emperor's New Clothes idea. Though we I had spent a significant amount of time on this idea, I felt that there were better ways to portray the story. The concept wasn't all that viable to my way of thinking after all.</p><br />
+            </div>
           </div>
-
-
-
 
           <div className="section-container">
             <p className="sect-head">The Black Box</p><br />
-            <p className="section-content">The final idea that stuck was, a concept that continued to be consistent with the company's goals. The Black Box, to demonstrate the shady unknowns that the industry is serving to customers.</p>
-            <img className="shadow" src={bigBlackBox} alt="box" />
-
-            <div>
-              <p className="sub-head">Ideation</p>
-              <img className="shadow" src={blackBoxIdeations} alt="box" />
-              <p className="section-content">(Content coming soon!)</p><br />
+            <img className="shadow study-image" src={bigBlackBox} alt="box" />
+            <div className="section-container">
+              <p className="image-label">The advent of the black box: an inperceptible product, when put into the hands of the customer </p><br />
             </div>
-
+            <p className="section-content">The final idea that was prescribed was a concept where a black box represented a product, in this case, a service, that the industry provided to the customer. It was packaged nicely, but, the client really didn't know what it was or what was inside. This was an idea that, once again suggested fraud, dishonesty and obscurity as customer dollar spending was being hidden from customer view.</p><br />
+          </div>
+          <div className="section-container">
+            <p className="bold-content">Black Box Ideation</p>
+            <img className="shadow study-image" src={blackBoxIdeations} alt="box" />
+            <div className="section-container">
+              <p className="image-label">This initiative stemed from industry solutions that resemble black boxes, indicative of the lack of visibility about campaign effectiveness</p><br />
+            </div>
+            <p className="section-content">First, I designed the black box. It needed to look impressive, three dimensional, so I made creating gradients for each side a priority. There were a few different perspectives and shapes that I tested out. The following is a list of thoughts that explain why I chose to create the varying designs with the black box theme.</p><br />
+            <ol className="numbered-list">
+              <li className="section-content ordered-item">The design wiht a white background was intended to look like a conversation bubble where the content would tell a story on the left. White and blue were part of the color palette. The white provided a higher level of contract against the black box and the blue background. The idea also was to bring more character and creative design to the banner and to peak the interest of the user visiting the site.</li>
+              <li className="section-content ordered-item"></li>
+            </ol>
           </div>
 
           <div className="section-container">

@@ -135,7 +135,7 @@ const ClearRTBMarketing = (props) => (
 
           <div className="section-container">
             <p className="sub-head">8+ Hours of Ideation Madness</p><br />
-            <p className="section-content">The following day was spent drumming up ideas based on the information gathered during the brief. It was fun. I used my creative super powers to let almost any idea take shape. The purpose was to create a palette of concepts and ideas then present to the stakeholders for further exploration in our next meeting. It was an exercise to see the breadth of what I could create in around 8 hours. The following are a few examples worthy of honorable mention.<strong> Spoiler Alert: The next time we met, confetti rained from the heavens.</strong></p>
+            <p className="section-content">The following day was spent drumming up ideas based on the information gathered during the brief. It was fun. I used my creative super powers to let almost any idea take shape. The purpose was to create a palette of concepts and ideas then present to the stakeholders for further exploration in our next meeting. It was an exercise to see the breadth of what I could create in around 8 hours. The following are a few examples worthy of honorable mention.<strong> Spoiler Alert: The next time we met, confetti rained from the heavens.</strong></p><br />
           </div>
           <div className="section-container">
             <p className="bold-content">These First Four</p>
@@ -143,7 +143,7 @@ const ClearRTBMarketing = (props) => (
             <ol className="numbered-list">
               <li className="section-content ordered-item">Educate the user about the truths concerning the digital ad and programmatic advertising industry.</li>
             </ol>
-            <p className="section-content">The result was a set of ideas where the state of the visual presentation in the beginning represented less understanding, and by the end, the visuals were clear, ordered, and perceivable. A bit hard to explain. Take a look below.</p><br />
+            <p className="section-content">The result was a set of ideas where the state of the visual presentation in the beginning represented confusion and obscurity. By the time the user scrolled down to the bottom of the page, while ingesting content along the way, the final visuals were to be portrayed as clear, ordered, and perceivable. A bit tricky to explain. Take a look below for some examples.</p><br />
           </div>
 
           <div className="section-container">
@@ -152,62 +152,94 @@ const ClearRTBMarketing = (props) => (
             <div className="section-container">
               <p className="image-label">From misaligned and translucent to straight and brilliant white.</p>
             </div>
-            <p className="section-content">Using the existing color of blue, the goal here was to take the user through a journey of knowledge acquasition. The misaligned frames and faded color would gradually morph into a perfectly placed box, representing a journey from confusion to order. A journey from not knowing where your campaign spend was going and </p><br />
+            <p className="section-content">This example used the color of blue borrowed from the company's current landing page. The misaligned frames and faded color would gradually morph into a perfectly fashioned box, representing a journey from confusion to order. The content would essentially take the user through the same process. Specifically, a story where pieces of the truths about dishonesty in the digital advertising industry are unfolded till the whole of it's state simply can not be denied.</p><br />
           </div>
 
           <div className="section-container">
-            <p className="sub-head">Blur to Clear</p>
+            <p className="bold-content">Blur to Clear</p>
             <img className="shadow study-image" src={BlurToClear} alt="box" />
             <div className="section-container">
-              <p className="image-label">label text</p>
+              <p className="image-label">The user starts out with a blurred picture and eventually gains perspective</p>
             </div>
-            <p className="section-content">(Content coming soon!)</p><br />
+            <p className="section-content">A blurred image becomes crystal clear. 'Was blind, but now I see.' The concept is similar to the example above. A journey from blurred vision to a clear view. There's no possible way to tell what the picture is in the beginning. But by the end, it is clear. In fact, you could possibly even quote the longitude and latitude of the place...if you knew where it was...and had a cell phone handy...with reception.</p><br />
+            <p className="section-content">For the company, this that, not only does the content educate about the industry's flaws, but it empowers the user, (agency, publisher, advertiser), to be able to avoid the pitfalls of over paying for advertising. It's a big deal.</p><br />
           </div>
 
           <div className="section-container">
-            <div>
-              <p className="sub-head">Dark Side of the Moon</p>
-              <img className="shadow study-image" src={Moon} alt="box" />
-              <div className="section-container">
-                <p className="image-label">label text</p>
-              </div>
-              <p className="section-content">(Content coming soon!)</p><br />
-            </div>
-
+            <p className="bold-content">The Dark Side of the Moon</p>
+            <img className="shadow study-image" src={Moon} alt="box" />
             <div className="section-container">
-            <p className="sub-head">Blue Blur</p>
-            <img className="shadow" src={BlueBlur} alt="box" />
-            <p className="section-content">(Content coming soon!)</p><br />
+              <p className="image-label">From darkness to light, the content and visual designs were to be used to unveil truth in harmony</p>
             </div>
-            <div>
-              <p className="sub-head">Dark Side of the Moon</p>
-              <img className="shadow" src={MeetMike} alt="box" />
-              <p className="section-content">(Content coming soon!)</p><br />
-              <img className="shadow" src={Meet3} alt="box" />
-              <p className="section-content">(Content coming soon!)</p><br />
-            </div>
-
-
+            <p className="section-content">I'll be honest, this one was one of my favorite. How amazing is the moon! The reason why I thought this might work was because the company wanted a unique, eye catching approach, something different and unorthadox. Untraditional.</p><br />
+            <p className="section-content">So as the user scrolls down the web page they experience a gradual panning out technique making the moon completely visable by the end. An emphasis on darkness symbolized hiding of truths, dishonesty, and the unknowns of the industry. It seemed to fit as a good candidate. I knew that great ideas stemmed from other lesser ideas. This was a good start of an idea.</p><br />
           </div>
-
 
           <div className="section-container">
-            <p className="sect-head">The Emperor's New Clothes</p><br />
-            <p className="section-content">Though the ideas were noted, the owner had another idea of his own which we spent several weeks iterating on.</p>
-
-            <div>
-              <p className="sub-head">The Inspiration</p>
-              <img className="shadow" src={encOriginal} alt="box" />
-              <p className="section-content">I found this picture of a king galivanting around which reflected the ideas of the company.</p><br />
+            <p className="bold-content">Blue Blur</p>
+            <img className="shadow study-image" src={BlueBlur} alt="box" />
+            <div className="section-container">
+              <p className="image-label">Blurred background which represents the everyday marketer's understanding of the digital advertising industry</p>
             </div>
-
-            <div>
-              <p className="sub-head">ENC Ideation</p>
-              <img className="shadow" src={encIdeation} alt="box" />
-              <p className="section-content">(Content coming soon!)</p><br />
-            </div>
-
+            <p className="section-content">Using the same obscured vision concept, I chose an image that was blurred, but that followed a more appealing, bright and eye catching style and design. This banner design provided a fresh and modern look and could have served as a branding mechanism to introduce a cutting edge tech company that has a direct and bold message to share.</p><br />
           </div>
+          <div className="section-container">
+            <p className="bold-content">Meet Mike...and Company</p>
+            <img className="shadow study-image" src={MeetMike} alt="box" />
+            <div className="section-container">
+              <p className="image-label">A picture of a business man in a hurry could represent the marketing professionals expected to visit and use the ensuing website</p>
+            </div>
+            <p className="section-content">The 'Meet Mike' concept originated from the idea of someone being in business or from a professional setting. The core users identified from the initial discovery conversation dictated that the users who would visit the site could look, act and think like Mike. Let's examine what this character Mike is up to and what he's all about.</p><br />
+            <p className="section-content">Mike looks smart. He's dressed in a suit and the building behind him is huge. He looks well educated, and with one foot up in striding motion, life's not about to pass him by. There's energy here. He's checking his phone, possibly to scan his notifications, but we want the user to believe he's measuring the success of his campaigns from a user dashboard, or something that would stem from the content. Mike looks ready to take care of business at any moment.</p><br />
+            <p className="section-content">Mike is empowered. He 'knows'. That's exactly what I wanted the user to feel, like they can know too. From a banner that says 'Be inspired by Mike.', to scrolling down to learn more, and finally to the great 'Aha! moment' where we win their hearts, that's the journey that was intended for the user in this idea. To help the advertiser, the publisher, or the agency know that we are transparent and that they get what they really pay for, which would be great advertising for their hard earned budget dollars, that's really the bottom line.</p><br />
+          </div>
+          <div className="section-container">
+            <img className="shadow study-image" src={Meet3} alt="box" />
+            <div className="section-container">
+              <p className="image-label">A concept representing the three major users targeted for the website project: agencies, advertisers, and publishers</p>
+            </div>
+            <p className="section-content">One requirement for the marketing site was to funnel the users to the appropriate pages that would contain pertinant information for them to consume. Instead of guiding the users through the same experience on the landing page, then providing three buttons form them to click on for more information at the bottom of the landing page, my thought was to present this option early on, or right away, in the banner. This three column design is what it materialized.</p><br />
+          </div>
+
+          <div className="section-container">
+            <p className="sub-head">The Second Meeting</p><br />
+            <p className="section-content">Once these and many other ideas were ready, I sat down with the CEO, the primary stakeholder, and presented my designs and ideas to him. I described my reasoning and recommendations, both on a UX Design and UI Design level. In truth, there was no confetti that rained from above. But, what did happen was that I was praised for my ability to bring so many ideas to the table, with such breadth and differing applications, in such a short amount of time. (Better than confetti!)</p><br />
+            <p className="section-content">There were many ideas, designs, and concepts that were considered to be good candidates. However, the CEO also had some ideas. We pooled our ideas together, I made recommendations, but the final decision rested on CEO, and he chose one of his own ideas. We ran with this idea for over a month or more...which was an entirely different adventure.</p><br />
+          </div>
+
+          <div className="section-container">
+            <p className="sub-head">The Emperor's New Clothes</p><br />
+            <p className="section-content">As the story goes, there were a couple of swendlers who came to the King's household. They offered to weave special cloths for the King that would inform him who should be fired or who was incompitent for their given task. When the weavers came back, they came with seemingly transparent clothing. Those who could not see the clothing were deemed unworthy of hire. And so the great trick was played the the King went about in his underwear.</p><br />
+            <p className="section-content">The premise for this concept was that there were 'swendelers' out there, other advertising firms who take advantage of the company who wants to advertiser. They hide the data and keep the margins to themselves for profit. The idea was intended to demonstrate the severity of the level of dishonesty and distrust current in the marketplace.</p><br />
+          </div>
+          <div className="section-container">
+            <p className="sub-head">The Inspiration</p>
+            <img className="shadow study-image" src={encOriginal} alt="box" />
+            <div className="section-container">
+              <p className="image-label">Painted on the exterior wall of a building, this image depicts the Emperor from a classic children's story 'The Emperor's New Clothes'</p><br />
+            </div>
+            <p className="section-content">In my research for the perfect emperor, I found this picture of a king painted on the external wall of some building or structure. The king seems to be in the attitude of galivanting around in the nude, proud and pompus as ever. This photograph depicted the exact key elements I was looking for. Certainly a perfect fit. So I got to work.</p><br />
+          </div>
+
+          <div className="section-container">
+            <p className="bold-content">ENC Ideation</p>
+            <img className="shadow study-image" src={encIdeation} alt="box" />
+            <div className="section-container">
+              <p className="image-label">A few designs that embodied the spirit of a cleverly fooled Emperor who thought he was too smart for his britches</p><br />
+            </div>
+            <p className="section-content">I chose to create an outline of the Emperor and to fill the outline with a solid color. I used this graphic as a centerpiece and engaged in another round of ideation and concepts. Along the way I would bring my creations to the CEO who would guide my next actions according to how he felt the project should go. The following is a list of reasons why I chose to design a few of these examples the way I did.</p><br />
+            <ol className="numbered-list">
+              <li className="section-content ordered-item">One of the main initiatives was to make a clean and simple site. So I took that approach in several instances. I wasn't given any content to begin with, so the lesser the content in the banner, the less crowded it appeared.</li>
+              <li className="section-content ordered-item">I drew a scene depicting the Emperor walking from the nearby village on his way to the castle. This was supposed to appeal to the story book side of the concept.</li>
+              <li className="section-content ordered-item">The large and partially hiden version of the Emporer was really another design variation where the Emperor would be more of an accent, yet retaining focus.</li>
+              <li className="section-content ordered-item">There were a few ideas that utilized the current color palette of the company's site. I thought it was a good color so I meshed the two to see what would stick.</li>
+              <li className="section-content ordered-item">The Emperor appears on a laptop. It was an interesting combination. I added a graph to represent the visualization of campiagn data that might be put out by a user tool.</li>
+              <li className="section-content ordered-item">Another Page</li>
+              <li className="section-content ordered-item">The final design that was used for a while.</li>
+            </ol>
+          </div>
+
+
 
 
           <div className="section-container">
@@ -255,9 +287,10 @@ const ClearRTBMarketing = (props) => (
           </div>
 
         </div>
-        </div>
+      </div>
 
-    </Router>
+
+  </Router>
 
 )
 

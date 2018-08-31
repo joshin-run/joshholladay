@@ -37,7 +37,7 @@ import blackBoxIdeations from '../../assets/images/CaseStudies/ClearRTB-Marketin
 import home from '../../assets/images/CaseStudies/ClearRTB-Marketing/home-subFinal.jpg'
 import sketchView from '../../assets/images/CaseStudies/ClearRTB-Marketing/sketch-view.jpg'
 
-import invision from '../../assets/images/CaseStudies/ClearRTB-Marketing/InVision.png'
+import invision from '../../assets/images/CaseStudies/ClearRTB-Marketing/InVision2.jpg'
 
 import comments from '../../assets/images/CaseStudies/ClearRTB-Marketing/BlackBox/CRTB-comments.png'
 
@@ -260,47 +260,77 @@ const ClearRTBMarketing = (props) => (
             <p className="section-content">First, I designed the black box. It needed to look impressive, three dimensional, so I made creating gradients for each side a priority. There were a few different perspectives and shapes that I tested out. The following is a list of thoughts that explain why I chose to create the varying designs with the black box theme.</p><br />
             <ol className="numbered-list">
               <li className="section-content ordered-item">The design with a white background was intended to look like a conversation bubble where the content would tell a story on the left. White and blue were part of the color palette. The white provided a higher level of contract against the black box and the blue background. The idea also was to bring more character and creative design to the banner and to peak the interest of the user visiting the site.</li>
-              <li className="section-content ordered-item"></li>
+              <li className="section-content ordered-item">A few design concepts included a large black box in the background, one having an authoratative air, the other simply positioned in a hovering state.</li>
+              <li className="section-content ordered-item">Black Box Monster reared its ugly head and made its debut during the design exploration process. This idea was fun and interesting but, wasn't the direction the company wanted to move towards, so it was scrapped.</li>
+              <li className="section-content ordered-item">The final picture on the bottom right, less the faded platform directly below the black box, was where we settled. Simple. Just a black box. Blue and white as the other colors in the design palette. This was the beginning of the end.</li>
             </ol>
           </div>
 
           <div className="section-container">
-            <p className="sect-head">Black Box: User Testing</p><br />
-            <p className="section-content">We went with the Black Box theme</p>
-            <img className="shadow" src={home} alt="box" />
-
-            <div>
-              <p className="sub-head">Completed Screens</p>
-              <img className="shadow" src={sketchView} alt="box" />
-              <p className="section-content">(Content coming soon!)</p><br />
+            <p className="sub-head">Black Box: User Testing</p><br />
+            <img className="shadow study-image" src={home} alt="box" />
+            <div className="section-container">
+              <p className="image-label">This is the version of the homepage banner used shortly before engaging users for feedback</p><br />
             </div>
-            <div>
-              <p className="sub-head">InVision: Prototype and User Testing</p>
-              <img className="shadow" src={invision} alt="box" />
-              <p className="section-content">We used InVision for the prototyping and user testing phase.</p><br />
-            </div>
-            <div>
-              <p className="sub-head">Key Takeaways</p>
-              <ol className="numbered-list">
-                <li className="section-content ordered-item">The black box was confusing.</li>
-                <li className="section-content ordered-item">People seemed to...</li>
-              </ol>
-            </div>
-
-            <div>
-              <p className="sub-head">User Comments</p>
-              <img className="shadow" src={comments} alt="box" />
-              <p className="section-content">(Content coming soon!)</p><br />
-            </div>
-
+            <p className="section-content">With the Black Box as the central theme and the designs established from the 'Emporer's New Clothes' phase, I set out to gather feedback from users. The image below shows the website in its entirety and represents the prototype we tested.</p><br />
           </div>
+
+          <div className="section-container">
+            <p className="bold-content">Completed Screens</p>
+            <img className="shadow study-image" src={sketchView} alt="box" />
+            <div className="section-container">
+              <p className="image-label">A screen shot of the entire marketing web page project as viewed in Sketch</p><br />
+            </div>
+            <p className="section-content">Most, if not all of the project was fashioned, formed, and finalized in Sketch. Features such as symbols, the pen tool, and many others made it a rich experience to ideate and design with the Sketch app. (Note: I chose to wait until the end of the case study to show larger images of the website in its entirety.)</p><br />
+          </div>
+
+          <div className="section-container">
+            <p className="sub-head">InVision: Prototype and User Testing</p>
+            <img className="shadow study-image" src={invision} alt="box" />
+            <div className="section-container">
+              <p className="image-label"></p><br />
+            </div>
+            <p className="section-content">We used InVision for prototyping which worked well using the Craft plugin for Sketch. I was able to show multiple members of our team the functionality and general design of the application. The user testing phase naturally followed with sharing a link and receiving feedback via comments on each prototype page.</p><br />
+          </div>
+
+          <div className="section-container">
+            <p className="bold-content">A Note on Research and Testing</p>
+            <p className="section-content">The fact that this project had gotten to this point where a prototype of the site had been created before production and that user research was about to be conducted was truly a UX Designer's greatest hope fulfilled. A moment of silence and several communications later, we found ourselves receiving invaluable feedback in no time at all.</p><br />
+            <p className="section-content">We used several avenues to find people who would bring value to the testing process. I tapped into my personal network connections through Slack, email, LinkedIn, Twitter, Facebook, and so on. The company also solicited some of their industry specific contacts.</p><br />
+          </div>
+
+          <div className="section-container">
+            <p className="bold-content">User Comments</p>
+            <img className="shadow" src={comments} alt="box" />
+            <div className="section-container">
+              <p className="image-label">The InVision app screen which provides a list of comments for a selected project</p><br />
+            </div>
+            <p className="section-content">The kinds of users who ended up agreeing to click through the prototype included UX Designers, Front-end Developers, and others who could view both the design and content and scrutinize the whole of it for the good of the project. We learned a few important things during the entire process.</p><br />
+          </div>
+
+          <div className="section-container">
+            <p className="bold-content">Summary of Feedback</p>
+            <p className="section-content">The main things that we learned centered around consistency in design. There were sections that included similar components, but that were not consistent. Also, the color palette and colors used could be expanded. The overall feedback, however, was that the application was well designed. However, because the company didn't want to spend too much time in the testing process, we moved on quickly to making changes and sending the deliverables off to production.</p><br />
+          </div>
+
+          <div className="section-container">
+            <p className="sub-head">The Final Stretch: A Finished Design</p>
+            <p className="section-content">...and unfinished content. (Content coming soon.)</p><br />
+          </div>
+
+
 
         </div>
       </div>
-
-
-  </Router>
+    </Router>
 
 )
 
 export default ClearRTBMarketing;
+// <div className="section-container">
+// <p className="bold-content">Prooving or Disprooving Our Assumptions</p>
+//   <p className="section-content">The question, however in my mind was:</p><br />
+//   <ol>
+//   <li className="section-content ordered-item">"Did we really build an app that would meet the needs of the target users?"</li>
+//   </ol>
+// </div>

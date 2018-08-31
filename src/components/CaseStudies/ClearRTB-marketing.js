@@ -259,7 +259,7 @@ const ClearRTBMarketing = (props) => (
             </div>
             <p className="section-content">First, I designed the black box. It needed to look impressive, three dimensional, so I made creating gradients for each side a priority. There were a few different perspectives and shapes that I tested out. The following is a list of thoughts that explain why I chose to create the varying designs with the black box theme.</p><br />
             <ol className="numbered-list">
-              <li className="section-content ordered-item">The design wiht a white background was intended to look like a conversation bubble where the content would tell a story on the left. White and blue were part of the color palette. The white provided a higher level of contract against the black box and the blue background. The idea also was to bring more character and creative design to the banner and to peak the interest of the user visiting the site.</li>
+              <li className="section-content ordered-item">The design with a white background was intended to look like a conversation bubble where the content would tell a story on the left. White and blue were part of the color palette. The white provided a higher level of contract against the black box and the blue background. The idea also was to bring more character and creative design to the banner and to peak the interest of the user visiting the site.</li>
               <li className="section-content ordered-item"></li>
             </ol>
           </div>

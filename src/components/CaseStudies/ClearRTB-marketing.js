@@ -288,7 +288,7 @@ const ClearRTBMarketing = (props) => (
             <p className="sub-head">InVision: Prototype and User Testing</p>
             <img className="shadow study-image" src={invision} alt="box" />
             <div className="section-container">
-              <p className="image-label"></p><br />
+              <p className="image-label">InVision screens. Top row: Screens viewable to the user tester. Bottom Row: Screens viewable to logged in project team members</p><br />
             </div>
             <p className="section-content">We used InVision for prototyping which worked well using the Craft plugin for Sketch. I was able to show multiple members of our team the functionality and general design of the application. The user testing phase naturally followed with sharing a link and receiving feedback via comments on each prototype page.</p><br />
           </div>
@@ -301,7 +301,7 @@ const ClearRTBMarketing = (props) => (
 
           <div className="section-container">
             <p className="bold-content">User Comments</p>
-            <img className="shadow" src={comments} alt="box" />
+            <img className="shadow study-image" src={comments} alt="box" />
             <div className="section-container">
               <p className="image-label">The InVision app screen which provides a list of comments for a selected project</p><br />
             </div>

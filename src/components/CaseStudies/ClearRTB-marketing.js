@@ -335,18 +335,19 @@ const ClearRTBMarketing = (props) => (
             <p className="bold-content">The Landing Page</p>
             <img className="shadow study-image" src={landingPage} alt="box" />
             <div className="section-container">
-              <p className="image-label">This is information regarding the image above</p><br />
+              <p className="image-label">ClearRTB.com future landing page for the marketing website initiative.</p><br />
             </div>
-            <p className="section-content">The summary for this design...</p><br />
+            <p className="section-content">(Content coming soon.)</p><br />
           </div>
 
           <div className="section-container">
             <p className="bold-content">The Paywall</p>
             <img className="shadow study-image" src={paywall} alt="box" />
             <div className="section-container">
-              <p className="image-label">This is information regarding the image above</p><br />
+              <p className="image-label">A paywall is a feature that forces the user to make a choice before proceeding to the rest of the site content</p><br />
             </div>
-            <p className="section-content">The summary for this design...</p><br />
+            <p className="section-content">Paywalls are used on many websites to prompt an ation, usually to pay for a subscription or membership, before proceeding. For our purposes we modified the concept where, payment wasn't required, only the declaration of what kind of business the user is by clicking on a button that appears on scrolling down.</p><br />
+            <p className="section-content"> The idea of offering different content to the three different target users was an area of much discussion. I concluded </p><br />
           </div>
 
           <div className="section-container">
@@ -390,7 +391,7 @@ const ClearRTBMarketing = (props) => (
             <p className="section-content">The summary for this design...</p><br />
           </div>
           <div className="section-container">
-            <p className="bold-content">Conclusion</p>
+            <p className="sub-head">Conclusion</p>
             <p className="section-content">(Content coming soon.)</p><br />
           </div>
 
@@ -418,6 +419,12 @@ const ClearRTBMarketing = (props) => (
           </div>
           <div className="section-container">
             <p className="bold-content">Prooving and Disprooving Assumptions</p>
+            <ol className="numbered-list">
+              <li className="section-content ordered-item">(Content coming soon.)</li>
+            </ol>
+          </div>
+          <div className="section-container">
+            <p className="bold-content">The Paywall</p>
             <ol className="numbered-list">
               <li className="section-content ordered-item">(Content coming soon.)</li>
             </ol>

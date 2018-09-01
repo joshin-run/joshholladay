@@ -416,6 +416,12 @@ const ClearRTBMarketing = (props) => (
               <li className="section-content ordered-item">(Content coming soon.)</li>
             </ol>
           </div>
+          <div className="section-container">
+            <p className="bold-content">Prooving and Disprooving Assumptions</p>
+            <ol className="numbered-list">
+              <li className="section-content ordered-item">(Content coming soon.)</li>
+            </ol>
+          </div>
 
 
         </div>

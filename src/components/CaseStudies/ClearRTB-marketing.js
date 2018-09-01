@@ -41,6 +41,18 @@ import invision from '../../assets/images/CaseStudies/ClearRTB-Marketing/InVisio
 
 import comments from '../../assets/images/CaseStudies/ClearRTB-Marketing/BlackBox/CRTB-comments.png'
 
+
+
+import landingPage from '../../assets/images/CaseStudies/ClearRTB-Marketing/Final/CRTB.jpg'
+import paywall from '../../assets/images/CaseStudies/ClearRTB-Marketing/Final/CRTB-paywall.jpg'
+import advertiserPage from '../../assets/images/CaseStudies/ClearRTB-Marketing/Final/CRTB-Advertisers.jpg'
+import resourcesPage from '../../assets/images/CaseStudies/ClearRTB-Marketing/Final/CRTB-Resources.jpg'
+import technologyPage from '../../assets/images/CaseStudies/ClearRTB-Marketing/Final/CRTB-Technology.jpg'
+import pricingPage from '../../assets/images/CaseStudies/ClearRTB-Marketing/Final/CRTB-Pricing.jpg'
+import aboutPage from '../../assets/images/CaseStudies/ClearRTB-Marketing/Final/CRTB-About.jpg'
+
+
+
 const ClearRTBMarketing = (props) => (
 
     <Router>
@@ -314,10 +326,96 @@ const ClearRTBMarketing = (props) => (
           </div>
 
           <div className="section-container">
-            <p className="sub-head">The Final Stretch: A Finished Design</p>
-            <p className="section-content">...and unfinished content. (Content coming soon.)</p><br />
+            <p className="sub-head">The Final Stretch: A Finished Design</p><br />
+            <p className="section-content">The following images represent final designs for the marketing website submitted to the development team.</p><br />
           </div>
 
+
+          <div className="section-container">
+            <p className="bold-content">The Landing Page</p>
+            <img className="shadow study-image" src={landingPage} alt="box" />
+            <div className="section-container">
+              <p className="image-label">This is information regarding the image above</p><br />
+            </div>
+            <p className="section-content">The summary for this design...</p><br />
+          </div>
+
+          <div className="section-container">
+            <p className="bold-content">The Paywall</p>
+            <img className="shadow study-image" src={paywall} alt="box" />
+            <div className="section-container">
+              <p className="image-label">This is information regarding the image above</p><br />
+            </div>
+            <p className="section-content">The summary for this design...</p><br />
+          </div>
+
+          <div className="section-container">
+            <p className="bold-content">The Langing Page: Advertiser Version</p>
+            <img className="shadow study-image" src={advertiserPage} alt="box" />
+            <div className="section-container">
+              <p className="image-label">This is information regarding the image above</p><br />
+            </div>
+            <p className="section-content">The summary for this design...</p><br />
+          </div>
+          <div className="section-container">
+            <p className="bold-content">The Resources Page</p>
+            <img className="shadow study-image" src={resourcesPage} alt="box" />
+            <div className="section-container">
+              <p className="image-label">This is information regarding the image above</p><br />
+            </div>
+            <p className="section-content">The summary for this design...</p><br />
+          </div>
+          <div className="section-container">
+            <p className="bold-content">The Technology Page</p>
+            <img className="shadow study-image" src={technologyPage} alt="box" />
+            <div className="section-container">
+              <p className="image-label">This is information regarding the image above</p><br />
+            </div>
+            <p className="section-content">The summary for this design...</p><br />
+          </div>
+          <div className="section-container">
+            <p className="bold-content">The Pricing Page</p>
+            <img className="shadow study-image" src={pricingPage} alt="box" />
+            <div className="section-container">
+              <p className="image-label">This is information regarding the image above</p><br />
+            </div>
+            <p className="section-content">The summary for this design...</p><br />
+          </div>
+          <div className="section-container">
+            <p className="bold-content">The About Page</p>
+            <img className="shadow study-image" src={aboutPage} alt="box" />
+            <div className="section-container">
+              <p className="image-label">This is information regarding the image above</p><br />
+            </div>
+            <p className="section-content">The summary for this design...</p><br />
+          </div>
+          <div className="section-container">
+            <p className="bold-content">Conclusion</p>
+            <p className="section-content">(Content coming soon.)</p><br />
+          </div>
+
+          <div className="section-container">
+            <p className="sub-head">What I Would Have Done Differently</p>
+            <p className="section-content">The company...</p><br />
+          </div>
+          <div className="section-container">
+            <p className="bold-content">UX Design</p>
+            <ol className="numbered-list">
+              <li className="section-content ordered-item">(Content coming soon.)</li>
+            </ol>
+          </div>
+          <div className="section-container">
+            <p className="bold-content">Research</p>
+            <ol className="numbered-list">
+              <li className="section-content ordered-item">(Content coming soon.)</li>
+            </ol>
+          </div>
+          <div className="section-container">
+            <p className="bold-content">UI Design</p>
+            <ol className="numbered-list">
+              <li className="section-content ordered-item">(Content coming soon.)</li>
+            </ol>
+          </div>
 
 
         </div>

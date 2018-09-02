@@ -191,19 +191,61 @@
 @font-face {
   font-family: "Sue Ellen Francisco";
   src: url(../assets/fonts/SueEllenFrancisco.ttf); }
-.header {
-  background: #fff;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.home {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
   height: 100vh;
+  background-color: #F6F8FD; }
+
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
   width: 100vw;
   color: #fff; }
 
+.header-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%; }
+
+.header-content-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  width: 100vw;
+  margin: 0 auto; }
+
+.header-content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto; }
+
+.header-content img {
+  width: 100%; }
+
+@media only screen and (min-width: 768px) {
+  .header-content-wrapper {
+    max-width: 750px; } }
+@media only screen and (min-width: 1280px) {
+  .header-content-wrapper {
+    max-width: 1000px; } }
 .title {
   font-size: 3em;
-  padding: 0;
-  margin: 10px 0; }
+  padding: 0; }
 
 .title span {
   font-family: "Kaushan Script Regular", sans-serif; }
@@ -252,20 +294,10 @@
   -webkit-animation: 3s arrow infinite ease;
   animation: 3s arrow infinite ease; }
 
-@-webkit-keyframes arrow {
-  0%, 100% {
-    top: 50px; }
-  50% {
-    top: 80px; } }
-@keyframes arrow {
-  0%, 100% {
-    top: 50px; }
-  50% {
-    top: 80px; } }
 @media only screen and (min-width: 768px) {
   .intro {
-    font-size: 2em; } }
-@media only screen and (min-width: 768px) {
+    font-size: 2em; }
+
   .title {
     font-size: 6em;
     padding: 0;
@@ -282,7 +314,7 @@
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  height: 66px;
+  height: 80px;
   width: 100vw;
   background: white;
   padding: 0 10px; }
@@ -302,7 +334,7 @@
   flex-flow: row nowrap;
   justify-content: flex-end;
   align-items: center;
-  font-size: 0.65em; }
+  font-size: 0.85em; }
 
 .dotLogo {
   height: 40px;
@@ -343,7 +375,7 @@ ul {
 
   .menu {
     display: flex;
-    font-size: 1em; }
+    font-size: 1.25em; }
 
   .dotLogo {
     height: 54px;
@@ -352,7 +384,7 @@ ul {
     margin: -2px; }
 
   .navbar {
-    height: 76px;
+    height: 100px;
     padding: 3px 20px; }
 
   .nav-menu {

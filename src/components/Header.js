@@ -5,18 +5,17 @@ import bannerPic from '../assets/images/banners/portfolio-site-centerImage3test2
 class Header extends Component {
   render() {
     return (
-      <div id="home" className="header-wrapper">
-        <header className="header column">
-          <Navbar />
-          <div className="case-study-content-wrapper">
+      <div id="home" className="home">
+      <Navbar />
 
-            <div className="section-container">
-            <img className="shadow study-image" src={bannerPic} alt="box" />
-              <p className="sect-head">Josh Holladay</p>
-              <p className="bold-content">UI/UX Designer. Vocalist. Father of seven.</p>
+          <div className="header-wrapper">
+            <div className="header-content-wrapper">
+              <div className="header-content">
+                <img className="shadow study-image" src={bannerPic} alt="box" />
+              </div>
             </div>
           </div>
-        </header>
+      
       </div>
     );
   }
@@ -24,7 +23,8 @@ class Header extends Component {
 
 export default Header;
 // <img src={logo} className="App-logo" alt="logo" />
-
+// <p className="sect-head">Josh Holladay</p>
+// <p className="bold-content">UI/UX Designer. Vocalist. Father of seven.</p>
 
 
 
@@ -37,4 +37,21 @@ export default Header;
 // <div className="arrow-container">
 // <div className="arrow-down"></div>
 // </div>
+// </div>
+
+
+
+
+
+// <div id="home" className="">
+//   <header className="header column">
+//     <Navbar />
+//     <div className="header-wrapper">
+//       <div className="header-content-wrapper">
+//         <div className="header-content">
+//           <img className="shadow study-image" src={bannerPic} alt="box" />
+//         </div>
+//       </div>
+//     </div>
+//   </header>
 // </div>

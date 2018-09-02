@@ -1,17 +1,71 @@
+.home
+  display: flex
+  flex-flow: column nowrap
+  justify-content: center
+  align-items: center
+  width: 100vw
+  height: 100vh
+  background-color: #F6F8FD
+  // background-color: #F4F6FF
+
 .header
+  display: flex
+  flex-flow: column nowrap
+  justify-content: center
+  align-items: center
   background: #fff
   // background: url(../assets/images/banner-min.png)
-  background-position: center center
-  background-repeat: no-repeat
-  background-size: cover
-  height: 100vh
+  // background-position: center center
+  // background-repeat: no-repeat
+  // background-size: cover
+  // height: 100%
   width: 100vw
   color: #fff
+
+.header-wrapper
+  display: flex
+  flex-flow: column nowrap
+  justify-content: center
+  align-items: center
+  height: 100%
+  width: 100%
+
+.header-content-wrapper
+  display: flex
+  flex-flow: column nowrap
+  justify-content: center
+  align-items: center
+  min-height: 50vh
+  width: 100vw
+  margin: 0 auto
+  // padding: 60px 20px
+
+.header-content
+  display: flex
+  flex-flow: column nowrap
+  justify-content: center
+  align-items: center
+  width: 100%
+  height: auto
+  // margin: 0 0 40px 0
+  // padding: 0
+
+.header-content img
+  width: 100%
+
+@media only screen and (min-width: 768px)
+  .header-content-wrapper
+    max-width: 750px
+
+@media only screen and (min-width: 1280px)
+  .header-content-wrapper
+    max-width: 1000px
+    // padding: 100px 40px
 
 .title
   font-size: 3em
   padding: 0
-  margin: 10px 0
+  // margin: 10px 0
 
 .title span
   // font-family: Poller One, sans-serif
@@ -63,22 +117,21 @@
   -webkit-animation: 3s arrow infinite ease
   animation: 3s arrow infinite ease
 
-@-webkit-keyframes arrow
-  0%, 100%
-    top: 50px
-  50%
-    top: 80px
-
-@keyframes arrow
-  0%, 100%
-    top: 50px
-  50%
-    top: 80px
+// @-webkit-keyframes arrow
+//   0%, 100%
+//     top: 50px
+//   50%
+//     top: 80px
+//
+// @keyframes arrow
+//   0%, 100%
+//     top: 50px
+//   50%
+//     top: 80px
 
 @media only screen and (min-width: 768px)
   .intro
     font-size: 2em
-@media only screen and (min-width: 768px)
   .title
     font-size: 6em
     padding: 0
@@ -93,3 +146,6 @@
     line-height: 1.5
 
     // font-family: Open Sans, sans-serif
+
+@media only screen and (min-width: 1280px)
+  

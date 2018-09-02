@@ -34,7 +34,7 @@ class Portfolio extends Component {
                   </p>
                 </a>
               </div>
-            </div>
+             </div>
           </div>
           <div class="box-container">
             <img className="box" src={strongbod} alt="box" />

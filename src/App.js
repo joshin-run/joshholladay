@@ -26,7 +26,7 @@ class App extends Component {
           <Route path="/case-studies" component={CaseStudies} />
         </div>
       </HashRouter>
-      <Footer />
+
       </div>
     );
   }

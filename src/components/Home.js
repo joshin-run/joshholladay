@@ -7,9 +7,9 @@ import { Switch, Route } from 'react-router-dom';
 class Home extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="">
         <Header />
-        <Portfolio />
+
       </div>
     );
   }

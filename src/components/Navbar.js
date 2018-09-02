@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import { Switch, Route } from 'react-router-dom';
 // import About from './About';
-import siteLogo from '../assets/images/logos/circleBarlineLogo.png'
+import siteLogo from '../assets/images/logos/Circle-only-BarlineLogo-black2.png'
 import { Link } from 'react-router-dom'
 import hamburger from '../assets/images/hamburger-icon-thin2.svg'
 

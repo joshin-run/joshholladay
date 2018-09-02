@@ -192,7 +192,7 @@
   font-family: "Sue Ellen Francisco";
   src: url(../assets/fonts/SueEllenFrancisco.ttf); }
 .header {
-  background: url(../assets/images/banner-min.png);
+  background: #fff;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -314,12 +314,12 @@
 
 .nav-menu {
   position: relative;
-  font-size: 0.85em;
-  font-family: Quicksand Bold, sans-serif;
+  font-size: 0.62em;
+  font-family: "Montserrat-Regular", sans-serif;
   padding: 0 12px;
   /*border: 3px solid #fff */
   transition: all 0.2s ease 0s;
-  color: #0000ff; }
+  color: #000; }
 
 .nav-menu:hover {
   color: #47a7ff; }

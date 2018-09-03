@@ -11,12 +11,14 @@ class Header extends Component {
       <div id="home" className="home">
         <Navbar />
         <div className="header-wrapper">
-          <div className="header-content-wrapper">
-            <div className="header-content">
+          <div className="dark-overlay">
+            <div className="header-content-wrapper">
+              <div className="header-content">
 
 
-            
 
+
+              </div>
             </div>
           </div>
         </div>

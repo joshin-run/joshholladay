@@ -11,11 +11,11 @@ class Header extends Component {
           <div className="header-wrapper">
             <div className="header-content-wrapper">
               <div className="header-content">
-                <img className="shadow study-image" src={bannerPic} alt="box" />
+                <img className="shadow banner-image study-image" src={bannerPic} alt="box" />
               </div>
             </div>
           </div>
-      
+
       </div>
     );
   }

@@ -14,9 +14,9 @@ class Header extends Component {
           <div className="header-content-wrapper">
             <div className="header-content">
 
-              <img className="shadow banner-image" src={josh} alt="box" />
-              <img className="shadow banner-image" src={bannerPic} alt="box" />
-              <img className="shadow banner-image" src={info} alt="box" />
+
+            
+
             </div>
           </div>
         </div>

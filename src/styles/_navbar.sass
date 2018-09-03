@@ -5,32 +5,31 @@
   align-items: center
   height: 80px
   width: 100vw
-  background: rgba(255,255,255,1)
+  background: #fff
+  // background: rgba(255,255,255,1)
   // background: rgba(0,0,0,.75)
   // background: rgba(0,0,72,.9)
   // background: rgba(255,255,255,1)
-  padding: 0 10px
+  // padding: 0 10px
   // background: rgba(0,0,0,.6)
   // background: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,.5),)
   // background: rgba(255,255,255,.05)
   // padding: 0 10px
+
 .navbar a
   margin: 0
   padding: 0
-  height: 50px
+  height: auto
 
 .hamburger
-  display: none
+  display: block
   // display: block
-  height: 18px
+  height: 14px
   width: auto
+  margin-right: 20px
 
 .menu
-  display: flex
-  flex-flow: row nowrap
-  justify-content: flex-end
-  align-items: center
-  font-size: .85em
+  display: none
   // font-family: Open Sans, sans-serif
 
   // display: none
@@ -38,14 +37,16 @@
 .dotLogo
   height: 40px
   width: auto
-  padding: 8px 0 0 12px
+  padding-left: 15px
 
 .nav-style
   color: white
+  height: 100%
   // font-weight: bolder
 //
 //
 .nav-menu
+  display: inline-block
   position: relative
   // display: block
   // font-family: 'Julius Sans One', sans-serif
@@ -57,16 +58,45 @@
   // font-family: 'Montserrat Thin'
   padding: 0 12px
   /*border: 3px solid #fff */
-  transition: all 0.2s ease 0s
+
   // color: #fff
   color: #000
+  position: relative
+  line-height: 80px
   // color: #0000ff
 //
 //
-.nav-menu:hover
-  color: #47a7ff
+// .nav-menu:hover
+//   color: #47a7ff
   // color: rgba(115,187,247,1)
-//
+
+.nav-case-studies:hover
+  display: inline-block
+  background: black
+  color: white
+
+
+
+.nav-work:hover
+  display: inline-block
+  background: lightgray
+  color: white
+
+.nav-resume:hover
+  display: inline-block
+  background: blue
+  color: white
+
+.nav-about:hover
+  display: inline-block
+  background: yellow
+  color: black
+
+.nav-contact:hover
+  display: inline-block
+  background: red
+  color: white
+
 //
 .mobile-menu-icon
   height: 36px
@@ -98,23 +128,29 @@ ul
     display: none
 
   .menu
+    // font-size: 1.25em
     display: flex
-    font-size: 1.25em
+    flex-flow: row nowrap
+    justify-content: flex-end
+    align-items: center
+    font-size: .85em
+    height: auto
 
   .dotLogo
-    height: 54px
+    height: 50px
     width: auto
     // padding-right: 25px
     // margin: 10px 20px
     padding-top: 0px
-    margin: -2px
+    // margin: -2px
 
   .navbar
-    height: 100px
-    padding: 3px 20px
+    height: 80px
+    padding: 0px
 
   .nav-menu
     padding: 0 18px
+    line-height: 80px
 //
 
 //

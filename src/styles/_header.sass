@@ -5,22 +5,6 @@
   align-items: center
   width: 100vw
   height: 100vh
-  background-color: #F6F8FD
-  // background-color: #F4F6FF
-
-.header
-  display: flex
-  flex-flow: column nowrap
-  justify-content: center
-  align-items: center
-  background: #fff
-  // background: url(../assets/images/banner-min.png)
-  // background-position: center center
-  // background-repeat: no-repeat
-  // background-size: cover
-  // height: 100%
-  width: 100vw
-  color: #fff
 
 .header-wrapper
   display: flex
@@ -29,107 +13,61 @@
   align-items: center
   height: 100%
   width: 100%
+  background-color: #F6F8FD
 
 .header-content-wrapper
   display: flex
-  flex-flow: column nowrap
+  flex-flow: row nowrap
   justify-content: center
   align-items: center
-  min-height: 50vh
-  width: 100vw
-  margin: 0 auto
-  // padding: 60px 20px
 
 .header-content
+  background: silver
   display: flex
   flex-flow: column nowrap
   justify-content: center
   align-items: center
-  width: 100%
-  height: auto
-  // margin: 0 0 40px 0
-  // padding: 0
+  height: 80vh
+  width: 92vw
 
-.header-content img
-  width: 85%
+.title-image
+  height: 100%
+  width: 100%
+  margin-right: 30px
+
+.banner-image
+  height: auto
+  width: 100%
+
+.left-header-content
+  display: flex
+  flex-flow: column nowrap
+  justify-content: space-between
+  align-items: center
+  background: yellow
+  height: 100%
+  width: 100%
+
+.left-banner-contents
+  display: flex
+  flex-flow: column nowrap
+  justify-content: flex-start
+  align-items: center
+  background: white
+  height: 100%
+  width: 100%
+
+.name
+  height: 100px
+  width: 100px
+  background: black
+  color: #fff
+  margin-right: 40px
 
 @media only screen and (min-width: 768px)
   .header-content-wrapper
     max-width: 750px
 
-@media only screen and (min-width: 1280px)
-  .header-content-wrapper
-    max-width: 1000px
-    // padding: 100px 40px
-
-.title
-  font-size: 3em
-  padding: 0
-  // margin: 10px 0
-
-.title span
-  // font-family: Poller One, sans-serif
-  font-family: 'Kaushan Script Regular', sans-serif
-
-.intro
-  font-size: 1em
-  line-height: 1.5
-  // font-family: Oswald Light, sans-serif
-  font-family: Quicksand Light, sans-serif
-  // font-family: Open Sans, sans-serif
-  color: #fff
-
-.banner
-  display: flex
-  flex-flow: column nowrap
-  justify-content: center
-  align-items: center
-  background: none
-  height: 100%
-
-.arrow-container
-  content: ""
-  position: relative
-  margin-top: 50px
-  width: 100%
-  display: flex
-  flex-flow: row nowrap
-
-.arrow-down
-  width: 100%
-  margin: 0 auto
-  text-align: center
-
-.arrow-down::after
-  content: ""
-  width: 20px
-  height: 20px
-  position: absolute
-  margin: auto
-  top: 0
-  right: 0
-  bottom: 0
-  left: 0
-  border-right: 2px solid #fff
-  border-bottom: 2px solid #fff
-  -webkit-transform: rotate(45deg)
-  transform: rotate(45deg)
-  -webkit-animation: 3s arrow infinite ease
-  animation: 3s arrow infinite ease
-
-// @-webkit-keyframes arrow
-//   0%, 100%
-//     top: 50px
-//   50%
-//     top: 80px
-//
-// @keyframes arrow
-//   0%, 100%
-//     top: 50px
-//   50%
-//     top: 80px
-
-@media only screen and (min-width: 768px)
   .intro
     font-size: 2em
   .title
@@ -145,6 +83,101 @@
     font-size: 2em
     line-height: 1.5
 
+@media only screen and (min-width: 1280px)
+  .header-content-wrapper
+    max-width: 1200px
+    // padding: 100px 40px
+
+  .header-content img
+    width: 65%
+    // margin-right: 50px
+
+// .title
+//   font-size: 3em
+//   padding: 0
+//   // margin: 10px 0
+//
+// .title span
+//   // font-family: Poller One, sans-serif
+//   font-family: 'Kaushan Script Regular', sans-serif
+//
+// .intro
+//   font-size: 1em
+//   line-height: 1.5
+//   // font-family: Oswald Light, sans-serif
+//   font-family: Quicksand Light, sans-serif
+//   // font-family: Open Sans, sans-serif
+//   color: #fff
+//
+// .banner
+//   display: flex
+//   flex-flow: column nowrap
+//   justify-content: center
+//   align-items: center
+//   background: none
+//   height: 100%
+//
+// .arrow-container
+//   content: ""
+//   position: relative
+//   margin-top: 50px
+//   width: 100%
+//   display: flex
+//   flex-flow: row nowrap
+//
+// .arrow-down
+//   width: 100%
+//   margin: 0 auto
+//   text-align: center
+//
+// .arrow-down::after
+//   content: ""
+//   width: 20px
+//   height: 20px
+//   position: absolute
+//   margin: auto
+//   top: 0
+//   right: 0
+//   bottom: 0
+//   left: 0
+//   border-right: 2px solid #fff
+//   border-bottom: 2px solid #fff
+//   -webkit-transform: rotate(45deg)
+//   transform: rotate(45deg)
+//   -webkit-animation: 3s arrow infinite ease
+//   animation: 3s arrow infinite ease
+
+// @-webkit-keyframes arrow
+//   0%, 100%
+//     top: 50px
+//   50%
+//     top: 80px
+//
+// @keyframes arrow
+//   0%, 100%
+//     top: 50px
+//   50%
+//     top: 80px
+
+
+
+
     // font-family: Open Sans, sans-serif
 
-@media only screen and (min-width: 1280px)
+
+
+
+// background-color: #F4F6FF
+// .header
+//   display: flex
+//   flex-flow: column nowrap
+//   justify-content: center
+//   align-items: center
+//   background: #fff
+//   // background: url(../assets/images/banner-min.png)
+//   // background-position: center center
+//   // background-repeat: no-repeat
+//   // background-size: cover
+//   // height: 100%
+//   width: 100vw
+//   color: #fff

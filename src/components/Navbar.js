@@ -15,13 +15,13 @@ class Navbar extends Component {
         <a href="https://joshin-run.github.io/joshholladay"><img className="dotLogo" src={siteLogo} alt="logo" /></a>
         <img className="hamburger" src={hamburger} onclick="menuOpen()"/>
         <ul className="menu nav-style">
-          <li className="nav-menu"><Link to="/case-studies">CASE STUDIES</Link></li>
-          <li className="nav-menu"><Link to="/portfolio">PORTFOLIO</Link></li>
-          <li id="resume-link" className="nav-menu">
+          <li className="nav-menu nav-case-studies"><Link to="/case-studies">CASE STUDIES</Link></li>
+          <li className="nav-menu nav-work"><Link to="/portfolio">WORK</Link></li>
+          <li id="resume-link" className="nav-menu nav-resume">
             <a href="https://drive.google.com/open?id=1ksrC81MVA4FTyFxuSODkxKTUqFMcMrk5" target="_blank">RESUME</a>
           </li>
-          <li className="nav-menu"><Link to="/about">ABOUT</Link></li>
-          <li className="nav-menu"><Link to="/contact">CONTACT</Link></li>
+          <li className="nav-menu nav-about"><Link to="/about">ABOUT</Link></li>
+          <li className="nav-menu nav-contact"><Link to="/contact">CONTACT</Link></li>
         </ul>
 
       </div>

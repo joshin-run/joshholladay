@@ -1,20 +1,25 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar.js';
 import bannerPic from '../assets/images/banners/portfolio-site-centerImage3test2.jpg'
+import josh from '../assets/images/banners/title-josh-holladay-caps.jpg'
+import titlePic from '../assets/images/banners/banner-title-content.jpg'
+import info from '../assets/images/banners/subTitle-info.jpg'
 
 class Header extends Component {
   render() {
     return (
       <div id="home" className="home">
-      <Navbar />
+        <Navbar />
+        <div className="header-wrapper">
+          <div className="header-content-wrapper">
+            <div className="header-content">
 
-          <div className="header-wrapper">
-            <div className="header-content-wrapper">
-              <div className="header-content">
-                <img className="shadow banner-image study-image" src={bannerPic} alt="box" />
-              </div>
+              <img className="shadow banner-image" src={josh} alt="box" />
+              <img className="shadow banner-image" src={bannerPic} alt="box" />
+              <img className="shadow banner-image" src={info} alt="box" />
             </div>
           </div>
+        </div>
 
       </div>
     );
@@ -22,6 +27,23 @@ class Header extends Component {
 }
 
 export default Header;
+
+
+
+
+// <div className="header-wrapper">
+//   <div className="header-content-wrapper">
+//     <div className="header-content">
+//       <img className="shadow title-image" src={titlePic} alt="box" />
+//       <img className="shadow banner-image" src={bannerPic} alt="box" />
+//     </div>
+//   </div>
+// </div>
+
+
+
+
+
 // <img src={logo} className="App-logo" alt="logo" />
 // <p className="sect-head">Josh Holladay</p>
 // <p className="bold-content">UI/UX Designer. Vocalist. Father of seven.</p>

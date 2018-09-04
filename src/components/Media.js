@@ -26,7 +26,7 @@ class Media extends Component {
                 <img id="github_i" className="menu-media-icons" src={github} alt="GitHub Icon" /></a>
               </li>
               <li className="media-menu">
-                <a href="https://dribbble.com/jcreateit" target="_blank"><img id="dribbble_i"  className="menu-media-icons" src={dribbble} alt="Dribbble Icon" /></a>
+                <a href="https://dribbble.com/joshholladay" target="_blank"><img id="dribbble_i"  className="menu-media-icons" src={dribbble} alt="Dribbble Icon" /></a>
               </li>
               <li className="media-menu">
                 <a href="https://twitter.com/iamjoshholladay" target="_blank"><img id="twitter_i" className="menu-media-icons" src={twitter} alt="Twitter Icon" /></a>

@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import linkedin from '../assets/images/social/linkedin-bl.svg'
-import behance from '../assets/images/social/behance-bl.svg'
-import github from '../assets/images/social/github-bl.svg'
-import dribbble from '../assets/images/social/dribbble-bl.svg'
-import twitter from '../assets/images/social/twitter-bl.svg'
-import wordpress from '../assets/images/social/wordpress-bl.svg'
-import email from '../assets/images/social/email-bl.svg'
+import linkedin from '../assets/images/social/icon-LinkedIn-white.svg'
+import behance from '../assets/images/social/icon-Behance-white.svg'
+import github from '../assets/images/social/icon-GitHub-white.svg'
+import dribbble from '../assets/images/social/icon-Dribbble-white.svg'
+import twitter from '../assets/images/social/icon-Twitter-white.svg'
+import email from '../assets/images/social/icon-Email-white.svg'
 
 class Media extends Component {
   render() {
@@ -31,6 +30,9 @@ class Media extends Component {
               </li>
               <li className="media-menu">
                 <a href="https://twitter.com/iamjoshholladay" target="_blank"><img id="twitter_i" className="menu-media-icons" src={twitter} alt="Twitter Icon" /></a>
+              </li>
+              <li className="media-menu">
+                <a href="mailto:me@joshholladay.com" target="_top"><img id="twitter_i" className="menu-media-icons" src={email} alt="Twitter Icon" /></a>
               </li>
             </ul>
           </div>

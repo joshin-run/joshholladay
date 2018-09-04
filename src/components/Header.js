@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar.js';
+import Footer from './Footer.js';
 import bannerPic from '../assets/images/banners/portfolio-site-centerImage3test2.jpg'
 import josh from '../assets/images/banners/title-josh-holladay-caps.jpg'
 import titlePic from '../assets/images/banners/banner-title-content.jpg'
 import info from '../assets/images/banners/subTitle-info.jpg'
+import Media from './Media.js';
 
 class Header extends Component {
   render() {
@@ -11,21 +13,17 @@ class Header extends Component {
       <div id="home" className="home">
         <Navbar />
         <div className="header-wrapper">
-
-
-            <div className="header-content">
-
-
-                <h1 className="title"><span>Josh Holladay</span></h1>
-                <p className="intro">UI/UX Designer. Front-end Developer.</p>
-                <div className="arrow-container">
-                  <div className="arrow-down"></div>
-                </div>
-
+          <div className="header-content">
+            <h1 className="title"><span>Josh Holladay</span></h1>
+            <p className="intro">UI/UX Designer. Front-end Developer.</p>
+            <div className="arrow-container">
+              <div className="arrow-down"></div>
             </div>
+            
+            <Media />
+          </div>
 
         </div>
-
       </div>
     );
   }

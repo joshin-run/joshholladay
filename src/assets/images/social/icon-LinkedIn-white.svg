@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="100px" viewBox="0 0 102 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-LinkedIn-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon-LinkedIn-white" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="linkedin-bl" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M22.1133333,100 L0.713333333,100 L0.713333333,28.5714286 L22.1133333,28.5714286 L22.1133333,100 Z M100.58,100 L79.18,100 L79.18,62.1428571 C79.18,52.1428571 75.6133333,47.1428571 68.48,47.1428571 C62.7733333,47.1428571 59.2066667,50 57.78,55 C57.78,64.2857143 57.78,100 57.78,100 L36.38,100 C36.38,100 36.38,35.7142857 36.38,28.5714286 L53.5,28.5714286 L54.9266667,42.8571429 L55.64,42.8571429 C59.92,35.7142857 67.0533333,30.7142857 76.3266667,30.7142857 C83.46,30.7142857 89.88,32.8571429 94.16,37.8571429 C98.44,42.8571429 101.293333,50 101.293333,59.2857143 L101.293333,100 L100.58,100 Z" id="Shape"></path>
+            <ellipse id="Oval" cx="11.4133333" cy="10.7142857" rx="11.4133333" ry="10.7142857"></ellipse>
+        </g>
+    </g>
+</svg>

@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
-import Navbar from './Navbar'
+import NavbarDark from './NavbarDark'
 // import contactBanner from '../assets/images/banners/contact-banner2.png'
 
 const Contact = (props) => (
 
     <Router>
       <div id="contact">
-        <Navbar />
-        <div className="contactBanner">
-          <p className="banner-header">
-            Connect with Me
-          </p>
-        </div>
+        <NavbarDark />
+
 
         <div className="content-wrapper">
 
@@ -30,6 +26,12 @@ const Contact = (props) => (
 )
 
 export default Contact;
+// <div className="contactBanner">
+//   <p className="banner-header">
+//     Connect with Me
+//   </p>
+// </div>
+
 
 // <a href="https://www.behance.net/josh852a"><button className="button-empty-contact all-caps">View Projects</button></a>
 

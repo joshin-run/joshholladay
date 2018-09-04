@@ -6,24 +6,17 @@ import siteLogo from '../assets/images/logos/jh-5line-logo-5border.png'
 import { Link } from 'react-router-dom'
 import hamburger from '../assets/images/white-hamburger.svg'
 
-class Navbar extends Component {
+class NavbarDark extends Component {
   render() {
     function menuOpen() {
       alert('hello');
     }
-    function overlayMenuOn() {
-      document.getElementById("overlay-menu").style.display = "block";
-    }
-
-    function overlayMenuOff() {
-      document.getElementById("overlay-menu").style.display = "none";
-    }
     return (
 
-      <div className="navbar">
+      <div className="navbar-dark">
       <div className="nav-container">
         <a href="https://joshin-run.github.io/joshholladay"><img className="dotLogo" src={siteLogo} alt="logo" /></a>
-        <img className="hamburger" src={hamburger} onClick="overlayMenuOn()"/>
+        <img className="hamburger" src={hamburger} onclick="menuOpen()"/>
         <ul className="menu nav-style">
           <li className="nav-menu nav-case-studies"><Link to="/case-studies">CASE STUDIES</Link></li>
           <li className="nav-menu nav-work"><Link to="/portfolio">WORK</Link></li>
@@ -39,6 +32,6 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar;
+export default NavbarDark;
 // <img src={logo} className="App-logo" alt="logo" />
 // <li className="nav-menu"><a href="#about">ABOUT</a></li>

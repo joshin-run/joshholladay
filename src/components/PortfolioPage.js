@@ -9,7 +9,7 @@ import upss from '../assets/images/portfolio/UPSS.png'
 import jcreateit from '../assets/images/portfolio/jcreateit.png'
 import crypto from '../assets/images/portfolio/cryptoelevation.png'
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
-import Navbar from './Navbar'
+import NavbarDark from './NavbarDark'
 
 // import contactBanner from '../assets/images/banners/contact-banner2.png'
 
@@ -17,12 +17,8 @@ const PortfolioPage = (props) => (
 
     <Router>
       <div id="portfoliopage">
-        <Navbar />
-        <div className="portfolioBanner">
-          <p className="banner-header">
-            Portfolio
-          </p>
-        </div>
+        <NavbarDark />
+
         <div className="content-wrapper">
 
 
@@ -209,6 +205,12 @@ const PortfolioPage = (props) => (
 )
 
 export default PortfolioPage;
+// 
+// <div className="portfolioBanner">
+//   <p className="banner-header">
+//     Portfolio
+//   </p>
+// </div>
 
 // <a href="https://www.behance.net/josh852a"><button className="button-empty-contact all-caps">View Projects</button></a>
 

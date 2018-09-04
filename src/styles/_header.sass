@@ -115,13 +115,13 @@
   height: 100vh
 
 .header-wrapper
-  background: url(../assets/images/banners/portfolio-site-centerImage-dark.jpg)
+  background: url(../assets/images/banners/creative-works-banner-3000.jpg)
   background-position: center center
   background-repeat: no-repeat
   background-size: cover
 
-  height: 100vh
-  width: 100vw
+  height: 100%
+  width: 100%
   color: #fff
   // display: flex
   // flex-flow: column nowrap
@@ -150,8 +150,13 @@
   flex-flow: column nowrap
   justify-content: center
   align-items: center
-  height: 80vh
-  width: 92vw
+  height: 100%
+  width: 100vw
+  // margin-left: 20px
+
+.title span
+  font-family: 'Kaushan Script Regular', sans-serif
+  font-size: 1.28em
 
 .title-image
   height: 100%
@@ -187,20 +192,26 @@
   color: #fff
   margin-right: 40px
 
+.intro
+  font-family: 'Montserrat-ExtraLight'
+
 @media only screen and (min-width: 768px)
   .header-content-wrapper
     max-width: 750px
 
   .intro
     font-size: 2em
+    letter-spacing: 4px
   .title
     font-size: 6em
     padding: 0
     margin: 10px 0
+    font-family: 'Montserrat-Regular'
 
   .title span
     // font-family: Poller One, sans-serif
     font-family: 'Kaushan Script Regular', sans-serif
+    font-size: 1em
 
   .intro
     font-size: 2em
@@ -210,9 +221,18 @@
   .header-content-wrapper
     max-width: 1200px
     // padding: 100px 40px
+    margin-left: 100px
+  //
+  // .header-content
+  //   margin-left: 75px
+
 
   .header-content img
     width: 65%
+
+
+
+
     // margin-right: 50px
 
 // .title

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
-import Navbar from './Navbar'
+import NavbarDark from './NavbarDark'
 
 
 
@@ -12,7 +12,7 @@ const About = (props) => (
 
     <Router>
       <div id="about">
-        <Navbar />
+        <NavbarDark />
         <div className="aboutBanner">
           <p className="banner-header">
             A Little About Me

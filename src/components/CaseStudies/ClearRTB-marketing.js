@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
-import Navbar from '../Navbar'
+import NavbarDark from '../NavbarDark'
 import wall1 from '../../assets/images/portfolio/Case Studies/ppl/PPL-initialSketches.png'
 
 import CRTBMarketingBanner from '../../assets/images/CaseStudies/ClearRTB-Marketing/CRTB-Marketing-Banner2.png'
@@ -57,7 +57,7 @@ const ClearRTBMarketing = (props) => (
 
     <Router>
       <div id="boilder-plate">
-        <Navbar />
+        <NavbarDark />
         <img className="study-banner" src={CRTBMarketingBanner} />
         <div className="case-study-content-wrapper">
 
@@ -92,8 +92,8 @@ const ClearRTBMarketing = (props) => (
             <p className="sub-head">The Brief</p><br />
             <p className="section-content">As a UX Designer, my first priority was to meet with the stake holders to understand the problems and goals for the projects. When we met next I went through a series of questions that would help to focus our efforts and ensure that the product we were about to built would solve the problems at hand for the user.</p>
           </div>
-          <img className="shadow study-image" src={briefMtg} alt="box" />
           <div className="section-container">
+          <img className="shadow study-image" src={briefMtg} alt="box" />
             <p className="image-label">My first strategy meeting with the company's CEO</p>
           </div>
           <div className="section-container">

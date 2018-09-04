@@ -12,21 +12,31 @@ import ClearRTBMarketing from './components/CaseStudies/ClearRTB-marketing';
 import CaseStudies from './components/CaseStudies';
 
 class App extends Component {
+
   render() {
+
+    function overlayMenuOn() {
+      document.getElementById("overlay-menu").style.display = "block";
+    }
+
+    function overlayMenuOff() {
+      document.getElementById("overlay-menu").style.display = "none";
+    }
+
     return (
       <div className="App">
-      <HashRouter>
-        <div>
-          <Route exact path="/" component={Home} />
-          <Route path="/boilerplate" component={BoilerPlate} />
-          <Route path="/portfolio" component={PortfolioPage} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/clearrtb-marketing" component={ClearRTBMarketing} />
-          <Route path="/case-studies" component={CaseStudies} />
-        </div>
-      </HashRouter>
-
+        <HashRouter>
+          <div>
+            <Route exact path="/" component={Home} />
+            <Route path="/boilerplate" component={BoilerPlate} />
+            <Route path="/portfolio" component={PortfolioPage} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/clearrtb-marketing" component={ClearRTBMarketing} />
+            <Route path="/case-studies" component={CaseStudies} />
+          </div>
+        </HashRouter>
+        <div id="overlay-menu" onClick="overlayMenuOff()"></div>
       </div>
     );
   }

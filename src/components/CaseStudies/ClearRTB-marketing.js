@@ -107,7 +107,7 @@ const ClearRTBMarketing = (props) => (
           </div>
           <div className="section-container">
             <p className="bold-content">Key Performance Indicators</p>
-            <p className="section-content">What was important to the company was a few measurable results that would be generated from the website funcionality and design:</p><br />
+            <p className="section-content">What was important to the company was a few measurable results that would be generated from the website functionality and design:</p><br />
             <ol className="numbered-list">
               <li className="section-content ordered-item">The users are scheduling appointments.</li>
               <li className="section-content ordered-item">The users are visiting the other sites after the homepage.</li>
@@ -216,7 +216,7 @@ const ClearRTBMarketing = (props) => (
           <div className="section-container">
             <p className="sub-head">The Second Meeting</p><br />
             <p className="section-content">Once these and many other ideas were ready, I sat down with the CEO, the primary stakeholder, and presented my designs and ideas to him. I described my reasoning and recommendations, both on a UX Design and UI Design level. In truth, there was no confetti that rained from above. But, what did happen was that I was praised for my ability to bring so many ideas to the table, with such breadth and differing applications, in such a short amount of time. (Better than confetti!)</p><br />
-            <p className="section-content">There were many ideas, designs, and concepts that were considered to be good candidates. However, the CEO also had some ideas. We pooled our ideas together, I made recommendations, but the final decision rested on CEO, and he chose one of his own ideas. We ran with this idea for over a month or more...which was an entirely different adventure.</p><br />
+            <p className="section-content">There were many ideas, designs, and concepts that were considered to be good candidates. However, the CEO also had some ideas. We pooled our ideas together, I made recommendations. We ran with one particular idea for over a month or more...which was an entirely different adventure.</p><br />
           </div>
 
           <div className="section-container">

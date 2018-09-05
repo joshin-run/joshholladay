@@ -337,7 +337,7 @@ const ClearRTBMarketing = (props) => (
             <div className="section-container">
               <p className="image-label">ClearRTB.com future landing page for the marketing website initiative.</p><br />
             </div>
-            <p className="section-content">(Content coming soon.)</p><br />
+            <p className="section-content">The landing page features a black cube which I designed to appear three dimensional. It represents what industry leaders offer, a package of unknowns. We felt it important to provide a way to gather data and leads through offering an email input to subscribe to news letters. The chevron encourages the user to scroll down for more information.</p><br />
           </div>
 
           <div className="section-container">
@@ -347,48 +347,56 @@ const ClearRTBMarketing = (props) => (
               <p className="image-label">A paywall is a feature that forces the user to make a choice before proceeding to the rest of the site content</p><br />
             </div>
             <p className="section-content">Paywalls are used on many websites to prompt an ation, usually to pay for a subscription or membership, before proceeding. For our purposes we modified the concept where, payment wasn't required, only the declaration of what kind of business the user is by clicking on a button that appears on scrolling down.</p><br />
-            <p className="section-content"> The idea of offering different content to the three different target users was an area of much discussion. I concluded </p><br />
+            <p className="section-content"> The idea of offering different content to the three different target users was an area of much discussion. A paywall was the eventual mechanism chosen to offer three choices to choose from in their experience through the site. It forces the user to choose a destination where the next page contained information that would be apply to their interests and role.</p><br />
+            <p className="section-content">Another idea was to expand the landing page with three additional sections. These would have a short paragraph about how we service advertisers, publishers, and agencies complete with a call-to-action button to advance to a page with more applicable information.</p><br />
           </div>
 
           <div className="section-container">
             <p className="bold-content">The Langing Page: Advertiser Version</p>
             <img className="shadow study-image" src={advertiserPage} alt="box" />
             <div className="section-container">
-              <p className="image-label">This is information regarding the image above</p><br />
+              <p className="image-label">This is the entire web page when the user clicks on the button labeled: Advertiser</p><br />
             </div>
-            <p className="section-content">The summary for this design...</p><br />
+            <p className="section-content">Once the user clicks on a button the landing page reveals additional content. There is an introduction, the company statements about how the company will solve a problem in the industry, the call-to-action section, then the footer.</p><br />
+            <p className="section-content">The introduction section provides content that is specific to the advertiser, in this case, and will be different depending on which button the user just clicked to get to this page.</p><br />
+            <p className="section-content">The next section makes a case through images and content. First, the existence of a problem is presented: some marketers who are running ad campaigns lack the knowledge to maximize their spend. this is represented with an almost formless vehicle. Second, the company explains how they solve that problem accompanied by three choices of vehicles well defined, bright, and appealing. I chose the diagonal rectangles to be consistent with the tranpsarent squares in the homepage design.</p><br />
+            <p className="section-content">The 'We're Here To Help' section is the primary section that will help to measure if the company's Key Performance Indicators are being met. In other words, are users entering their email addresses in order to schedule a call with ClearRTB?</p><br />
+            <p className="section-content">The footer includes an description of the company, another opportunity for the the company to gather email addresses, and easily accessable navigation since the top navbar is not fixed and visible whent he user scrolls down.</p><br />
           </div>
           <div className="section-container">
             <p className="bold-content">The Resources Page</p>
             <img className="shadow study-image" src={resourcesPage} alt="box" />
             <div className="section-container">
-              <p className="image-label">This is information regarding the image above</p><br />
+              <p className="image-label">The resource page is ClearRTB's version of a blog page</p><br />
             </div>
-            <p className="section-content">The summary for this design...</p><br />
+            <p className="section-content">This page is layed out in a blog format where the user can explore and find articles about topics that interest them. Educating customers is extremely important to the company. This will be another method in which to fulfill that organizational initiative.</p><br />
           </div>
           <div className="section-container">
             <p className="bold-content">The Technology Page</p>
             <img className="shadow study-image" src={technologyPage} alt="box" />
             <div className="section-container">
-              <p className="image-label">This is information regarding the image above</p><br />
+              <p className="image-label">This page presents the services and differentiators of the company</p><br />
             </div>
-            <p className="section-content">The summary for this design...</p><br />
+            <p className="section-content">The data, bidder, and dynamic creative sections tell the user what the company offers and defines its advantages I took the content from the old site, revised and condensed it to tell a more effective story.</p><br />
+            <p className="section-content">For the design, I was asked to find a male and female image in professional attire and create a cartoon type appearance to represent two marketers in the industry. I used Photoshop for this technique. The screen shot images that are paired with each user represent their results during the ad campaign process.</p><br />
           </div>
           <div className="section-container">
             <p className="bold-content">The Pricing Page</p>
             <img className="shadow study-image" src={pricingPage} alt="box" />
             <div className="section-container">
-              <p className="image-label">This is information regarding the image above</p><br />
+              <p className="image-label">This page should answer many questions for the user that will impact their decision to choose ClearRTB</p><br />
             </div>
-            <p className="section-content">The summary for this design...</p><br />
+            <p className="section-content">The pricing page answers many of the user's questions. The calculator generates a grade based on user input such as their monthly spend and their current provider. This tells them how the company thinks they are doing. I designed the calculator to be modern, clean, and simple.</p><br />
+            <p className="section-content">The pricing matrix presents detailed information about the membership plans and what we include in each scenerio.</p><br />
           </div>
           <div className="section-container">
             <p className="bold-content">The About Page</p>
             <img className="shadow study-image" src={aboutPage} alt="box" />
             <div className="section-container">
-              <p className="image-label">This is information regarding the image above</p><br />
+              <p className="image-label">The About page gives more insight about the company</p><br />
             </div>
-            <p className="section-content">The summary for this design...</p><br />
+            <p className="section-content">The About page includes the company's mission and beliefs, information about the leadership team, and a map indicating what states they operate in.</p><br />
+            <p className="section-content">I wrote the content for the thesis section and tried to embody the company's beliefs into an inspiring and informative thesis or mission statement section.</p><br />
           </div>
           <div className="section-container">
             <p className="sub-head">Conclusion</p>

@@ -50,6 +50,7 @@ import resourcesPage from '../../assets/images/CaseStudies/ClearRTB-Marketing/Fi
 import technologyPage from '../../assets/images/CaseStudies/ClearRTB-Marketing/Final/CRTB-Technology.jpg'
 import pricingPage from '../../assets/images/CaseStudies/ClearRTB-Marketing/Final/CRTB-Pricing.jpg'
 import aboutPage from '../../assets/images/CaseStudies/ClearRTB-Marketing/Final/CRTB-About.jpg'
+import mobile from '../../assets/images/CaseStudies/ClearRTB-Marketing/Final/ClearRTB-marketing-mobile.jpg'
 
 
 
@@ -399,44 +400,19 @@ const ClearRTBMarketing = (props) => (
             <p className="section-content">I wrote the content for the thesis section and tried to embody the company's beliefs into an inspiring and informative thesis or mission statement section.</p><br />
           </div>
           <div className="section-container">
+            <p className="bold-content">Mobile Designs</p>
+            <img className="shadow study-image" src={mobile} alt="box" />
+            <div className="section-container">
+              <p className="image-label">Mobile screens as viewed in the Sketch app</p><br />
+            </div>
+            <p className="section-content">Responsive design was also an initiative. I deisgned both the tablet versions as well as the mobile phone versions to give guidence and direction to the developers when it came time to send the designs to production.</p><br />
+          </div>
+          <div className="section-container">
             <p className="sub-head">Conclusion</p>
-            <p className="section-content">(Content coming soon.)</p><br />
+            <p className="section-content">The company was thrilled with the results. The feedback I have received has been nothing but positive. The approach I took, UX Design based first with a focus on the user, was somewhat new to the company and turned out to be a tremendous eye opener. The research on the prototype was invaluable. My key takeaways from the project are to base the design of the user's expectations, create the story that the company is looking to tell, and stay consistent in the design over the entire project. Thanks ClearRTB for the opportunity!</p><br />
           </div>
 
-          <div className="section-container">
-            <p className="sub-head">What I Would Have Done Differently</p>
-            <p className="section-content">The company...</p><br />
-          </div>
-          <div className="section-container">
-            <p className="bold-content">UX Design</p>
-            <ol className="numbered-list">
-              <li className="section-content ordered-item">(Content coming soon.)</li>
-            </ol>
-          </div>
-          <div className="section-container">
-            <p className="bold-content">Research</p>
-            <ol className="numbered-list">
-              <li className="section-content ordered-item">(Content coming soon.)</li>
-            </ol>
-          </div>
-          <div className="section-container">
-            <p className="bold-content">UI Design</p>
-            <ol className="numbered-list">
-              <li className="section-content ordered-item">(Content coming soon.)</li>
-            </ol>
-          </div>
-          <div className="section-container">
-            <p className="bold-content">Prooving and Disprooving Assumptions</p>
-            <ol className="numbered-list">
-              <li className="section-content ordered-item">(Content coming soon.)</li>
-            </ol>
-          </div>
-          <div className="section-container">
-            <p className="bold-content">The Paywall</p>
-            <ol className="numbered-list">
-              <li className="section-content ordered-item">(Content coming soon.)</li>
-            </ol>
-          </div>
+
 
 
         </div>
@@ -451,5 +427,42 @@ export default ClearRTBMarketing;
 //   <p className="section-content">The question, however in my mind was:</p><br />
 //   <ol>
 //   <li className="section-content ordered-item">"Did we really build an app that would meet the needs of the target users?"</li>
+//   </ol>
+// </div>
+
+
+///////////////////////////////////
+// <div className="section-container">
+//   <p className="sub-head">What I Would Have Done Differently</p>
+//   <p className="section-content">The company...</p><br />
+// </div>
+// <div className="section-container">
+//   <p className="bold-content">UX Design</p>
+//   <ol className="numbered-list">
+//     <li className="section-content ordered-item">(Content coming soon.)</li>
+//   </ol>
+// </div>
+// <div className="section-container">
+//   <p className="bold-content">Research</p>
+//   <ol className="numbered-list">
+//     <li className="section-content ordered-item">(Content coming soon.)</li>
+//   </ol>
+// </div>
+// <div className="section-container">
+//   <p className="bold-content">UI Design</p>
+//   <ol className="numbered-list">
+//     <li className="section-content ordered-item">(Content coming soon.)</li>
+//   </ol>
+// </div>
+// <div className="section-container">
+//   <p className="bold-content">Prooving and Disprooving Assumptions</p>
+//   <ol className="numbered-list">
+//     <li className="section-content ordered-item">(Content coming soon.)</li>
+//   </ol>
+// </div>
+// <div className="section-container">
+//   <p className="bold-content">The Paywall</p>
+//   <ol className="numbered-list">
+//     <li className="section-content ordered-item">(Content coming soon.)</li>
 //   </ol>
 // </div>

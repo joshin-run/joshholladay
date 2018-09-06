@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
-import NavbarDark from '../NavbarDark'
+import Navbar from '../Navbar'
 import wall1 from '../../assets/images/portfolio/Case Studies/ppl/PPL-initialSketches.png'
 
 import CRTBMarketingBanner from '../../assets/images/CaseStudies/ClearRTB-Marketing/CRTB-Marketing-Banner2.png'
@@ -54,11 +54,21 @@ import mobile from '../../assets/images/CaseStudies/ClearRTB-Marketing/Final/Cle
 
 
 
-const ClearRTBMarketing = (props) => (
+class ClearRTBMarketing extends Component {
+  constructor(props) {
+    super(props)
+    console.log('Menu props/Header:', props)
+    this.state = {}
+  }
+
+  render() {
+    return (
 
     <Router>
       <div id="boilder-plate">
-        <NavbarDark />
+      <div className="dark-rect"></div>
+      <Navbar onMenuToggle={this.props.onMenuToggle}/>
+
         <img className="study-banner" src={CRTBMarketingBanner} />
         <div className="case-study-content-wrapper">
 
@@ -420,6 +430,8 @@ const ClearRTBMarketing = (props) => (
     </Router>
 
 )
+}
+}
 
 export default ClearRTBMarketing;
 // <div className="section-container">

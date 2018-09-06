@@ -1,13 +1,22 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
-import NavbarDark from './NavbarDark'
+import Navbar from './Navbar'
 // import contactBanner from '../assets/images/banners/contact-banner2.png'
 
-const Contact = (props) => (
+class Contact extends Component {
+  constructor(props) {
+    super(props)
+    console.log('Menu props/Header:', props)
+    this.state = {}
+  }
+
+  render() {
+    return (
 
     <Router>
       <div id="contact">
-        <NavbarDark />
+      <div className="dark-rect"></div>
+        <Navbar onMenuToggle={this.props.onMenuToggle}/>
 
 
         <div className="content-wrapper">
@@ -24,7 +33,8 @@ const Contact = (props) => (
         </div>
     </Router>
 )
-
+}
+}
 export default Contact;
 // <div className="contactBanner">
 //   <p className="banner-header">

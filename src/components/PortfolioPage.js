@@ -9,15 +9,24 @@ import upss from '../assets/images/portfolio/UPSS.png'
 import jcreateit from '../assets/images/portfolio/jcreateit.png'
 import crypto from '../assets/images/portfolio/cryptoelevation.png'
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
-import NavbarDark from './NavbarDark'
+import Navbar from './Navbar'
 
 // import contactBanner from '../assets/images/banners/contact-banner2.png'
 
-const PortfolioPage = (props) => (
+class PortfolioPage extends Component {
+  constructor(props) {
+    super(props)
+    console.log('Menu props/Header:', props)
+    this.state = {}
+  }
+
+  render() {
+    return (
 
     <Router>
       <div id="portfoliopage">
-        <NavbarDark />
+      <div className="dark-rect"></div>
+        <Navbar onMenuToggle={this.props.onMenuToggle}/>
 
         <div className="content-wrapper">
 
@@ -203,9 +212,11 @@ const PortfolioPage = (props) => (
 
     </Router>
 )
+}
+}
 
 export default PortfolioPage;
-// 
+//
 // <div className="portfolioBanner">
 //   <p className="banner-header">
 //     Portfolio

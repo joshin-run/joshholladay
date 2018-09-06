@@ -1,23 +1,33 @@
 import React, { Component } from 'react';
 import jcreateit from '../assets/images/portfolio/jcreateit.png'
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
-import NavbarDark from './NavbarDark'
+import Navbar from './Navbar'
 import Portfolio from './Portfolio'
 import ClearRTBMarketingImg from '../assets/images/CaseStudies/ClearRTB-Marketing/ClearRTB-Marketing-ProjectImage.png'
 
 
-const CaseStudies = (props) => (
+class CaseStudies extends Component {
+  constructor(props) {
+    super(props)
+    console.log('Menu props/Header:', props)
+    this.state = {}
+  }
+
+  render() {
+    return (
 
     <Router>
+
       <div id="contact">
-        <NavbarDark />
+      <div className="dark-rect"></div>
+        <Navbar onMenuToggle={this.props.onMenuToggle}/>
 
-        <div className="content-wrapper">
+        <div className="section-container">
 
-          <div className="portfolio-container2">
+          <div className="case-study-content-wrapper">
 
             <div>
-              <Link to="/clearrtb-marketing"><img className="box shadow" src={ClearRTBMarketingImg} alt="box" /></Link>
+              <Link to="/clearrtb-marketing"><img className="shadow" src={ClearRTBMarketingImg} alt="box" /></Link>
             </div>
 
           </div>
@@ -25,7 +35,10 @@ const CaseStudies = (props) => (
       </div>
 
     </Router>
-)
+
+    )
+  }
+}
 
 export default CaseStudies;
 // <div className="caseStudies-banner">

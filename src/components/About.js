@@ -1,18 +1,25 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
-import NavbarDark from './NavbarDark'
+import Navbar from './Navbar'
 
 
 
 
 
 
-const About = (props) => (
+class About extends Component {
+  constructor(props) {
+    super(props)
+    console.log('Menu props/About:', props)
+    this.state = {}
+  }
 
-
+  render() {
+    return (
     <Router>
       <div id="about">
-        <NavbarDark />
+        <div className="dark-rect"></div>
+        <Navbar onMenuToggle={this.props.onMenuToggle}/>
         <div className="aboutBanner">
           <p className="banner-header">
             A Little About Me
@@ -35,5 +42,7 @@ const About = (props) => (
     </Router>
 
 )
+}
+}
 
 export default About;

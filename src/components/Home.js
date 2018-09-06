@@ -6,11 +6,16 @@ import { Switch, Route } from 'react-router-dom';
 
 
 class Home extends Component {
+  constructor(props) {
+    super(props)
+    console.log('Menu props/Home:', props)
+    this.state = {}
+  }
+
   render() {
     return (
-      <div className="">
-        <Header />
-        
+      <div className="home-wrapper">
+        <Header onMenuToggle={this.props.onMenuToggle} />
       </div>
     );
   }

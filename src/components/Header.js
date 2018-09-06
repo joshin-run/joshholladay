@@ -8,10 +8,16 @@ import info from '../assets/images/banners/subTitle-info.jpg'
 import Media from './Media.js';
 
 class Header extends Component {
+  constructor(props) {
+    super(props)
+    console.log('Menu props/Header:', props)
+    this.state = {}
+  }
+
   render() {
     return (
       <div id="home" className="home">
-        <Navbar />
+        <Navbar onMenuToggle={this.props.onMenuToggle} />
         <div className="header-wrapper">
           <div className="header-content">
             <h1 className="title"><span>Josh Holladay</span></h1>
@@ -19,7 +25,7 @@ class Header extends Component {
             <div className="arrow-container">
               <div className="arrow-down"></div>
             </div>
-            
+
             <Media />
           </div>
 

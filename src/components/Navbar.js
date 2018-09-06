@@ -7,23 +7,20 @@ import { Link } from 'react-router-dom'
 import hamburger from '../assets/images/white-hamburger.svg'
 
 class Navbar extends Component {
-  render() {
-    function menuOpen() {
-      alert('hello');
-    }
-    function overlayMenuOn() {
-      document.getElementById("overlay-menu").style.display = "block";
-    }
+  constructor(props) {
+    super(props)
+    console.log('Menu props/Navbar:', props)
+    this.state = {}
+  }
 
-    function overlayMenuOff() {
-      document.getElementById("overlay-menu").style.display = "none";
-    }
+  render() {
+
     return (
 
       <div className="navbar">
       <div className="nav-container">
         <a href="https://joshin-run.github.io/joshholladay"><img className="dotLogo" src={siteLogo} alt="logo" /></a>
-        <img className="hamburger" src={hamburger} onClick="overlayMenuOn()"/>
+        <img className="hamburger" src={hamburger} onClick={this.props.onMenuToggle} />
         <ul className="menu nav-style">
           <li className="nav-menu nav-case-studies"><Link to="/case-studies">CASE STUDIES</Link></li>
           <li className="nav-menu nav-work"><Link to="/portfolio">WORK</Link></li>
@@ -42,3 +39,14 @@ class Navbar extends Component {
 export default Navbar;
 // <img src={logo} className="App-logo" alt="logo" />
 // <li className="nav-menu"><a href="#about">ABOUT</a></li>
+
+// function menuOpen() {
+//   alert('hello');
+// }
+// function overlayMenuOn() {
+//   document.getElementById("overlay-menu").style.display = "block";
+// }
+//
+// function overlayMenuOff() {
+//   document.getElementById("overlay-menu").style.display = "none";
+// }

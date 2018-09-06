@@ -301,6 +301,18 @@
   width: 100vw;
   color: white; }
 
+.dark-rect {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100vw;
+  color: white;
+  padding: 30px 50px;
+  background: #4b4b4b; }
+
 .navbar-dark {
   position: relative;
   display: flex;
@@ -411,6 +423,18 @@ ul {
   list-style: none; }
 
 @media only screen and (min-width: 768px) {
+  .dark-rect {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100vw;
+    color: white;
+    padding: 30px 50px;
+    background: #4b4b4b; }
+
   .hamburger {
     display: none; }
 
@@ -965,6 +989,12 @@ p.copy {
   height: 250px;
   width: 100vw; }
 
+.case-studies-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
 /********** Case Studies ********* */
 .case-study-content-wrapper {
   min-height: 50vh;
@@ -1041,5 +1071,46 @@ ol {
   .case-study-content-wrapper {
     max-width: 1000px;
     padding: 100px 40px; } }
+.overlayMenu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: -100vw;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  background-color: rgba(1, 13, 135, 0.92);
+  z-index: 10; }
+  .overlayMenu.open {
+    -webkit-transform: translateX(100vw);
+    transform: translateX(100vw);
+    z-index: 10; }
+
+.ex {
+  position: absolute;
+  color: white;
+  height: 25px;
+  width: auto;
+  top: 20px;
+  right: 20px; }
+
+.overlay-menu {
+  display: block;
+  position: relative;
+  font-size: 2em;
+  font-family: "Montserrat-Regular", sans-serif;
+  padding: 0 22px;
+  color: white;
+  transition: 0.1s ease;
+  color: white;
+  position: relative;
+  line-height: 80px; }
 
 /*# sourceMappingURL=main.css.map */

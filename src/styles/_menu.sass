@@ -1,0 +1,113 @@
+// #menu
+//   display: flex
+//   flex-flow: column nowrap
+//   justify-content: center
+//   align-items: center
+//   height: 100vh
+//   width: 100vw
+//   // background: black
+//   background-color: rgba(1,13,135,0.8)
+//   display: none
+.overlayMenu
+  display: flex
+  flex-direction: column
+  flex-wrap: nowrap
+  justify-content: center
+  align-items: center
+  width: 100vw
+  height: 100vh
+  position: absolute
+  top: 0
+  left: -100vw
+  -webkit-transform: translateX(0)
+  transform: translateX(0)
+  -webkit-transition: .3s ease all
+  transition: .3s ease all
+  background-color: rgba(1,13,135,0.92)
+  // padding: 0 20px 20px 0
+  z-index: 10
+
+
+  &.open
+    -webkit-transform: translateX(100vw)
+    transform: translateX(100vw)
+    z-index: 10
+  // margin: 0
+  // padding: 0
+
+// .menu-items-wrapper
+//   margin: 0
+//   padding: 0
+// .menu-items-wrapper ul
+//   line-height: 5
+
+  /*ul:
+    li: nav-menu nav-case-studies*/
+// .icon-container
+  // display: flex
+  // flex-flow: row nowrap
+  // justify-content: flex-end
+  // align-items: center
+  // margin: 0
+  // padding: 0
+  // margin-bottom: 100px
+  // padding-top: 20px
+
+.ex
+  position: absolute
+  color: white
+  height: 25px
+  width: auto
+  top: 20px
+  right: 20px
+
+
+.overlay-menu
+  display: block
+  position: relative
+  font-size: 2em
+  font-family: 'Montserrat-Regular', sans-serif
+  padding: 0 22px
+  color: white
+  transition: 0.1s ease
+  color: white
+  position: relative
+  line-height: 80px
+
+// .nav-case-studies:hover
+//   display: inline-block
+//   background: black
+//   color: white
+//   // opacity: .78
+
+
+
+// .nav-work:hover
+//   display: inline-block
+//   background: lightgray
+//   color: black
+//   // opacity: .78
+//
+// .nav-resume:hover
+//   display: inline-block
+//   background: blue
+//   color: white
+//   // opacity: .78
+//
+// .nav-about:hover
+//   display: inline-block
+//   background: yellow
+//   color: black
+//   // opacity: .78
+//
+// .nav-contact:hover
+//   display: inline-block
+//   background: red
+//   color: white
+  // opacity: .78
+
+//
+// .mobile-menu-icon
+//   height: 36px
+//   width: auto
+//   display: block

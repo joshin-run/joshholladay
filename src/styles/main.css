@@ -1099,7 +1099,8 @@ ol {
   height: 25px;
   width: auto;
   top: 20px;
-  right: 20px; }
+  right: 20px;
+  cursor: pointer; }
 
 .overlay-menu {
   display: block;

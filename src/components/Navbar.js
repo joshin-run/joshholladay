@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 // import { Switch, Route } from 'react-router-dom';
 // import About from './About';
 // import siteLogo from '../assets/images/logos/JH-logo-square-black.jpg'
-import siteLogo from '../assets/images/logos/jh-5line-logo-5border.png'
+import siteLogo from '../assets/images/logos/jh-logo-0918.svg'
+// import siteLogo from '../assets/images/logos/jh-5line-logo-5border.png'
 import { Link } from 'react-router-dom'
 import hamburger from '../assets/images/white-hamburger.svg'
 

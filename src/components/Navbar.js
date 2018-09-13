@@ -26,7 +26,7 @@ class Navbar extends Component {
           <li className="nav-menu nav-case-studies"><Link to="/case-studies">CASE STUDIES</Link></li>
           <li className="nav-menu nav-work"><Link to="/portfolio">WORK</Link></li>
           <li id="resume-link" className="nav-menu nav-resume">
-            <a href="https://drive.google.com/open?id=1Kff2oJWTOavxTSRD1_I8DYiatIfkxRYU" target="_blank">RESUME</a>
+            <a href="https://drive.google.com/open?id=1KkTd7rhPFu6ZR-_CkDEHuqE-diBRXpjS" target="_blank">RESUME</a>
           </li>
           <li className="nav-menu nav-about"><Link to="/about">ABOUT</Link></li>
           <li className="nav-menu nav-contact"><Link to="/contact">CONTACT</Link></li>

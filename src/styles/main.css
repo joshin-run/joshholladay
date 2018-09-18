@@ -289,6 +289,9 @@
     max-width: 1200px;
     margin-left: 100px; }
 
+  .intro {
+    padding-bottom: 14px; }
+
   .header-content img {
     width: 65%; } }
 .navbar {

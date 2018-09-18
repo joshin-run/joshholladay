@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { HashRouter as Router, Route, Link } from 'react-router-dom'
 // import NavbarDark from './NavbarDark'
 import ex from '../assets/images/icons/ex.svg'
+import Media from './Media.js';
 
 class Menu extends Component {
   constructor(props) {
@@ -27,6 +28,7 @@ class Menu extends Component {
             <li className="overlay-menu nav-contact"><Link to="/contact" onClick={this.props.onMenuToggle}>CONTACT</Link></li>
           </ul>
         </div>
+      
       </div>
     )
   }

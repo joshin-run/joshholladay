@@ -23,13 +23,13 @@ class Navbar extends Component {
         <a href="https://joshin-run.github.io/joshholladay"><img className="dotLogo" src={siteLogo} alt="logo" /></a>
         <img className="hamburger" src={hamburger} onClick={this.props.onMenuToggle} />
         <ul className="menu nav-style">
-          <li className="nav-menu nav-case-studies"><Link to="/case-studies">CASE STUDIES</Link></li>
-          <li className="nav-menu nav-work"><Link to="/portfolio">WORK</Link></li>
-          <li id="resume-link" className="nav-menu nav-resume">
-            <a href="https://drive.google.com/open?id=1KkTd7rhPFu6ZR-_CkDEHuqE-diBRXpjS" target="_blank">RESUME</a>
+          <li className="nav-menu nav-case-studies all-caps"><Link to="/case-studies">Case Studies</Link></li>
+          <li className="nav-menu nav-work all-caps"><Link to="/portfolio">Work</Link></li>
+          <li id="resume-link" className="nav-menu nav-resume all-caps">
+            <a href="https://drive.google.com/open?id=1KkTd7rhPFu6ZR-_CkDEHuqE-diBRXpjS" target="_blank">Resume</a>
           </li>
-          <li className="nav-menu nav-about"><Link to="/about">ABOUT</Link></li>
-          <li className="nav-menu nav-contact"><Link to="/contact">CONTACT</Link></li>
+          <li className="nav-menu nav-about all-caps"><Link to="/about">Bio</Link></li>
+          <li className="nav-menu nav-contact all-caps"><Link to="/contact">Contact</Link></li>
         </ul>
 </div>
       </div>

@@ -17,16 +17,16 @@ class Header extends Component {
   render() {
     return (
       <div id="home" className="home">
+
         <Navbar onMenuToggle={this.props.onMenuToggle} />
-        <div className="header-wrapper">
-          <div className="header-content">
-            <h1 className="title"><span>Josh Holladay</span></h1>
-            <p className="intro">UI/UX Designer. Front-end Developer.</p>
 
-            <Media />
-          </div>
-
+        <div className="header-content">
+          <p className="title">Josh Holladay</p>
+          <p className="intro">UI/UX Designer. Front-end Developer.</p>
         </div>
+
+        <Media />
+
       </div>
     );
   }

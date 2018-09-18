@@ -53,8 +53,38 @@
   align-items: flex-end; }
 
 .all-caps {
-  text-transform: capitalize; }
+  text-transform: uppercase; }
 
+@font-face {
+  font-family: "Lato Hairline";
+  src: url(../assets/fonts/Lato/Lato-Hairline.ttf); }
+@font-face {
+  font-family: "Lato Hairline Italic";
+  src: url(../assets/fonts/Lato/Lato-HairlineItalic.ttf); }
+@font-face {
+  font-family: "Lato Light";
+  src: url(../assets/fonts/Lato/Lato-Light.ttf); }
+@font-face {
+  font-family: "Lato Light Italic";
+  src: url(../assets/fonts/Lato/Lato-LightItalic.ttf); }
+@font-face {
+  font-family: "Lato Regular";
+  src: url(../assets/fonts/Lato/Lato-Regular.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../assets/fonts/Lato/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Bold";
+  src: url(../assets/fonts/Lato/Lato-Bold.ttf); }
+@font-face {
+  font-family: "Lato Bold Italic";
+  src: url(../assets/fonts/Lato/Lato-BoldItalic.ttf); }
+@font-face {
+  font-family: "Lato Black";
+  src: url(../assets/fonts/Lato/Lato-Black.ttf); }
+@font-face {
+  font-family: "Lato Black Italic";
+  src: url(../assets/fonts/Lato/Lato-BlackItalic.ttf); }
 @font-face {
   font-family: "Quicksand Light";
   src: url(../assets/fonts/Quicksand/Quicksand-Light.ttf); }
@@ -85,12 +115,6 @@
 @font-face {
   font-family: "Oswald Bold";
   src: url(../assets/fonts/Oswald-Bold.ttf); }
-@font-face {
-  font-family: "GravitasOne";
-  src: url(../assets/fonts/GravitasOne.ttf); }
-@font-face {
-  font-family: "Lato Black";
-  src: url(../assets/fonts/Lato-Black.ttf); }
 @font-face {
   font-family: "Kaushan Script Regular";
   src: url(../assets/fonts/KaushanScript-Regular.ttf); }
@@ -194,25 +218,15 @@
 .home {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  width: 100vw;
-  height: 100vh; }
-
-.header-wrapper {
   background: url(../assets/images/banners/creative-works-banner-3000.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
-  width: 100%;
-  color: #fff; }
-
-.header-content-wrapper {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center; }
+  color: #fff;
+  width: 100vw;
+  height: 100vh; }
 
 .header-content {
   display: flex;
@@ -222,9 +236,9 @@
   height: 100%;
   width: 100vw; }
 
-.title span {
-  font-family: "Kaushan Script Regular", sans-serif;
-  font-size: 1.28em; }
+.title {
+  font-family: "Lato Bold", sans-serif;
+  font-size: 3em; }
 
 .title-image {
   height: 100%;
@@ -261,7 +275,7 @@
   margin-right: 40px; }
 
 .intro {
-  font-family: "Montserrat-ExtraLight"; }
+  font-family: "Lato Light", sans-serif; }
 
 @media only screen and (min-width: 768px) {
   .header-content-wrapper {
@@ -274,11 +288,9 @@
   .title {
     font-size: 6em;
     padding: 0;
-    margin: 10px 0;
-    font-family: "Montserrat-Regular"; }
+    margin: 10px 0; }
 
   .title span {
-    font-family: "Kaushan Script Regular", sans-serif;
     font-size: 1em; }
 
   .intro {
@@ -377,8 +389,7 @@
 .nav-menu {
   display: inline-block;
   position: relative;
-  font-size: 0.62em;
-  font-family: "Montserrat-Regular", sans-serif;
+  font-family: "Montserrat-Light", sans-serif;
   padding: 0 22px;
   /*border: 3px solid #fff */
   color: white;
@@ -452,7 +463,6 @@ ul {
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: center;
-    font-size: 0.85em;
     height: auto; }
 
   .dotLogo {
@@ -472,7 +482,8 @@ ul {
   .nav-menu {
     padding: 0 28px;
     line-height: 80px;
-    font-size: 0.9em; } }
+    font-size: 0.8em;
+    letter-spacing: 2px; } }
 * {
   box-sizing: border-box;
   margin: 0;
@@ -664,16 +675,14 @@ body {
   .portfolio-container {
     max-width: 1200px; } }
 .media-wrapper {
-  margin: 20px 0 0 0;
-  background: none; }
-
-.media-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  background: none; }
+  background: none;
+  width: 100vw;
+  padding: 20px; }
 
 .media-menu {
   display: inline-block;
@@ -726,7 +735,7 @@ ul {
 
 @media only screen and (min-width: 768px) {
   .media-wrapper {
-    margin: 10px 0 10px 10px; } }
+    justify-content: flex-end; } }
 .footer-wrapper {
   height: auto;
   background: none; }
@@ -1108,13 +1117,14 @@ ol {
 .overlay-menu {
   display: block;
   position: relative;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "Montserrat-Regular", sans-serif;
   padding: 0 22px;
   color: white;
   transition: 0.1s ease;
   color: white;
   position: relative;
-  line-height: 80px; }
+  line-height: 80px;
+  letter-spacing: 2px; }
 
 /*# sourceMappingURL=main.css.map */

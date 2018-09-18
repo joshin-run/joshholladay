@@ -1,9 +1,3 @@
-// .nav-wrapper
-//   height: 80px
-//   width: 100vw
-//   z-index: 100
-//   background: none
-
 .navbar
   position: relative
   display: flex
@@ -12,18 +6,18 @@
   align-items: flex-start
   height: 60px
   width: 100vw
-  // background: #fff
-  // background: rgba(255,255,255,1)
-  // background: rgba(0,0,0,.75)
-  // background: rgba(0,0,72,.9)
-  // background: rgba(255,255,255,1)
-  // padding: 0 10px
-  // background: rgba(0,0,0,.6)
-  // background: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,.5),)
-  // background: rgba(255,255,255,.05)
-  // padding: 0 10px
-  // z-index: 100
   color: white
+
+.nav-container ul
+  list-style-type: none
+  margin: 0
+  padding: 0
+
+.navbar-container ul li
+  display: block
+
+.navbar-container ul li a
+  display: block
 
 .dark-rect
   position: absolute
@@ -35,7 +29,9 @@
   width: 100vw
   color: white
   padding: 30px 50px
-  background: rgb(75,75,75)
+  // background: black
+  background: rgb(50,50,50)
+  // background-image: linear-gradient(to right, #019DE0, #010D85)
 
 .navbar-dark
   position: relative
@@ -46,10 +42,6 @@
   height: 60px
   width: 100vw
   color: white
-  // background: #005177
-  // background: #AFB5FF
-  // background: #4F5BFF
-  // background: #020B86
   background: #020D87
   background: rgb(75,75,75)
 
@@ -60,7 +52,6 @@
   flex-flow: row wrap
   justify-content: space-between
   align-items: center
-  // height: 100%
   width: 100vw
   height: 60px
 
@@ -71,29 +62,22 @@
   flex-flow: row wrap
   justify-content: space-between
   align-items: center
-  // height: 100%
   width: 100vw
   height: 60px
 
-
-.navbar a
+.nav-container a
   margin: 0
   padding: 0
   height: auto
 
 .hamburger
   display: block
-  // display: block
   height: 24px
   width: auto
   margin-right: 20px
 
 .menu
   display: none
-
-  // font-family: Open Sans, sans-serif
-
-  // display: none
 
 .dotLogo
   height: 40px
@@ -108,71 +92,47 @@
 .nav-style
   color: white
   height: 100%
-  // font-weight: bolder
-//
-//
-.nav-menu
-  display: inline-block
-  position: relative
-  // display: block
-  // font-family: 'Julius Sans One', sans-serif
 
-  // line-height: 1.5
+.nav-menu
+  display: block
+  position: relative
   font-family: 'Montserrat-Light', sans-serif
-  // font-family: 'Lato Light', sans-serif
-  // font-family: 'Montserrat-Regular', sans-serif
-  // font-family: Oswald, sans-serif
-  // font-family: Oswald Extra Light, sans-serif
-  // font-family: 'Montserrat Thin'
   padding: 0 22px
-  /*border: 3px solid #fff */
   color: white
   transition: 0.1s ease
-
-  // color: #fff
   color: white
   position: relative
   line-height: 80px
-  // color: #0000ff
-//
-//
-// .nav-menu:hover
-//   color: #47a7ff
-  // color: rgba(115,187,247,1)
+  height: auto
+  width: auto
+  font-weight: 500
+  // padding: 12px 30px
 
 .nav-case-studies:hover
   display: inline-block
   background: black
   color: white
-  // opacity: .78
-
-
 
 .nav-work:hover
   display: inline-block
   background: lightgray
   color: black
-  // opacity: .78
 
 .nav-resume:hover
   display: inline-block
   background: blue
   color: white
-  // opacity: .78
 
 .nav-about:hover
   display: inline-block
   background: yellow
   color: black
-  // opacity: .78
 
 .nav-contact:hover
   display: inline-block
   background: red
   color: white
-  // opacity: .78
 
-//
 .mobile-menu-icon
   height: 36px
   width: auto
@@ -193,9 +153,7 @@ a
 // 	color: unset
 //
 //
-ul
-  list-style-type: none
-  list-style: none
+
 
 
 @media only screen and (min-width: 768px)
@@ -209,7 +167,7 @@ ul
     width: 100vw
     color: white
     padding: 30px 50px
-    background: rgb(75,75,75)
+    // background: rgb(75,75,75)
 
   .hamburger
     display: none

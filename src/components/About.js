@@ -22,7 +22,7 @@ class About extends Component {
         <Navbar onMenuToggle={this.props.onMenuToggle}/>
         <div className="aboutBanner">
           <p className="banner-header">
-            A Little About Me
+            Bio
           </p>
         </div>
         <div className="content-wrapper">

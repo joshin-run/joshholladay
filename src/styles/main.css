@@ -16,12 +16,12 @@
 
 .banner-header {
   color: #fff;
-  font-family: "Montserrat-Regular", sans-serif;
+  font-family: "Lato Regular", sans-serif;
   font-size: 3em; }
 
 .content {
-  font-size: 1.5em;
-  font-family: Quicksand Light, sans-serif;
+  font-size: 1.25em;
+  font-family: "Montserrat-Thin", sans-serif;
   color: #828286;
   line-height: 1.8; }
 
@@ -238,7 +238,7 @@
 
 .title {
   font-family: "Lato Bold", sans-serif;
-  font-size: 3em; }
+  font-size: 2.75em; }
 
 .title-image {
   height: 100%;
@@ -275,7 +275,7 @@
   margin-right: 40px; }
 
 .intro {
-  font-family: "Lato Light", sans-serif; }
+  font-family: "Montserrat-ExtraLight"; }
 
 @media only screen and (min-width: 768px) {
   .header-content-wrapper {
@@ -316,6 +316,17 @@
   width: 100vw;
   color: white; }
 
+.nav-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.navbar-container ul li {
+  display: block; }
+
+.navbar-container ul li a {
+  display: block; }
+
 .dark-rect {
   position: absolute;
   top: 0;
@@ -326,7 +337,7 @@
   width: 100vw;
   color: white;
   padding: 30px 50px;
-  background: #4b4b4b; }
+  background: #323232; }
 
 .navbar-dark {
   position: relative;
@@ -358,7 +369,7 @@
   width: 100vw;
   height: 60px; }
 
-.navbar a {
+.nav-container a {
   margin: 0;
   padding: 0;
   height: auto; }
@@ -387,16 +398,18 @@
   height: 100%; }
 
 .nav-menu {
-  display: inline-block;
+  display: block;
   position: relative;
   font-family: "Montserrat-Light", sans-serif;
   padding: 0 22px;
-  /*border: 3px solid #fff */
   color: white;
   transition: 0.1s ease;
   color: white;
   position: relative;
-  line-height: 80px; }
+  line-height: 80px;
+  height: auto;
+  width: auto;
+  font-weight: 500; }
 
 .nav-case-studies:hover {
   display: inline-block;
@@ -432,10 +445,6 @@ a {
   color: inherit;
   text-decoration: none; }
 
-ul {
-  list-style-type: none;
-  list-style: none; }
-
 @media only screen and (min-width: 768px) {
   .dark-rect {
     position: absolute;
@@ -446,8 +455,7 @@ ul {
     height: 80px;
     width: 100vw;
     color: white;
-    padding: 30px 50px;
-    background: #4b4b4b; }
+    padding: 30px 50px; }
 
   .hamburger {
     display: none; }
@@ -1020,36 +1028,36 @@ p.copy {
 
 .sect-head {
   font-size: 2.75em;
-  font-family: "Montserrat-Medium";
+  font-family: "Lato Black";
   color: #000;
   margin: 0;
   padding: 0; }
 
 .sub-head {
   font-size: 1.95em;
-  font-family: "Montserrat-Regular";
+  font-family: "Lato Bold";
   color: #000;
   margin-bottom: 10px; }
 
-.bold-content {
-  font-size: 1.45em;
-  font-family: "Montserrat-Regular";
-  color: #000;
-  margin-bottom: 20px; }
-
 .sub-title {
   font-size: 1.75em;
-  font-family: "Montserrat-Light";
+  font-family: "Lato Bold";
   color: #868286;
   line-height: 1.5;
   margin: 0;
   padding: 0; }
 
+.bold-content {
+  font-size: 1.45em;
+  font-family: "Lato Regular";
+  color: #000;
+  margin-bottom: 20px; }
+
 .section-content {
-  font-size: 1.3em;
-  font-family: "Times";
+  font-size: 1em;
+  font-family: "Montserrat-Light";
   color: #505050;
-  line-height: 1.5;
+  line-height: 1.75;
   margin: 0;
   padding: 0; }
 

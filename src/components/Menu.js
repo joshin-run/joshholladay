@@ -14,9 +14,11 @@ class Menu extends Component {
   render () {
     return (
       <div className={`overlayMenu${this.props.isMenuOpen ? ' open' : ''}`}>
+
         <div className="icon-container" onClick={this.props.onMenuToggle}>
           <img className="ex" src={ex} />
         </div>
+
         <div className="menu-items-wrapper">
           <ul>
             <li className="overlay-menu nav-case-studies"><Link to="/case-studies" onClick={this.props.onMenuToggle}>CASE STUDIES</Link></li>
@@ -28,7 +30,7 @@ class Menu extends Component {
             <li className="overlay-menu nav-contact"><Link to="/contact" onClick={this.props.onMenuToggle}>CONTACT</Link></li>
           </ul>
         </div>
-      
+
       </div>
     )
   }

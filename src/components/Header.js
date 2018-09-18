@@ -22,9 +22,6 @@ class Header extends Component {
           <div className="header-content">
             <h1 className="title"><span>Josh Holladay</span></h1>
             <p className="intro">UI/UX Designer. Front-end Developer.</p>
-            <div className="arrow-container">
-              <div className="arrow-down"></div>
-            </div>
 
             <Media />
           </div>
@@ -37,6 +34,9 @@ class Header extends Component {
 
 export default Header;
 
+// <div className="arrow-container">
+//   <div className="arrow-down"></div>
+// </div>
 
 
 

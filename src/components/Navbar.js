@@ -6,6 +6,7 @@ import siteLogo from '../assets/images/logos/jh-logo-0918.svg'
 // import siteLogo from '../assets/images/logos/jh-5line-logo-5border.png'
 import { Link } from 'react-router-dom'
 import hamburger from '../assets/images/white-hamburger.svg'
+// import Media from './Media.js';
 
 class Navbar extends Component {
   constructor(props) {
@@ -22,7 +23,7 @@ class Navbar extends Component {
         <div className="nav-container">
           <a href="https://joshin-run.github.io/joshholladay"><img className="dotLogo" src={siteLogo} alt="logo" /></a>
           <img className="hamburger" src={hamburger} onClick={this.props.onMenuToggle} />
-        
+
           <ul className="menu nav-style">
             <li className="nav-menu nav-case-studies all-caps"><Link to="/case-studies">Case Studies</Link></li>
             <li className="nav-menu nav-work all-caps"><Link to="/portfolio">Work</Link></li>

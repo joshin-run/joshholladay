@@ -5,7 +5,7 @@ import bannerPic from '../assets/images/banners/portfolio-site-centerImage3test2
 import josh from '../assets/images/banners/title-josh-holladay-caps.jpg'
 import titlePic from '../assets/images/banners/banner-title-content.jpg'
 import info from '../assets/images/banners/subTitle-info.jpg'
-// import Media from './Media.js';
+import Media from './Media.js';
 
 class Header extends Component {
   constructor(props) {
@@ -22,12 +22,15 @@ class Header extends Component {
           <div className="title-wrapper">
 
 
+            <p className="title-name">I'm Josh Holladay.</p>
             <p className="title-dev">Front-end Developer</p>
 
           </div>
         </div>
-        <p className="title-des">UI/UX Designer</p>
-
+        <div className="titleDesign">
+          <p className="title-des">UI/UX Designer</p>
+        </div>
+        <Media />
       </div>
     );
   }

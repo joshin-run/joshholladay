@@ -22,6 +22,7 @@ class Navbar extends Component {
         <div className="nav-container">
           <a href="https://joshin-run.github.io/joshholladay"><img className="dotLogo" src={siteLogo} alt="logo" /></a>
           <img className="hamburger" src={hamburger} onClick={this.props.onMenuToggle} />
+        
           <ul className="menu nav-style">
             <li className="nav-menu nav-case-studies all-caps"><Link to="/case-studies">Case Studies</Link></li>
             <li className="nav-menu nav-work all-caps"><Link to="/portfolio">Work</Link></li>

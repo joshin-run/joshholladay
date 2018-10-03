@@ -5,7 +5,7 @@ import bannerPic from '../assets/images/banners/portfolio-site-centerImage3test2
 import josh from '../assets/images/banners/title-josh-holladay-caps.jpg'
 import titlePic from '../assets/images/banners/banner-title-content.jpg'
 import info from '../assets/images/banners/subTitle-info.jpg'
-import Media from './Media.js';
+// import Media from './Media.js';
 
 class Header extends Component {
   constructor(props) {
@@ -17,15 +17,16 @@ class Header extends Component {
   render() {
     return (
       <div id="home" className="home">
+        <div className="blue-diag">
+          <Navbar onMenuToggle={this.props.onMenuToggle} />
+          <div className="title-wrapper">
 
-        <Navbar onMenuToggle={this.props.onMenuToggle} />
 
-        <div className="header-content">
-          <p className="title">Josh Holladay</p>
-          <p className="intro">UI/UX Designer. Front-end Developer.</p>
+            <p className="title-dev">Front-end Developer</p>
+
+          </div>
         </div>
-
-        <Media />
+        <p className="title-des">UI/UX Designer</p>
 
       </div>
     );
@@ -33,6 +34,13 @@ class Header extends Component {
 }
 
 export default Header;
+// <p className="title-name">Josh Holladay</p>
+      // <Media />
+
+// <div className="header-content">
+//   <p className="title">Josh Holladay</p>
+//   <p className="intro">UI/UX Designer. Front-end Developer.</p>
+// </div>
 
 // <div className="arrow-container">
 //   <div className="arrow-down"></div>

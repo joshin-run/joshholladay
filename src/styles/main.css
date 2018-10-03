@@ -287,15 +287,38 @@
 .home {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-between;
-  align-items: center;
-  background: url(../assets/images/banners/creative-works-banner-3000.jpg);
+  align-items: flex-end;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
   width: 100vw;
   height: 100vh;
+}
+
+.blue-diag {
+  height: 65vh;
+  width: 100vw;
+  transform: skewY(-4deg);
+  background-color: #4949FF;
+  color: white;
+  padding-top: 89px;
+  margin-top: -90px;
+}
+
+.titleDesign {
+  height: 50%;
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.title-name,
+.title-dev {
+  transform: skewY(4deg);
 }
 
 .header-content {
@@ -307,9 +330,30 @@
   width: 100vw;
 }
 
-.title {
-  font-family: "Lato Bold", sans-serif;
-  font-size: 2.75em;
+.title-wrapper {
+  padding: 20px;
+}
+
+.title-name {
+  font-family: "Kaushan Script Regular", sans-serif;
+  font-size: 1em;
+  margin-top: 30px;
+}
+
+.title-dev {
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 1.65em;
+}
+
+.title-des {
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 1.65em;
+  color: black;
+}
+
+.name {
+  font-family: "Kaushan Script Regular", sans-serif;
+  font-size: 0.5em;
 }
 
 .title-image {
@@ -379,6 +423,40 @@
     font-size: 2em;
     line-height: 1.5;
   }
+
+  .blue-diag {
+    height: 65vh;
+    width: 100vw;
+    transform: skewY(-4deg);
+    background-color: #4949FF;
+    color: white;
+    padding-top: 89px;
+    margin-top: -90px;
+  }
+
+  .titleDesign {
+    padding: 40px;
+  }
+
+  .title-wrapper {
+    padding: 100px 0 0 40px;
+  }
+
+  .title-name {
+    font-family: "Kaushan Script Regular", sans-serif;
+    font-size: 2em;
+  }
+
+  .title-dev {
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 3.75em;
+  }
+
+  .title-des {
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 3.75em;
+    color: black;
+  }
 }
 @media only screen and (min-width: 1280px) {
   .header-content-wrapper {
@@ -393,6 +471,42 @@
   .header-content img {
     width: 65%;
   }
+
+  .blue-diag {
+    height: 65vh;
+    width: 100vw;
+    transform: skewY(-4deg);
+    background-color: #4949FF;
+    color: white;
+    padding-top: 89px;
+    margin-top: -90px;
+  }
+
+  .title-wrapper {
+    padding: 50px 0 0 80px;
+  }
+
+  .title-name {
+    font-family: "Kaushan Script Regular", sans-serif;
+    font-size: 3em;
+  }
+
+  .title-dev {
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 4.75em;
+  }
+
+  .title-des {
+    position: absolute;
+    top: 100;
+    left: 100;
+    right: 0;
+    bottom: 0;
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 4.75em;
+    color: black;
+    margin: 0 100px 150px 0;
+  }
 }
 .navbar {
   position: relative;
@@ -403,6 +517,7 @@
   height: 60px;
   width: 100vw;
   color: white;
+  transform: skewY(4deg);
 }
 
 .nav-container ul {
@@ -429,7 +544,15 @@
   width: 100vw;
   color: white;
   padding: 30px 50px;
-  background: #323232;
+  background-color: #4949FF;
+}
+
+#caseStudies .navbar,
+#portfoliopage .navbar,
+#about .navbar,
+#contact .navbar,
+#clearRTBMarketing .navbar {
+  transform: skewY(0deg);
 }
 
 .navbar-dark {
@@ -483,7 +606,7 @@
 }
 
 .dotLogo {
-  height: 40px;
+  height: 30px;
   width: auto;
   padding-left: 16px;
   margin-bottom: -4px;
@@ -514,40 +637,10 @@
   font-weight: 500;
 }
 
-.nav-case-studies:hover {
+.nav-menu:hover {
   display: inline-block;
   background: black;
   color: white;
-}
-
-.nav-work:hover {
-  display: inline-block;
-  background: lightgray;
-  color: black;
-}
-
-.nav-resume:hover {
-  display: inline-block;
-  background: blue;
-  color: white;
-}
-
-.nav-about:hover {
-  display: inline-block;
-  background: yellow;
-  color: black;
-}
-
-.nav-contact:hover {
-  display: inline-block;
-  background: red;
-  color: white;
-}
-
-.mobile-menu-icon {
-  height: 36px;
-  width: auto;
-  display: block;
 }
 
 a {
@@ -589,7 +682,7 @@ a {
   }
 
   .dotLogo {
-    height: 50px;
+    height: 40px;
     width: auto;
     padding-top: 0px;
     margin: 0;
@@ -836,11 +929,11 @@ body {
 .media-wrapper {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-content: center;
   background: none;
-  width: 100vw;
+  width: auto;
   padding: 20px;
 }
 
@@ -903,11 +996,6 @@ ul {
   margin: 0 12px;
 }
 
-@media only screen and (min-width: 768px) {
-  .media-wrapper {
-    justify-content: flex-end;
-  }
-}
 .footer-wrapper {
   height: auto;
   background: none;
@@ -1332,7 +1420,7 @@ ol {
   transform: translateX(0);
   -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
-  background-color: rgba(1, 13, 135, 0.92);
+  background-color: rgba(73, 73, 255, 0.95);
   z-index: 10;
 }
 .overlayMenu.open {
@@ -1363,6 +1451,37 @@ ol {
   position: relative;
   line-height: 80px;
   letter-spacing: 2px;
+}
+
+.test-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  background: lightgray;
+}
+
+.p-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 40vw;
+  background-color: black;
+  position: absolute;
+  transform: skewY(-4deg);
+  color: white;
+  padding: 30px;
+}
+.p-container h1 {
+  transform: skewY(4deg);
+}
+.p-container p {
+  transform: skewY(4deg);
 }
 
 /*# sourceMappingURL=main.css.map */

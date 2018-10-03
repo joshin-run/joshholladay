@@ -17,22 +17,33 @@ class Header extends Component {
   render() {
     return (
       <div id="home" className="home">
+        <div className="blue-diag">
+          <Navbar onMenuToggle={this.props.onMenuToggle} />
+          <div className="title-wrapper">
 
-        <Navbar onMenuToggle={this.props.onMenuToggle} />
 
-        <div className="header-content">
-          <p className="title">Josh Holladay</p>
-          <p className="intro">UI/UX Designer. Front-end Developer.</p>
+            <p className="title-name">I'm Josh Holladay.</p>
+            <p className="title-dev">Front-end Developer</p>
+
+          </div>
         </div>
-
+        <div className="titleDesign">
+          <p className="title-des">UI/UX Designer</p>
+        </div>
         <Media />
-
       </div>
     );
   }
 }
 
 export default Header;
+// <p className="title-name">Josh Holladay</p>
+      // <Media />
+
+// <div className="header-content">
+//   <p className="title">Josh Holladay</p>
+//   <p className="intro">UI/UX Designer. Front-end Developer.</p>
+// </div>
 
 // <div className="arrow-container">
 //   <div className="arrow-down"></div>

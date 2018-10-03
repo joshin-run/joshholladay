@@ -109,9 +109,12 @@
 .home
   display: flex
   flex-flow: column nowrap
-  justify-content: space-between
-  align-items: center
-  background: url(../assets/images/banners/creative-works-banner-3000.jpg)
+  // justify-content: space-between
+  align-items: flex-end
+  // align-items: center
+  // background-color: silver
+  // background-color: #4949FF
+  // background: url(../assets/images/banners/creative-works-banner-3000.jpg)
   background-position: center center
   background-repeat: no-repeat
   background-size: cover
@@ -121,30 +124,33 @@
   width: 100vw
   height: 100vh
 
-.header-wrapper
-  // background: url(../assets/images/banners/creative-works-banner-3000.jpg)
-  // background-position: center center
-  // background-repeat: no-repeat
-  // background-size: cover
-  //
-  // height: 100%
-  // width: 100%
-  // color: #fff
+.blue-diag
   // display: flex
   // flex-flow: column nowrap
-  // justify-content: center
+  // justify-content: space-between
   // align-items: center
-  // height: 100%
-  // width: 100%
+  height: 65vh
+  // height: 500px
+  width: 100vw
+  transform: skewY(-4deg)
+  background-color: #4949FF
+  color: white
+  // padding: 100px
+  padding-top: 89px
+  margin-top: -90px
 
-// .dark-overlay
-//   background-color: rgba(0,0,0,0.7)
-//   display: flex
-//   flex-flow: row nowrap
-//   justify-content: center
-//   align-items: center
-//   height: 100%
-//   width: 100%
+.titleDesign
+  height: 50%
+  width: 100vw
+  padding: 20px
+  display: flex
+  flex-flow: row nowrap
+  justify-content: flex-end
+  align-items: center
+
+.title-name,
+.title-dev
+  transform: skewY(4deg)
 
 .header-content-wrapper
   // display: flex
@@ -161,11 +167,39 @@
   width: 100vw
   // margin-left: 20px
 
-.title
-  font-family: 'Lato Bold', sans-serif
+
+///////////
+.title-wrapper
+  padding: 20px
+
+.title-name
+  font-family: 'Kaushan Script Regular', sans-serif
+  font-size: 1em
+  margin-top: 30px
+
+.title-dev
+  font-family: 'Montserrat-Light', sans-serif
+  font-size: 1.65em
+
+.title-des
+  // position: absolute
+  // top: 100
+  // // left: 50
+  // // right: 50
+  // bottom: 0
+  font-family: 'Montserrat-Light', sans-serif
+  font-size: 1.65em
+  color: black
+  // margin: 0 100px 150px 0
+
+///////////
+
+
+.name
+  // font-family: 'Lato Bold', sans-serif
   // font-family: 'Agent', sans-serif
-  // font-family: 'Kaushan Script Regular', sans-serif
-  font-size: 2.75em
+  font-family: 'Kaushan Script Regular', sans-serif
+  font-size: .5em
 
 .title-image
   height: 100%
@@ -223,6 +257,40 @@
     font-size: 2em
     line-height: 1.5
 
+  .blue-diag
+    height: 65vh
+    width: 100vw
+    transform: skewY(-4deg)
+    background-color: #4949FF
+    color: white
+    padding-top: 89px
+    margin-top: -90px
+
+  .titleDesign
+    padding: 40px
+
+  .title-wrapper
+    padding: 100px 0 0 40px
+
+  .title-name
+    font-family: 'Kaushan Script Regular', sans-serif
+    font-size: 2em
+
+  .title-dev
+    font-family: 'Montserrat-Light', sans-serif
+    font-size: 3.75em
+
+  .title-des
+    // position: absolute
+    // top: 100
+    // left: 100
+    // right: 0
+    // bottom: 0
+    font-family: 'Montserrat-Light', sans-serif
+    font-size: 3.75em
+    color: black
+    // margin: 0 40px 150px 0
+
 @media only screen and (min-width: 1280px)
   .header-content-wrapper
     max-width: 1200px
@@ -232,6 +300,37 @@
 
   .header-content img
     width: 65%
+
+  .blue-diag
+    height: 65vh
+    width: 100vw
+    transform: skewY(-4deg)
+    background-color: #4949FF
+    color: white
+    padding-top: 89px
+    margin-top: -90px
+
+  .title-wrapper
+    padding: 50px 0 0 80px
+
+  .title-name
+    font-family: 'Kaushan Script Regular', sans-serif
+    font-size: 3em
+
+  .title-dev
+    font-family: 'Montserrat-Light', sans-serif
+    font-size: 4.75em
+
+  .title-des
+    position: absolute
+    top: 100
+    left: 100
+    right: 0
+    bottom: 0
+    font-family: 'Montserrat-Light', sans-serif
+    font-size: 4.75em
+    color: black
+    margin: 0 100px 150px 0
 
 
 

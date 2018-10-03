@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
-import linkedin from '../assets/images/social/icon-LinkedIn-white.svg'
-import behance from '../assets/images/social/icon-Behance-white.svg'
-import github from '../assets/images/social/icon-GitHub-white.svg'
-import dribbble from '../assets/images/social/icon-Dribbble-white.svg'
-import twitter from '../assets/images/social/icon-Twitter-white.svg'
-import email from '../assets/images/social/icon-Email-white.svg'
+import linkedin from '../assets/images/social/icon-LinkedIn-black.svg'
+import behance from '../assets/images/social/icon-Behance-black.svg'
+import github from '../assets/images/social/icon-GitHub-black.svg'
+import dribbble from '../assets/images/social/icon-Dribbble-black.svg'
+import twitter from '../assets/images/social/icon-Twitter-black.svg'
+import email from '../assets/images/social/icon-Email-black.svg'
+// import linkedin from '../assets/images/social/icon-LinkedIn-white.svg'
+// import behance from '../assets/images/social/icon-Behance-white.svg'
+// import github from '../assets/images/social/icon-GitHub-white.svg'
+// import dribbble from '../assets/images/social/icon-Dribbble-white.svg'
+// import twitter from '../assets/images/social/icon-Twitter-white.svg'
+// import email from '../assets/images/social/icon-Email-white.svg'
 
 class Media extends Component {
   render() {

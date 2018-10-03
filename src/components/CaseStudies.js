@@ -18,7 +18,7 @@ class CaseStudies extends Component {
 
     <Router>
 
-      <div id="contact">
+      <div id="caseStudies">
       <div className="dark-rect"></div>
         <Navbar onMenuToggle={this.props.onMenuToggle}/>
 

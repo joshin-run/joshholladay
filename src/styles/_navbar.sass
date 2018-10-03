@@ -7,6 +7,7 @@
   height: 60px
   width: 100vw
   color: white
+  transform: skewY(4deg)
 
 .nav-container ul
   list-style-type: none
@@ -30,8 +31,16 @@
   color: white
   padding: 30px 50px
   // background: black
-  background: rgb(50,50,50)
+  background-color: #4949FF
+  // background: rgb(50,50,50)
   // background-image: linear-gradient(to right, #019DE0, #010D85)
+
+#caseStudies .navbar,
+#portfoliopage .navbar,
+#about .navbar,
+#contact .navbar,
+#clearRTBMarketing .navbar
+  transform: skewY(0deg)
 
 .navbar-dark
   position: relative
@@ -80,10 +89,11 @@
   display: none
 
 .dotLogo
-  height: 40px
+  height: 30px
   width: auto
   padding-left: 16px
   margin-bottom: -4px
+  // padding-top: 14px
 
 .dotLogo a
   margin: 0
@@ -108,35 +118,40 @@
   font-weight: 500
   // padding: 12px 30px
 
-.nav-case-studies:hover
+.nav-menu:hover
   display: inline-block
   background: black
   color: white
 
-.nav-work:hover
-  display: inline-block
-  background: lightgray
-  color: black
-
-.nav-resume:hover
-  display: inline-block
-  background: blue
-  color: white
-
-.nav-about:hover
-  display: inline-block
-  background: yellow
-  color: black
-
-.nav-contact:hover
-  display: inline-block
-  background: red
-  color: white
-
-.mobile-menu-icon
-  height: 36px
-  width: auto
-  display: block
+// .nav-case-studies:hover
+//   display: inline-block
+//   background: black
+//   color: white
+//
+// .nav-work:hover
+//   display: inline-block
+//   background: lightgray
+//   color: black
+//
+// .nav-resume:hover
+//   display: inline-block
+//   background: blue
+//   color: white
+//
+// .nav-about:hover
+//   display: inline-block
+//   background: yellow
+//   color: black
+//
+// .nav-contact:hover
+//   display: inline-block
+//   background: red
+//   color: white
+//
+// .mobile-menu-icon
+//   height: 36px
+//   width: auto
+//   display: block
 
 
 // #hire-josh
@@ -188,7 +203,7 @@ a
     height: auto
 
   .dotLogo
-    height: 50px
+    height: 40px
     width: auto
     // padding-right: 25px
     // margin: 10px 20px

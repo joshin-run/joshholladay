@@ -65,7 +65,7 @@ class ClearRTBMarketing extends Component {
     return (
 
     <Router>
-      <div id="boilder-plate">
+      <div id="clearRTBMarketing">
       <div className="dark-rect"></div>
       <Navbar onMenuToggle={this.props.onMenuToggle}/>
 

@@ -3,6 +3,7 @@ import Header from './Header.js';
 import Footer from './Footer.js';
 import Portfolio from './Portfolio.js';
 import { Switch, Route } from 'react-router-dom';
+import Test from './Test.js';
 
 
 class Home extends Component {

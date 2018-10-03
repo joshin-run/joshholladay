@@ -28,7 +28,7 @@ class Header extends Component {
           </div>
         </div>
         <div className="titleDesign">
-          <p className="title-des">UI/UX Designer</p>
+          <p className="title-des">UX Designer</p>
         </div>
         <Media />
       </div>

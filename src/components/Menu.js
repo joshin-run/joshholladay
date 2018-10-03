@@ -23,9 +23,7 @@ class Menu extends Component {
           <ul>
             <li className="overlay-menu nav-case-studies"><Link to="/case-studies" onClick={this.props.onMenuToggle}>CASE STUDIES</Link></li>
             <li className="overlay-menu nav-work"><Link to="/portfolio" onClick={this.props.onMenuToggle}>WORK</Link></li>
-            <li id="resume-link" className="overlay-menu nav-resume">
-              <a href="https://drive.google.com/open?id=1KkTd7rhPFu6ZR-_CkDEHuqE-diBRXpjS" target="_blank">RESUME</a>
-            </li>
+
             <li className="overlay-menu nav-about"><Link to="/about" onClick={this.props.onMenuToggle}>ABOUT</Link></li>
             <li className="overlay-menu nav-contact"><Link to="/contact" onClick={this.props.onMenuToggle}>CONTACT</Link></li>
           </ul>
@@ -37,6 +35,11 @@ class Menu extends Component {
 }
 
 export default Menu;
+
+
+// <li id="resume-link" className="overlay-menu nav-resume">
+//   <a href="https://drive.google.com/open?id=1KkTd7rhPFu6ZR-_CkDEHuqE-diBRXpjS" target="_blank">RESUME</a>
+// </li>
 // <MenuNavbar onMenuToggle={this.props.onMenuToggle}/>
 // <ul className="menu-items-container">
 //   <li><Link to="/" onClick={this.props.onMenuToggle}>Home</Link></li>

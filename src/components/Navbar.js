@@ -27,9 +27,7 @@ class Navbar extends Component {
           <ul className="menu nav-style">
             <li className="nav-menu nav-case-studies all-caps"><Link to="/case-studies">Case Studies</Link></li>
             <li className="nav-menu nav-work all-caps"><Link to="/portfolio">Work</Link></li>
-            <li id="resume-link" className="nav-menu nav-resume all-caps">
-              <a href="https://drive.google.com/open?id=1KkTd7rhPFu6ZR-_CkDEHuqE-diBRXpjS" target="_blank">Resume</a>
-            </li>
+
             <li className="nav-menu nav-about all-caps"><Link to="/about">Bio</Link></li>
             <li className="nav-menu nav-contact all-caps"><Link to="/contact">Contact</Link></li>
           </ul>
@@ -40,6 +38,11 @@ class Navbar extends Component {
 }
 
 export default Navbar;
+// <li id="resume-link" className="nav-menu nav-resume all-caps">
+//   <a href="https://drive.google.com/open?id=1KkTd7rhPFu6ZR-_CkDEHuqE-diBRXpjS" target="_blank">Resume</a>
+// </li>
+
+
 // <img src={logo} className="App-logo" alt="logo" />
 // <li className="nav-menu"><a href="#about">ABOUT</a></li>
 

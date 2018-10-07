@@ -14,7 +14,27 @@ class Header extends Component {
     this.state = {}
   }
 
+  // draw() {
+  //   var canvas = document.getElementById('canvas');
+  //   if (canvas.getContext) {
+  //     var ctx = canvas.getContext('2d');
+  //
+  //     ctx.beginPath();
+  //     ctx.moveTo(75, 50);
+  //     ctx.lineTo(100, 75);
+  //     ctx.lineTo(100, 25);
+  //     ctx.fill();
+  //     }
+  //   };
+
   render() {
+
+
+    // var canvas = document.querySelector('canvas');
+    // var ctx = canvas.getContext('2d');
+    // ctx.fillStyle = '#0074d9';
+    // ctx.fillRect(0, 0, 100, 100);
+
     return (
       <div id="home" className="home">
         <div className="blue-diag">
@@ -22,21 +42,24 @@ class Header extends Component {
           <div className="title-wrapper">
 
 
-            <p className="title-name">I'm Josh Holladay.</p>
-            <p className="title-dev">Front-end Developer</p>
+
+            <p className="title-des1">UX</p>
+            <p className="title-des2">Design</p>
 
           </div>
         </div>
         <div className="titleDesign">
-          <p className="title-des">UX Designer</p>
+          <p className="title-dev1">Front-end</p>
+          <p className="title-dev2">Developer</p>
         </div>
-        <Media />
+      
       </div>
     );
   }
 }
 
 export default Header;
+// <canvas></canvas>
 // <p className="title-name">Josh Holladay</p>
       // <Media />
 

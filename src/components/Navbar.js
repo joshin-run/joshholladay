@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import { Switch, Route } from 'react-router-dom';
 // import About from './About';
 // import siteLogo from '../assets/images/logos/JH-logo-square-black.jpg'
-import siteLogo from '../assets/images/logos/jh-logo-0918.svg'
+import siteLogo from '../assets/images/logos/jh-diag-logo-sub.png'
 // import siteLogo from '../assets/images/logos/jh-5line-logo-5border.png'
 import { Link } from 'react-router-dom'
 import hamburger from '../assets/images/white-hamburger.svg'
@@ -25,11 +25,9 @@ class Navbar extends Component {
           <img className="hamburger" src={hamburger} onClick={this.props.onMenuToggle} />
 
           <ul className="menu nav-style">
-            <li className="nav-menu nav-case-studies all-caps"><Link to="/case-studies">Case Studies</Link></li>
-            <li className="nav-menu nav-work all-caps"><Link to="/portfolio">Work</Link></li>
-
-            <li className="nav-menu nav-about all-caps"><Link to="/about">Bio</Link></li>
-            <li className="nav-menu nav-contact all-caps"><Link to="/contact">Contact</Link></li>
+            <li className="nav-menu nav-work"><Link to="/portfolio">work</Link></li>
+            <li className="nav-menu nav-about"><Link to="/about">about</Link></li>
+            <li className="nav-menu nav-contact"><Link to="/contact">contact</Link></li>
           </ul>
         </div>
       </div>
@@ -38,6 +36,7 @@ class Navbar extends Component {
 }
 
 export default Navbar;
+// <li className="nav-menu nav-case-studies all-caps"><Link to="/case-studies">Case Studies</Link></li>
 // <li id="resume-link" className="nav-menu nav-resume all-caps">
 //   <a href="https://drive.google.com/open?id=1KkTd7rhPFu6ZR-_CkDEHuqE-diBRXpjS" target="_blank">Resume</a>
 // </li>

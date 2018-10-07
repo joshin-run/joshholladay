@@ -115,31 +115,49 @@
   // background-color: silver
   // background-color: #4949FF
   // background: url(../assets/images/banners/creative-works-banner-3000.jpg)
-  background-position: center center
-  background-repeat: no-repeat
-  background-size: cover
+  // background-position: center center
+  // background-repeat: no-repeat
+  // background-size: cover
   // height: 100%
   // width: 100%
   color: #fff
   width: 100vw
   height: 100vh
 
+// .blue-diag
+//   // display: flex
+//   // flex-flow: column nowrap
+//   // justify-content: space-between
+//   // align-items: center
+//   // height: 65vh
+//   // height: 500px
+//   width: 100vw
+//   height: 800px
+//   transform: skewY(-10deg)
+//
+//   background-image: linear-gradient(to right, #4949FF, #8081FF)
+//   // background-color: #4949FF
+//   color: white
+//   // padding: 100px
+//   // padding-top: 89px
+//   margin-top: -90px
+
 .blue-diag
-  // display: flex
-  // flex-flow: column nowrap
-  // justify-content: space-between
-  // align-items: center
-  // height: 65vh
-  // height: 500px
-  width: 100vw
-  height: 800px
-  transform: skewY(-10deg)
-  background-image: linear-gradient(to right, #4949FF, #8081FF)
-  // background-color: #4949FF
+  position: relative
+  height: 70vh
+  width: 100%
+  // transform: skewY(-4deg)
   color: white
-  // padding: 100px
   // padding-top: 89px
-  margin-top: -90px
+  // margin-top: -90px
+  background-image: linear-gradient(to right, #4949FF, #8081FF)
+
+.blueHeader
+  position: absolute
+  bottom: 0
+  width: 100%
+  height: 10vw
+  background-image: linear-gradient(to right, #4949FF, #8081FF)
 
 .titleDesign
   height: 50%
@@ -150,9 +168,9 @@
   justify-content: flex-end
   align-items: center
 
-.title-des1,
-.title-des2
-  transform: skewY(10deg)
+// .title-des1,
+// .title-des2
+//   transform: skewY(10deg)
 
 .header-content-wrapper
   // display: flex
@@ -180,18 +198,19 @@
 //   margin-top: 30px
 
 .title-des1
-  font-family: 'Montserrat-Light', sans-serif
-  font-size: 3.65em
+  font-family: 'Abril Fatface', sans-serif
+  font-size: 6.65em
 .title-des2
-  font-family: 'Montserrat-Light', sans-serif
-  font-size: 1.65em
+  font-family: 'Raleway Extra Light', sans-serif
+  font-size: 2.65em
+  line-height: normal
 .title-dev1
-  font-family: 'Montserrat-Light', sans-serif
-  font-size: 3.65em
+  font-family: 'Abril Fatface', sans-serif
+  font-size: 6.65em
   color: black
 .title-dev2
-  font-family: 'Montserrat-Light', sans-serif
-  font-size: 1.65em
+  font-family: 'Raleway Extra Light', sans-serif
+  font-size: 2.65em
   color: black
 
 
@@ -258,14 +277,14 @@
     font-size: 2em
     line-height: 1.5
 
-  .blue-diag
-    height: 65vh
-    width: 100vw
-    // transform: skewY(-4deg)
-    background-color: #4949FF
-    color: white
-    padding-top: 89px
-    margin-top: -90px
+  // .blue-diag
+  //   height: 65vh
+  //   width: 100vw
+  //   // transform: skewY(-4deg)
+  //   background-color: #4949FF
+  //   color: white
+  //   padding-top: 89px
+  //   margin-top: -90px
 
   .titleDesign
     padding: 40px
@@ -302,21 +321,22 @@
   .header-content img
     width: 65%
 
-  .blue-diag
-    height: 65vh
-    width: 100vw
-    // transform: skewY(-4deg)
-    background-color: #4949FF
-    color: white
-    padding-top: 89px
-    margin-top: -90px
 
-  .title-wrapper
-    padding: 50px 0 0 80px
+
+
+  .titleDes-wrapper
+    padding: 50px 0 0 150px
+  .titleDev-wrapper
+    padding: 0px 150px 70px 0
+    display: flex
+    flex-flow: column
+    justify-content: center
+    align-items: flex-end
 
   .title-name
     font-family: 'Kaushan Script Regular', sans-serif
     font-size: 2.65em
+
 
   .title-dev
     font-family: 'Montserrat-Light', sans-serif

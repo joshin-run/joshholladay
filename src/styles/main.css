@@ -72,6 +72,14 @@
 }
 
 @font-face {
+  font-family: "Abril Fatface";
+  src: url(../assets/fonts/AbrilFatface-Regular.ttf);
+}
+@font-face {
+  font-family: "Raleway Extra Light";
+  src: url(../assets/fonts/Raleway/Raleway-ExtraLight.ttf);
+}
+@font-face {
   font-family: "Lato Hairline";
   src: url(../assets/fonts/Lato/Lato-Hairline.ttf);
 }
@@ -288,21 +296,25 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-end;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   color: #fff;
   width: 100vw;
   height: 100vh;
 }
 
 .blue-diag {
-  width: 100vw;
-  height: 800px;
-  transform: skewY(-10deg);
-  background-image: linear-gradient(to right, #4949FF, #8081FF);
+  position: relative;
+  height: 70vh;
+  width: 100%;
   color: white;
-  margin-top: -90px;
+  background-image: linear-gradient(to right, #4949FF, #8081FF);
+}
+
+.blueHeader {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vw;
+  background-image: linear-gradient(to right, #4949FF, #8081FF);
 }
 
 .titleDesign {
@@ -313,11 +325,6 @@
   flex-flow: row nowrap;
   justify-content: flex-end;
   align-items: center;
-}
-
-.title-des1,
-.title-des2 {
-  transform: skewY(10deg);
 }
 
 .header-content {
@@ -334,24 +341,25 @@
 }
 
 .title-des1 {
-  font-family: "Montserrat-Light", sans-serif;
-  font-size: 3.65em;
+  font-family: "Abril Fatface", sans-serif;
+  font-size: 6.65em;
 }
 
 .title-des2 {
-  font-family: "Montserrat-Light", sans-serif;
-  font-size: 1.65em;
+  font-family: "Raleway Extra Light", sans-serif;
+  font-size: 2.65em;
+  line-height: normal;
 }
 
 .title-dev1 {
-  font-family: "Montserrat-Light", sans-serif;
-  font-size: 3.65em;
+  font-family: "Abril Fatface", sans-serif;
+  font-size: 6.65em;
   color: black;
 }
 
 .title-dev2 {
-  font-family: "Montserrat-Light", sans-serif;
-  font-size: 1.65em;
+  font-family: "Raleway Extra Light", sans-serif;
+  font-size: 2.65em;
   color: black;
 }
 
@@ -428,15 +436,6 @@
     line-height: 1.5;
   }
 
-  .blue-diag {
-    height: 65vh;
-    width: 100vw;
-    background-color: #4949FF;
-    color: white;
-    padding-top: 89px;
-    margin-top: -90px;
-  }
-
   .titleDesign {
     padding: 40px;
   }
@@ -475,17 +474,16 @@
     width: 65%;
   }
 
-  .blue-diag {
-    height: 65vh;
-    width: 100vw;
-    background-color: #4949FF;
-    color: white;
-    padding-top: 89px;
-    margin-top: -90px;
+  .titleDes-wrapper {
+    padding: 50px 0 0 150px;
   }
 
-  .title-wrapper {
-    padding: 50px 0 0 80px;
+  .titleDev-wrapper {
+    padding: 0px 150px 70px 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-end;
   }
 
   .title-name {
@@ -519,7 +517,6 @@
   height: 60px;
   width: 100vw;
   color: white;
-  transform: skewY(10deg);
 }
 
 .nav-container ul {
@@ -684,7 +681,7 @@ a {
   }
 
   .dotLogo {
-    height: 40px;
+    height: 50px;
     width: auto;
     padding-top: 0px;
     margin: 0;

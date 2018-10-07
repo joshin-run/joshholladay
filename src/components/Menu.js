@@ -20,13 +20,11 @@ class Menu extends Component {
         </div>
 
         <div className="menu-items-wrapper">
-          <ul>
-            <li className="overlay-menu nav-case-studies"><Link to="/case-studies" onClick={this.props.onMenuToggle}>CASE STUDIES</Link></li>
-            <li className="overlay-menu nav-work"><Link to="/portfolio" onClick={this.props.onMenuToggle}>WORK</Link></li>
-
-            <li className="overlay-menu nav-about"><Link to="/about" onClick={this.props.onMenuToggle}>ABOUT</Link></li>
-            <li className="overlay-menu nav-contact"><Link to="/contact" onClick={this.props.onMenuToggle}>CONTACT</Link></li>
-          </ul>
+        <ul className="menu nav-style">
+          <li className="nav-menu nav-work"><Link to="/portfolio">work</Link></li>
+          <li className="nav-menu nav-about"><Link to="/about">about</Link></li>
+          <li className="nav-menu nav-contact"><Link to="/contact">contact</Link></li>
+        </ul>
         </div>
 
       </div>

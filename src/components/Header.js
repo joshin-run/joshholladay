@@ -39,20 +39,19 @@ class Header extends Component {
       <div id="home" className="home">
         <div className="blue-diag">
           <Navbar onMenuToggle={this.props.onMenuToggle} />
-          <div className="title-wrapper">
-
-
-
+          <svg className="blueHeader" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <polygon fill="white" points="0,100 100,0 100,100"/>
+          </svg>
+          <div className="titleDes-wrapper">
             <p className="title-des1">UX</p>
             <p className="title-des2">Design</p>
-
           </div>
         </div>
-        <div className="titleDesign">
+        <div className="titleDev-wrapper">
           <p className="title-dev1">Front-end</p>
           <p className="title-dev2">Developer</p>
         </div>
-      
+
       </div>
     );
   }

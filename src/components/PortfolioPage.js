@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import box from '../assets/images/portfolio/box.png'
 import ppl from '../assets/images/portfolio/ppl.png'
-import emergent from '../assets/images/portfolio/emergent4.png'
+// import emergent from '../assets/images/portfolio/emergent4.png'
+import crtbMarketing from '../assets/images/portfolio/CRTB-Marketing.jpg'
 import coinless from '../assets/images/portfolio/Coinless.png'
 import lowder from '../assets/images/portfolio/LowderMusic.png'
 import strongbod from '../assets/images/portfolio/StrongBod.png'
@@ -32,6 +33,29 @@ class PortfolioPage extends Component {
 
 
           <div className="portfolio-container2">
+
+            <div class="box-container">
+              <Link to="/clearrtb-marketing">
+              <img className="box" src={crtbMarketing} alt="box" />
+              <div className="overlay">
+                <div className="overlay-text-container">
+                  <p className="overlay-title">
+                    ClearRTB Marketing Site
+                  </p>
+                  <div className="line"></div>
+                  <p className="overlay-description">
+                    Designed and developed a company marketing site based on UX Design principles.
+                  </p>
+                  <a  href="https://www.behance.net/gallery/64276721/Emergent-Solutions-Presentation-Graphic">
+                    <p className="overlay-next">
+                      CASE STUDY<span> ➔</span>
+                    </p>
+                  </a>
+                </div>
+              </div>
+              </Link>
+            </div>
+
 
             <div class="box-container">
               <img className="box" src={jcreateit} alt="box" />
@@ -156,7 +180,7 @@ class PortfolioPage extends Component {
                   </p>
                   <div className="line"></div>
                   <p className="overlay-description">
-                    A WordPress site for those self-serve carwash owners who want to offer a mobile payment solution. I created custom icons and used my coding skills to manage the responsive design.
+                    A WordPress site for those self-serve carwash owners who want to offer a mobile payment solution. I created custom icons and responsive design.
                   </p>
                   <a href="https://www.behance.net/gallery/64286079/Coinless-LandingPage-WordPress">
                     <p className="overlay-next">
@@ -185,25 +209,7 @@ class PortfolioPage extends Component {
                 </div>
               </div>
             </div>
-            <div class="box-container">
-              <img className="box" src={emergent} alt="box" />
-              <div className="overlay">
-                <div className="overlay-text-container">
-                  <p className="overlay-title">
-                    Emergent Solutions
-                  </p>
-                  <div className="line"></div>
-                  <p className="overlay-description">
-                    Reza was scheduled to speak at the Silicon Slopes back in April 2018. He asked me to create the digital signage for him.
-                  </p>
-                  <a  href="https://www.behance.net/gallery/64276721/Emergent-Solutions-Presentation-Graphic">
-                    <p className="overlay-next">
-                      VIEW PROJECT<span> ➔</span>
-                    </p>
-                  </a>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
         </div>

@@ -1147,6 +1147,11 @@ p.copy {
     padding: 0;
   }
 }
+@media only screen and (min-width: 1280px) {
+  #footer {
+    margin-right: 120px;
+  }
+}
 .contact-wrapper {
   background: linear-gradient(to right, rgba(23, 181, 255, 0.8), rgba(0, 0, 255, 0.7));
   display: flex;

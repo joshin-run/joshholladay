@@ -303,9 +303,8 @@
 
 .blue-diag {
   position: relative;
-  height: 70vh;
+  height: 60vh;
   width: 100%;
-  color: white;
   background-image: linear-gradient(to right, #4949FF, #8081FF);
 }
 
@@ -342,7 +341,8 @@
 
 .title-des1 {
   font-family: "Abril Fatface", sans-serif;
-  font-size: 6.65em;
+  font-size: 7.5em;
+  line-height: 0.95;
 }
 
 .title-des2 {
@@ -353,7 +353,8 @@
 
 .title-dev1 {
   font-family: "Abril Fatface", sans-serif;
-  font-size: 6.65em;
+  font-size: 7.5em;
+  line-height: 0.95;
   color: black;
 }
 
@@ -361,11 +362,6 @@
   font-family: "Raleway Extra Light", sans-serif;
   font-size: 2.65em;
   color: black;
-}
-
-.name {
-  font-family: "Kaushan Script Regular", sans-serif;
-  font-size: 0.5em;
 }
 
 .title-image {
@@ -515,8 +511,10 @@
   justify-content: space-between;
   align-items: flex-start;
   height: 60px;
-  width: 100vw;
+  width: auto;
   color: white;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .nav-container ul {
@@ -607,8 +605,6 @@
 .dotLogo {
   height: 30px;
   width: auto;
-  padding-left: 16px;
-  margin-bottom: -4px;
 }
 
 .dotLogo a {

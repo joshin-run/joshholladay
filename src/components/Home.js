@@ -17,6 +17,7 @@ class Home extends Component {
     return (
       <div className="home-wrapper">
         <Header onMenuToggle={this.props.onMenuToggle} />
+
       </div>
     );
   }

@@ -44,7 +44,7 @@ class Header extends Component {
           </svg>
           <div className="titleDes-wrapper">
             <p className="title-des1">UX</p>
-            <p className="title-des2">Design</p>
+            <p className="title-des2">Designer</p>
           </div>
         </div>
         <div className="titleDev-wrapper">

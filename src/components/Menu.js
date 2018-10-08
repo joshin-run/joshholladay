@@ -20,11 +20,11 @@ class Menu extends Component {
         </div>
 
         <div className="menu-items-wrapper">
-        <ul className="menu nav-style">
-          <li className="nav-menu nav-work"><Link to="/portfolio">work</Link></li>
-          <li className="nav-menu nav-about"><Link to="/about">about</Link></li>
-          <li className="nav-menu nav-contact"><Link to="/contact">contact</Link></li>
-        </ul>
+          <ul className="mobile-menu nav-style">
+            <li className="nav-menu nav-work"><Link to="/portfolio">work</Link></li>
+            <li className="nav-menu nav-about"><Link to="/about">about</Link></li>
+            <li className="nav-menu nav-contact"><Link to="/contact">contact</Link></li>
+          </ul>
         </div>
 
       </div>

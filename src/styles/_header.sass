@@ -6,36 +6,20 @@
   width: 100vw
   height: 100vh
 
-// .blue-diag
-//   // display: flex
-//   // flex-flow: column nowrap
-//   // justify-content: space-between
-//   // align-items: center
-//   // height: 65vh
-//   // height: 500px
-//   width: 100vw
-//   height: 800px
-//   transform: skewY(-10deg)
-//
-//   background-image: linear-gradient(to right, #4949FF, #8081FF)
-//   // background-color: #4949FF
-//   color: white
-//   // padding: 100px
-//   // padding-top: 89px
-//   margin-top: -90px
-
 .blue-diag
   position: relative
   height: 60vh
   width: 100%
-  background-image: linear-gradient(to right, #4949FF, #8081FF)
+  background-image: linear-gradient(to right, #4949FF, #AAABFF)
+  // background-image: linear-gradient(to right, #4949FF, #8081FF)
 
 .blueHeader
   position: absolute
   bottom: 0
   width: 100%
   height: 10vw
-  background-image: linear-gradient(to right, #4949FF, #8081FF)
+  background-image: linear-gradient(to right, #4949FF, #AAABFF)
+  // background-image: linear-gradient(to right, #4949FF, #8081FF)
 
 .titleDesign
   height: 50%
@@ -54,25 +38,35 @@
   height: 100%
   width: 100vw
 
-.title-wrapper
-  padding: 20px
+// .title-wrapper
+//   padding: 20px
+
+.titleDes-wrapper
+  padding: 80px 0 0 20px
+.titleDev-wrapper
+  // padding: 0px 150px 70px 0
+  display: flex
+  flex-flow: column
+  justify-content: center
+  align-items: flex-end
+  padding: 40px 20px 0 0
 
 .title-des1
   font-family: 'Abril Fatface', sans-serif
-  font-size: 7.5em
+  font-size: 3.75em
   line-height: 0.95
 .title-des2
   font-family: 'Raleway Extra Light', sans-serif
-  font-size: 2.65em
+  font-size: 1.75em
   line-height: normal
 .title-dev1
   font-family: 'Abril Fatface', sans-serif
-  font-size: 7.5em
+  font-size: 3.75em
   line-height: 0.95
   color: black
 .title-dev2
   font-family: 'Raleway Extra Light', sans-serif
-  font-size: 2.65em
+  font-size: 1.75em
   color: black
 
 .title-image
@@ -131,15 +125,6 @@
     font-size: 2em
     line-height: 1.5
 
-  // .blue-diag
-  //   height: 65vh
-  //   width: 100vw
-  //   // transform: skewY(-4deg)
-  //   background-color: #4949FF
-  //   color: white
-  //   padding-top: 89px
-  //   margin-top: -90px
-
   .titleDesign
     padding: 40px
 
@@ -155,15 +140,40 @@
     font-size: 3.75em
 
   .title-des
-    // position: absolute
-    // top: 100
-    // left: 100
-    // right: 0
-    // bottom: 0
     font-family: 'Montserrat-Light', sans-serif
     font-size: 3.75em
     color: black
-    // margin: 0 40px 150px 0
+
+  .titleDes-wrapper
+    display: flex
+    flex-flow: column
+    justify-content: center
+    align-items: flex-start
+    padding: 0 0 0 80px
+    height: 90%
+    // maring: 0
+    // padding: 0
+  .titleDev-wrapper
+    padding: 50px 80px 70px 0
+
+
+  .title-des1
+    font-family: 'Abril Fatface', sans-serif
+    font-size: 7.5em
+    line-height: 0.95
+  .title-des2
+    font-family: 'Raleway Extra Light', sans-serif
+    font-size: 2em
+    line-height: normal
+  .title-dev1
+    font-family: 'Abril Fatface', sans-serif
+    font-size: 7.5em
+    line-height: 0.95
+    color: black
+  .title-dev2
+    font-family: 'Raleway Extra Light', sans-serif
+    font-size: 2em
+    color: black
 
 @media only screen and (min-width: 1280px)
   .header-content-wrapper
@@ -177,38 +187,93 @@
 
 
 
-
   .titleDes-wrapper
     padding: 50px 0 0 150px
+    margin: 0
+    display: block
+    // flex-flow: column
+    // justify-content: center
+    // align-items: flex-start
+    // padding: 0 0 0 80px
+    // height: 90%
+
+
   .titleDev-wrapper
     padding: 0px 150px 70px 0
     display: flex
     flex-flow: column
     justify-content: center
     align-items: flex-end
-
-  .title-name
-    font-family: 'Kaushan Script Regular', sans-serif
+  .title-des1
+    font-family: 'Abril Fatface', sans-serif
+    font-size: 7.5em
+    line-height: 0.95
+  .title-des2
+    font-family: 'Raleway Extra Light', sans-serif
     font-size: 2.65em
-
-
-  .title-dev
-    font-family: 'Montserrat-Light', sans-serif
-    font-size: 4.75em
-
-  .title-des
-    position: absolute
-    top: 100
-    left: 100
-    right: 0
-    bottom: 0
-    font-family: 'Montserrat-Light', sans-serif
-    font-size: 4.75em
+    line-height: normal
+  .title-dev1
+    font-family: 'Abril Fatface', sans-serif
+    font-size: 7.5em
+    line-height: 0.95
     color: black
-    margin: 0 100px 150px 0
+  .title-dev2
+    font-family: 'Raleway Extra Light', sans-serif
+    font-size: 2.65em
+    color: black
 
 
 
+  // .title-name
+  //   font-family: 'Kaushan Script Regular', sans-serif
+  //   font-size: 2.65em
+  //
+  //
+  // .title-dev
+  //   font-family: 'Montserrat-Light', sans-serif
+  // //   font-size: 4.75em
+  //
+  // .title-des
+  //   position: absolute
+  //   top: 100
+  //   left: 100
+  //   right: 0
+  //   bottom: 0
+  //   font-family: 'Montserrat-Light', sans-serif
+  //   font-size: 4.75em
+  //   color: black
+  //   margin: 0 100px 150px 0
+
+
+
+
+
+  // .blue-diag
+  //   height: 65vh
+  //   width: 100vw
+  //   // transform: skewY(-4deg)
+  //   background-color: #4949FF
+  //   color: white
+  //   padding-top: 89px
+  //   margin-top: -90px
+
+// .blue-diag
+//   // display: flex
+//   // flex-flow: column nowrap
+//   // justify-content: space-between
+//   // align-items: center
+//   // height: 65vh
+//   // height: 500px
+//   width: 100vw
+//   height: 800px
+//   transform: skewY(-10deg)
+//
+//   background-image: linear-gradient(to right, #4949FF, #8081FF)
+//   // background-color: #4949FF
+//   color: white
+//   // padding: 100px
+//   // padding-top: 89px
+//   margin-top: -90px
 
     // margin-right: 50px
 

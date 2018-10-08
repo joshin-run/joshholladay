@@ -6,6 +6,7 @@ import siteLogo from '../assets/images/logos/jh-diag-logo-sub.png'
 // import siteLogo from '../assets/images/logos/jh-5line-logo-5border.png'
 import { Link } from 'react-router-dom'
 import hamburger from '../assets/images/white-hamburger.svg'
+// import hamburger from '../assets/images/icons/menu-white.svg'
 // import Media from './Media.js';
 
 class Navbar extends Component {
@@ -20,17 +21,17 @@ class Navbar extends Component {
     return (
 
       <div className="navbar">
-        <div className="nav-container">
-          <a href="https://joshin-run.github.io/joshholladay"><img className="dotLogo" src={siteLogo} alt="logo" /></a>
+
+          <a href="https://joshin-run.github.io/joshholladay"><img className="logo" src={siteLogo} alt="logo" /></a>
           <img className="hamburger" src={hamburger} onClick={this.props.onMenuToggle} />
 
-          <ul className="menu nav-style">
-            <li className="nav-menu nav-work"><Link to="/portfolio">work</Link></li>
-            <li className="nav-menu nav-about"><Link to="/about">about</Link></li>
-            <li className="nav-menu nav-contact"><Link to="/contact">contact</Link></li>
-          </ul>
+            <ul className="menu nav-style">
+              <li className="nav-menu nav-work"><Link to="/portfolio">work</Link></li>
+              <li className="nav-menu nav-about"><Link to="/about">about</Link></li>
+              <li className="nav-menu nav-contact"><Link to="/contact">contact</Link></li>
+            </ul>
         </div>
-      </div>
+
     );
   }
 }

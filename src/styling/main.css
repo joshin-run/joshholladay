@@ -335,40 +335,32 @@
   width: 100vw;
 }
 
-.titleDes-wrapper {
-  padding: 80px 0 0 20px;
-}
-
-.titleDev-wrapper {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 40px 20px 0 0;
+.title-wrapper {
+  padding: 20px;
 }
 
 .title-des1 {
   font-family: "Abril Fatface", sans-serif;
-  font-size: 3.75em;
+  font-size: 7.5em;
   line-height: 0.95;
 }
 
 .title-des2 {
   font-family: "Raleway Extra Light", sans-serif;
-  font-size: 1.75em;
+  font-size: 2.65em;
   line-height: normal;
 }
 
 .title-dev1 {
   font-family: "Abril Fatface", sans-serif;
-  font-size: 3.75em;
+  font-size: 7.5em;
   line-height: 0.95;
   color: black;
 }
 
 .title-dev2 {
   font-family: "Raleway Extra Light", sans-serif;
-  font-size: 1.75em;
+  font-size: 2.65em;
   color: black;
 }
 
@@ -463,44 +455,6 @@
     font-size: 3.75em;
     color: black;
   }
-
-  .titleDes-wrapper {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0 0 0 80px;
-    height: 90%;
-  }
-
-  .titleDev-wrapper {
-    padding: 50px 80px 70px 0;
-  }
-
-  .title-des1 {
-    font-family: "Abril Fatface", sans-serif;
-    font-size: 7.5em;
-    line-height: 0.95;
-  }
-
-  .title-des2 {
-    font-family: "Raleway Extra Light", sans-serif;
-    font-size: 2em;
-    line-height: normal;
-  }
-
-  .title-dev1 {
-    font-family: "Abril Fatface", sans-serif;
-    font-size: 7.5em;
-    line-height: 0.95;
-    color: black;
-  }
-
-  .title-dev2 {
-    font-family: "Raleway Extra Light", sans-serif;
-    font-size: 2em;
-    color: black;
-  }
 }
 @media only screen and (min-width: 1280px) {
   .header-content-wrapper {
@@ -518,8 +472,6 @@
 
   .titleDes-wrapper {
     padding: 50px 0 0 150px;
-    margin: 0;
-    display: block;
   }
 
   .titleDev-wrapper {
@@ -530,29 +482,26 @@
     align-items: flex-end;
   }
 
-  .title-des1 {
-    font-family: "Abril Fatface", sans-serif;
-    font-size: 7.5em;
-    line-height: 0.95;
-  }
-
-  .title-des2 {
-    font-family: "Raleway Extra Light", sans-serif;
+  .title-name {
+    font-family: "Kaushan Script Regular", sans-serif;
     font-size: 2.65em;
-    line-height: normal;
   }
 
-  .title-dev1 {
-    font-family: "Abril Fatface", sans-serif;
-    font-size: 7.5em;
-    line-height: 0.95;
-    color: black;
+  .title-dev {
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 4.75em;
   }
 
-  .title-dev2 {
-    font-family: "Raleway Extra Light", sans-serif;
-    font-size: 2.65em;
+  .title-des {
+    position: absolute;
+    top: 100;
+    left: 100;
+    right: 0;
+    bottom: 0;
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 4.75em;
     color: black;
+    margin: 0 100px 150px 0;
   }
 }
 .navbar {
@@ -560,24 +509,25 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   height: 60px;
   width: auto;
   color: white;
-  padding: 0 20px;
-  width: 100vw;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
-.navbar ul {
+.nav-container ul {
   list-style-type: none;
-  width: auto;
+  margin: 0;
+  padding: 0;
 }
 
-.navbar ul li {
+.navbar-container ul li {
   display: block;
 }
 
-.navbar ul li a {
+.navbar-container ul li a {
   display: block;
 }
 
@@ -592,6 +542,14 @@
   color: white;
   padding: 30px 50px;
   background-color: #4949FF;
+}
+
+#caseStudies .navbar,
+#portfoliopage .navbar,
+#about .navbar,
+#contact .navbar,
+#clearRTBMarketing .navbar {
+  transform: skewY(0deg);
 }
 
 .navbar-dark {
@@ -617,33 +575,39 @@
   height: 60px;
 }
 
+.nav-container {
+  background: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+}
+
+.nav-container a {
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
 .hamburger {
   display: block;
-  height: 18px;
+  height: 24px;
   width: auto;
+  margin-right: 20px;
 }
 
 .menu {
   display: none;
 }
 
-.mobile-menu {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-end;
-  align-items: center;
-  font-size: 2.85em;
-  height: auto;
-  width: auto;
-  font-family: "Montserrat-Light", sans-serif;
-}
-
-.logo {
+.dotLogo {
   height: 30px;
   width: auto;
 }
 
-.logo a {
+.dotLogo a {
   margin: 0;
   padding: 0;
 }
@@ -666,12 +630,12 @@
   height: auto;
   width: auto;
   font-weight: 500;
-  transition: 0.2s ease-in-out;
 }
 
 .nav-menu:hover {
   display: inline-block;
-  color: #FFC988;
+  background: black;
+  color: white;
 }
 
 a {
@@ -692,12 +656,16 @@ a {
     padding: 30px 50px;
   }
 
-  .navbar-dark-container {
+  .hamburger {
+    display: none;
+  }
+
+  .nav-container {
     height: 80px;
   }
 
-  .hamburger {
-    display: none;
+  .navbar-dark-container {
+    height: 80px;
   }
 
   .menu {
@@ -706,10 +674,9 @@ a {
     justify-content: flex-end;
     align-items: center;
     height: auto;
-    width: auto;
   }
 
-  .logo {
+  .dotLogo {
     height: 50px;
     width: auto;
     padding-top: 0px;
@@ -718,11 +685,8 @@ a {
 
   .navbar {
     height: 80px;
+    padding: 0px;
     z-index: 100;
-  }
-
-  .menu-container {
-    display: block;
   }
 
   .navbar-dark {
@@ -734,15 +698,6 @@ a {
     line-height: 80px;
     font-size: 0.8em;
     letter-spacing: 2px;
-  }
-
-  .nav-menu.nav-contact {
-    padding-right: 0;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .navbar {
-    padding: 0 150px;
   }
 }
 * {
@@ -1461,7 +1416,7 @@ ol {
   -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
   background-color: rgba(73, 73, 255, 0.95);
-  z-index: 100;
+  z-index: 10;
 }
 .overlayMenu.open {
   -webkit-transform: translateX(100vw);
@@ -1472,7 +1427,7 @@ ol {
 .ex {
   position: absolute;
   color: white;
-  height: 20px;
+  height: 25px;
   width: auto;
   top: 20px;
   right: 20px;

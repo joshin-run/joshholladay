@@ -3,23 +3,23 @@
   display: flex
   flex-flow: row wrap
   justify-content: space-between
-  align-items: flex-start
+  align-items: center
   height: 60px
   width: auto
   color: white
-  margin-left: 150px
-  margin-right: 150px
-  // transform: skewY(10deg)
+  padding: 0 20px
+  width: 100vw
 
-.nav-container ul
+.navbar ul
   list-style-type: none
-  margin: 0
-  padding: 0
+  width: auto
+  // margin: 0
+  // padding: 0
 
-.navbar-container ul li
+.navbar ul li
   display: block
 
-.navbar-container ul li a
+.navbar ul li a
   display: block
 
 .dark-rect
@@ -36,13 +36,13 @@
   background-color: #4949FF
   // background: rgb(50,50,50)
 
-
-#caseStudies .navbar,
-#portfoliopage .navbar,
-#about .navbar,
-#contact .navbar,
-#clearRTBMarketing .navbar
-  transform: skewY(0deg)
+//
+// #caseStudies .navbar,
+// #portfoliopage .navbar,
+// #about .navbar,
+// #contact .navbar,
+// #clearRTBMarketing .navbar
+//   transform: skewY(0deg)
 
 .navbar-dark
   position: relative
@@ -56,7 +56,6 @@
   background: #020D87
   background: rgb(75,75,75)
 
-
 .navbar-dark-container
   background-color: black
   display: flex
@@ -66,38 +65,48 @@
   width: 100vw
   height: 60px
 
+// .nav-container
+//   background: none
+//   display: flex
+//   flex-flow: row wrap
+//   justify-content: space-between
+//   align-items: center
+//   width: auto
+//   height: 60px
+//   padding: 0 20px
 
-.nav-container
-  background: none
-  display: flex
-  flex-flow: row wrap
-  justify-content: space-between
-  align-items: center
-  width: 100vw
-  height: 60px
-
-.nav-container a
-  margin: 0
-  padding: 0
-  height: auto
+// .nav-container a
+//   margin: 0
+//   padding: 0
+//   height: auto
 
 .hamburger
   display: block
-  height: 24px
+  height: 18px
   width: auto
-  margin-right: 20px
 
 .menu
   display: none
 
-.dotLogo
+.mobile-menu
+  // font-size: 1.25em
+  display: flex
+  flex-flow: column nowrap
+  justify-content: flex-end
+  align-items: center
+  font-size: 2.85em
+  height: auto
+  width: auto
+  font-family: 'Montserrat-Light', sans-serif
+
+.logo
   height: 30px
   width: auto
   // padding-left: 16px
   // margin-bottom: -4px
   // padding-top: 14px
 
-.dotLogo a
+.logo a
   margin: 0
   padding: 0
 
@@ -119,11 +128,11 @@
   width: auto
   font-weight: 500
   // padding: 12px 30px
+  transition: 0.2s ease-in-out
 
 .nav-menu:hover
   display: inline-block
-  background: black
-  color: white
+  color: #FFC988
 
 // .nav-case-studies:hover
 //   display: inline-block
@@ -186,14 +195,16 @@ a
     padding: 30px 50px
     // background: rgb(75,75,75)
 
-  .hamburger
-    display: none
 
-  .nav-container
-    height: 80px
+
+  // .nav-container
+  //   height: 80px
 
   .navbar-dark-container
     height: 80px
+
+  .hamburger
+    display: none
 
   .menu
     // font-size: 1.25em
@@ -203,8 +214,9 @@ a
     align-items: center
     // font-size: .85em
     height: auto
+    width: auto
 
-  .dotLogo
+  .logo
     height: 50px
     width: auto
     // padding-right: 25px
@@ -215,8 +227,11 @@ a
 
   .navbar
     height: 80px
-    padding: 0px
+    // margin: 0 20px
     z-index: 100
+
+  .menu-container
+    display: block
 
   .navbar-dark
     height: 80px
@@ -226,6 +241,25 @@ a
     line-height: 80px
     font-size: .80em
     letter-spacing: 2px
+
+  .nav-menu.nav-contact
+    padding-right: 0
+
+  // .navbar
+  //   position: relative
+  //   display: flex
+  //   flex-flow: row wrap
+  //   justify-content: space-between
+  //   align-items: flex-start
+  //   height: 60px
+  //   width: auto
+  //   color: white
+  //   margin-left: 150px
+  //   margin-right: 150px
+
+@media only screen and (min-width: 1280px)
+  .navbar
+    padding: 0 150px
 //
 
 //

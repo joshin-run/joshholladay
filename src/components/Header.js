@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar.js';
-import Footer from './Footer.js';
+import Footer2 from './Footer2.js';
 import bannerPic from '../assets/images/banners/portfolio-site-centerImage3test2.jpg'
 import josh from '../assets/images/banners/title-josh-holladay-caps.jpg'
 import titlePic from '../assets/images/banners/banner-title-content.jpg'
 import info from '../assets/images/banners/subTitle-info.jpg'
-import Media from './Media.js';
+// import Media2 from './Media2.js';
 
 class Header extends Component {
   constructor(props) {
@@ -51,6 +51,7 @@ class Header extends Component {
           <p className="title-dev1">Front-end</p>
           <p className="title-dev2">Developer</p>
         </div>
+        <Footer2 />
 
       </div>
     );

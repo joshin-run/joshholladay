@@ -30,6 +30,13 @@
   line-height: 1.8;
 }
 
+.about-content {
+  font-size: 1.25em;
+  font-family: "Raleway-Regular", sans-serif;
+  color: #828286;
+  line-height: 1.8;
+}
+
 @media only screen and (min-width: 768px) {
   .content-wrapper {
     max-width: 750px;
@@ -336,7 +343,7 @@
 }
 
 .titleDes-wrapper {
-  padding: 80px 0 0 20px;
+  padding: 40px 0 0 20px;
 }
 
 .titleDev-wrapper {
@@ -1033,6 +1040,19 @@ ul {
   height: 12px;
   width: auto;
   margin: 0 12px;
+}
+
+#footer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-end;
+  position: fixed;
+  height: 60px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 10px;
 }
 
 .footer-wrapper {

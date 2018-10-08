@@ -19,14 +19,14 @@ class Menu extends Component {
           <img className="ex" src={ex} />
         </div>
 
-        <div className="menu-items-wrapper">
+        <div className="menu-items-wrapper" onClick={this.props.onMenuToggle}>
           <ul className="mobile-menu nav-style">
             <li className="nav-menu nav-work"><Link to="/portfolio">work</Link></li>
             <li className="nav-menu nav-about"><Link to="/about">about</Link></li>
             <li className="nav-menu nav-contact"><Link to="/contact">contact</Link></li>
           </ul>
         </div>
-
+        <Media />
       </div>
     )
   }
